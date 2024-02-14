@@ -4,9 +4,9 @@ import viteLogo from "/vite.svg";
 import "./App.css";
 
 function App() {
-  return ( 
+  return (
     <>
-      <div className="font">NatureDude</div>
+      <div className="font">Hello Nature Dude from darshan</div>
     </>
   );
 }
