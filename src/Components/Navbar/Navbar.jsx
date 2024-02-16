@@ -8,11 +8,11 @@ import { faFacebookF, faInstagram, faLinkedin, faLinkedinIn, faTwitter } from '@
 
 const Navbar = () => {
   return (
-    <div className=' bg-[#e6c4c4] h-[100vh] w-[25%]'>
+    <div className=' bg-[#e6c4c4] h-[100vh] w-[25%] position-fixed '>
         <div className=' boredr border-b-4 border-[#7DAF19] pb-10'>
             <img src='images/logo.png'></img>
 
-        </div>
+        </div> 
         
 
         <div className=' flex flex-col justify-center align-items-center gap-4 py-3 boredr border-b-4 border-[#7DAF19] pb-10'>
