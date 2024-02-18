@@ -28,7 +28,7 @@ const About = () => {
   return (
     <Layout>
       <div className="flex flex-col py-5 justify-center items-center">
-        <div className="flex flex-col   w-[1000px] h-[500px]  ">
+        <div className="flex flex-col   w-[100%] h-[500px]  ">
           <div className="flex justify-center items-center">
             <h1 className="text-lime-800">About Us</h1>
           </div>
