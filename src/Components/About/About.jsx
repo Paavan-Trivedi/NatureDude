@@ -28,20 +28,20 @@ const About = () => {
   return (
     <Layout>
       <div className="flex flex-col py-5 justify-center items-center">
-        <div className="flex flex-col   w-[100%] h-[500px]  ">
+        <div className="flex flex-col   border-4 border-r-lime-800 border-b-lime-800 border-l-amber-950 border-t-amber-950 rounded-3xl shadow-2xl   w-[90%] h-[470px]  ">
           <div className="flex justify-center items-center">
             <h1 className="text-lime-800">About Us</h1>
           </div>
 
-          <div className=" flex justify-center  items-center">
-            <div className="w-[500px] relative flex px-8  items-center">
+          <div className=" flex justify-between p-4  items-center">
+            <div className="w-[500px] relative flex  border-4 border-gray-900 border-dashed  items-center">
               <img src={ExportProductsImg} alt="" />
             </div>
             <div className="w-[400px]  relative h-[350px]  flex flex-col justify-center items-center">
-              <h3 className="text-left w-[400px] text-amber-950 ">
+              <h3 className="text-left w-[370px] text-amber-950 ">
                 Welcome to Nature Dude
               </h3>
-              <p>
+              <p className="w-[370px]">
                 Nature Dude stands as a prominent aggregator platform catering
                 to the diverse needs of importers and exporters across the
                 globe. As a secure and dynamic platform, we specialise in
@@ -55,7 +55,26 @@ const About = () => {
             </div>
           </div>
         </div>
-        <div className="grid grid-cols-2 gap-5 py-6">
+        <div className="w-[80%] py-5 px-5">
+          <p className="font-bold text-4xl">
+            Why Choose Nature Dude for Your Global Trade Endeavors?
+          </p>
+          <p className="text-lg w-[90%]">
+            Fast-moving consumer goods make for an ideal choice for export trade
+            owing to their easy delivery and reasonably low prices and wide
+            range of products under a single domain. Such fast-moving consumer
+            products are in hot demand, making the global trend a perfect
+            choice.
+          </p>
+          <p className="text-lg w-[90%]">
+            Nature Dude aims to provide the proper forum to connect foreign
+            trade between buyers and sellers, lowering the gap between consumer
+            product demands and supplies. These consumer goods involve products
+            from some of the country's leading producers, Like, Gulab Oils,
+            Hajoori Beverages, Satvam, Sheetal Foods, Auzat, etc.
+          </p>
+        </div>
+        <div className="grid grid-cols-2 gap-5 py-7">
           {AboutData.map((item) => (
             <div className="flex flex-col justify-between  w-[400px] h-[500px] border-4 border-lime-800 border-tl rounded-tr-[100px] rounded-bl-[100px] border-dashed">
               <div className="w-[150px] bg-transparent absolute  h-[150px] border-l-amber-950 border-t-amber-950 border-t-[15px] border-l-[15px]"></div>
@@ -73,6 +92,15 @@ const About = () => {
               </div>
             </div>
           ))}
+        </div>
+
+        <div className="w-[80%] py-5 px-5">
+          <p className="text-lg  ">
+            In essence, Nature Dude is not just an international trading
+            company; it is your strategic partner in navigating the complexities
+            of global commerce. Join us on a journey towards stability, growth,
+            and success in the ever-evolving landscape of international trade..
+          </p>
         </div>
       </div>
     </Layout>
