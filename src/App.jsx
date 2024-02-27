@@ -10,6 +10,8 @@ import Product from "./Components/Product/Product";
 import Blog from "./Components/Blog/Blog";
 import About from "./Components/About/About";
 import ContactUs from "./Components/ContactUs/ContactUs";
+import ProductRoute from "./Components/ProductRoutes/ProductRoute";
+
 
 function App() {
   return (
@@ -18,6 +20,7 @@ function App() {
     <Route path="/" Component={Home}></Route>
     <Route path="/WhyUs" Component={WhyUS}></Route>
     <Route path="/Product" Component={Product}></Route>
+    <Route path="/Product/:id" Component={ProductRoute}></Route>
     <Route path="/Blog" Component={Blog}></Route>
     <Route path="/AboutUs" Component={About}></Route>
     <Route path="/ContactUs" Component={ContactUs}></Route>
@@ -30,5 +33,7 @@ function App() {
    </BrowserRouter>
   );
 }
+
+
 
 export default App;

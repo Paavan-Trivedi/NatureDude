@@ -1,59 +1,220 @@
-[{"image":"images/products/Agarbatti.jpg",
-"product_name":"Agarbatti"},
-
-{"image":"images/products/Bakery.jpg",
-"product_name":"Bakery Products"},
-
-{"image":"images/products/Beverages.jpg",
-"product_name":"Beverages"},
-
-{"image":"images/products/BlendedSpices.jpg",
-"product_name":"Blended Spices"},
-
-{"image":"images/products/Condiments.jpg",
-"product_name":"Condiments"},
-
-{"image":"images/products/Agarbatti.jpg",
-"product_name":"Confectionary"},
-
-{"image":"images/products/Oils.jpg",
-"product_name":"Edible Oils"},
-
-{"image":"images/products/Flours.jpg",
-"product_name":"Flours"},
-
-{"image":"images/products/HealthySnacks.jpg",
-"product_name":"Healthy Snacks"},
-
-{"image":"images/products/Dessert.jpg",
-"product_name":"Instant/Dessert Mix"},
-
-{"image":"images/products/Khakhra.jpg",
-"product_name":"Khakhra"},
-
-{"image":"images/products/Miscellaneous.jpg",
-"product_name":"Miscellaneous"},
-
-{"image":"images/products/Mukhwas.jpg",
-"product_name":"Mukhwas"},
-
-{"image":"images/products/Papad.jpg",
-"product_name":"Papad"},
-
-{"image":"images/products/Pickles.jpg",
-"product_name":"Pickles"},
-
-{"image":"images/products/Pulses.jpg",
-"product_name":"Pulses & Grains"},
-
-{"image":"images/products/Sauces.jpg",
-"product_name":"Sauces, Chutneys & Syrup"},
-
-{"image":"images/products/Snacks.jpg",
-"product_name":"Snacks"},
-
-{"image":"images/products/Spices.jpg",
-"product_name":"Spices"},
-
-{"image":"images/products/Sweets.jpg",
-"product_name":"Sweets"}]
+[
+    {
+        "image": "images/products/Agarbatti.jpg",
+        "product_name": "Agarbatti",
+        "details": [
+            {
+                "name": "1. BIG BOUQUET"
+            },
+            {
+                "name": "2. BRAZO"
+            },
+            {
+                "name": "3. CHAMPA"
+            },
+            {
+                "name": "4. DHOOP STICKS",
+                "item": [
+                    "- LAVENDER",
+                    "- MOGRA",
+                    "- ROSE ",
+                    "- SANDAL"
+                ]
+            },
+           
+            {
+                "name": "5. JASMINE"
+            },
+            {
+                "name": "6. LAVENDER"
+            },
+            {
+                "name": "7. LILY"
+            },
+            {
+                "name": "8. MOGRA"
+            },
+            {
+                "name": "9. MONALISA"
+            },
+            {
+                "name": "10. MUSK"
+            },
+            {
+                "name": "11. MYSORE CHANDAN"
+            },
+            {
+                "name": "12. PREMIUM FLORA"
+            },
+            {
+                "name": "13. ROSE"
+            },
+            {
+                "name": "14. WONDER"
+            },
+            {
+                "name": "15. SANDAL"
+            }
+        ]
+    },
+    {
+        "image": "images/products/Bakery.jpg",
+        "product_name": "Bakery Products",
+        "details": [{"name":"1. BUTTER (BUN TOAST)",
+        "item":["- AJWAIN",
+        "- JEERA",
+        "- METHI"]},
+        {"name":"2. CAKERAS",
+        "item":["- PLAIN",
+        "- TUTIFRUTI"]},
+        {"name":"3. COOKIES",
+        "item":["- AJWAIN",
+        "- BADAM PISTA",
+        "- CASHEW",
+        "- CHOCOLATE",
+        "- CHOCOLATE CHIPS",
+        "- COCONUT",
+        "- FARALI",
+        "- FRUIT",
+        "-ITALIAN SWEET & SPICY"]},
+        {"name":"4. KHARI",
+        "item":["- JEERA",
+        "- MASALA",
+        "- MASKA",
+        "- METHI",
+        "- PLAIN",
+        "- RICH BUTTER",
+        "- SUGAR"]},
+        {"name":"5. MUNCH BITES",
+        "item":["- CHEESE GARLIC",
+        "- MEXICAN",
+        "- SCHEZWAN",
+        "- TOMATO"]},
+        {"name":"6. NANKHATAI",
+        "item":["- CHOCOLATE",
+        "- ELAICHI",
+        "- KESAR",
+        "- ORANGE",
+        "- PINEAPPLE",
+        "- PISTA ELAICHI"]},
+        {"name":"7. NUTRIBITE COOKIES -100% WHOLE WHEAT",
+        "item":["- CASHEW RAISIN",
+        "- CHOCO CHIPS",
+        "- PISTA BADAM",
+        "- ROYAL BUTTER"]},
+        {"name":"8. PREMIUM COOKIES",
+        "item":["- ALMOND & DATES",
+        "- BUTTER SCOTCH",
+        "- CASHEW BUTTER",
+        "- CHOCO CHIPS",
+        "- CHOCONUTS",
+        "- COCONUT",
+        "- MUMBAI MAGIC",
+        "- PISTA BADAM"]},
+        {"name":"9. RUSK & TOST",
+        "item":["- BUTTER",
+        "- FRUIT",
+        "- HERBS & GARLIC",
+        "- JEERA",
+        "- KAJU",
+        "- MASALA",
+        "- METHI",
+        "- MILK",
+        "- PALAK",
+        "- PLAIN",
+        "- SOOJI",
+        "- SUGAR FREE"]},
+        {"name":"10. VANILLA CAKE RUSK (EGGLESS)",
+        "item":[]}]
+    },
+    {
+        "image": "images/products/Beverages.jpg",
+        "product_name": "Beverages",
+        "details": []
+    },
+    {
+        "image": "images/products/BlendedSpices.jpg",
+        "product_name": "Blended Spices",
+        "details": []
+    },
+    {
+        "image": "images/products/Condiments.jpg",
+        "product_name": "Condiments",
+        "details": []
+    },
+    {
+        "image": "images/products/Agarbatti.jpg",
+        "product_name": "Confectionary",
+        "details": []
+    },
+    {
+        "image": "images/products/Oils.jpg",
+        "product_name": "Edible Oils",
+        "details": []
+    },
+    {
+        "image": "images/products/Flours.jpg",
+        "product_name": "Flours",
+        "details": []
+    },
+    {
+        "image": "images/products/HealthySnacks.jpg",
+        "product_name": "Healthy Snacks",
+        "details": []
+    },
+    {
+        "image": "images/products/Dessert.jpg",
+        "product_name": "Instant/Dessert Mix",
+        "details": []
+    },
+    {
+        "image": "images/products/Khakhra.jpg",
+        "product_name": "Khakhra",
+        "details": []
+    },
+    {
+        "image": "images/products/Miscellaneous.jpg",
+        "product_name": "Miscellaneous",
+        "details": []
+    },
+    {
+        "image": "images/products/Mukhwas.jpg",
+        "product_name": "Mukhwas",
+        "details": []
+    },
+    {
+        "image": "images/products/Papad.jpg",
+        "product_name": "Papad",
+        "details": []
+    },
+    {
+        "image": "images/products/Pickles.jpg",
+        "product_name": "Pickles",
+        "details": []
+    },
+    {
+        "image": "images/products/Pulses.jpg",
+        "product_name": "Pulses & Grains",
+        "details": []
+    },
+    {
+        "image": "images/products/Sauces.jpg",
+        "product_name": "Sauces, Chutneys & Syrup",
+        "details": []
+    },
+    {
+        "image": "images/products/Snacks.jpg",
+        "product_name": "Snacks",
+        "details": []
+    },
+    {
+        "image": "images/products/Spices.jpg",
+        "product_name": "Spices",
+        "details": []
+    },
+    {
+        "image": "images/products/Sweets.jpg",
+        "product_name": "Sweets",
+        "details": []
+    }
+]
