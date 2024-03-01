@@ -27,7 +27,7 @@ const About = () => {
 
   return (
     <Layout>
-      <div className="flex flex-col py-5 justify-center items-center">
+      <div className="flex flex-col poppins py-5 justify-center items-center">
         <div className="flex flex-col   border-4 border-r-lime-800 border-b-lime-800 border-l-amber-950 border-t-amber-950 rounded-3xl shadow-2xl   w-[90%] h-[470px]  ">
           <div className="flex justify-center items-center">
             <h1 className="text-lime-800">About Us</h1>

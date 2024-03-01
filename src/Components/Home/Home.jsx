@@ -12,7 +12,7 @@ const Home = () => {
   return (
     <Layout>
       <Slider></Slider>
-      <div className=" my-16">
+      <div className=" poppins my-16">
         <h2 className=" text-[#566B30] text-center mb-5">Service Capability</h2>
         <div className=" flex flex-wrap justify-content-center align-items-center gap-3 ">
           {Service &&
@@ -29,7 +29,7 @@ const Home = () => {
       </div>
       <ProductSlider></ProductSlider>
 
-      <div className=" my-32">
+      <div className=" poppins my-32">
         <div className=" flex flex-wrap justify-content-center align-items-center gap-3">
           <div className=" bg-[#DDB88C]  flex flex-col justify-between align-items-center gap-5  border rounded p-3 h-[350px] w-[300px]">
             <div className=" flex justify-center">
@@ -41,7 +41,7 @@ const Home = () => {
 
             <div>
               <h3 className=" text-center">Sincerity</h3>
-              <p className=" text-center">
+              <p className="   text-center">
                 Sincerity & seriousness is our major philosophy. We deliver what
                 we promise - with superior assistance & meet deadlines in the
                 stipulated time.
