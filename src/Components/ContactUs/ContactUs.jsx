@@ -94,6 +94,7 @@ const ContactUs = () => {
 
   return (
     <Layout>
+      
       <div
         style={{
           backgroundImage: "url(images/ContactUs/ContactUsBG.jpg)",

@@ -7,6 +7,7 @@ import {
   faTwitter,
 } from "@fortawesome/free-brands-svg-icons";
 import { faBars, faTimes } from "@fortawesome/free-solid-svg-icons";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   const CurrentYear = new Date().getFullYear();
@@ -15,18 +16,18 @@ const Footer = () => {
       <div className=" row  justify-center items-center  border border-b border-[white] w-[100%] bg-black py-4 m-0">
         <div className=" col-lg-4 col-md-4 col-12 align-self-start  flex flex-col justify-center align-items-center gap-6 ">
           <img className=" h-[200px] w-[200px]" src="/images/Footer/FooterLogo.png" alt="" />
-          <div className="flex  gap-4 text-[#674422] py-2">
-              <a href="#" className="text-[#674422]" target="_blank">
+          <div className="flex  gap-4 text-[#4C180A] py-2">
+              <a href="#" className="text-[#7DAF19]" target="_blank">
                 <FontAwesomeIcon icon={faFacebookF}></FontAwesomeIcon>
               </a>
-              <a href="#" className="text-[#674422]" target="_blank">
+              <a href="#" className="text-[#7DAF19]" target="_blank">
                 {" "}
                 <FontAwesomeIcon icon={faInstagram}></FontAwesomeIcon>
               </a>
-              <a href="#" className="text-[#674422]" target="_blank">
+              <a href="#" className="text-[#7DAF19]" target="_blank">
                 <FontAwesomeIcon icon={faTwitter}></FontAwesomeIcon>
               </a>
-              <a href="#" className="text-[#674422]" target="_blank">
+              <a href="#" className="text-[#7DAF19]" target="_blank">
                 <FontAwesomeIcon icon={faLinkedinIn}></FontAwesomeIcon>
               </a>
             </div>
@@ -73,12 +74,12 @@ const Footer = () => {
                 style={{ color: "#ffffff" }}
               ></i>
               <div className="m-[0rem] flex flex-col">
-                <p className="m-[0rem] flex flex-col text-white">
+                <a className="m-[0rem] flex flex-col text-white text-decoration-none" href="tel:9724743444">
                   +91 9724743444
-                </p>
-                <p className="m-[0rem] flex flex-col text-white">
+                </a>
+                <a className="m-[0rem] flex flex-col text-white text-decoration-none" href="tel:518 692 4500">
                   +1 518 692 4500
-                </p>
+                </a>
               </div>
             </div>
             <div className="flex mt-3 gap-2 ">
@@ -86,22 +87,22 @@ const Footer = () => {
                 class="fa-solid fa-envelope fa-xl mt-3"
                 style={{ color: "#ffffff" }}
               ></i>
-              <p className="justify-center mt-1 text-white items-center">
+              <a className="justify-center mt-1 text-white items-center text-decoration-none" href="mailto:info@naturedude.in">
                 info@naturedude.in
-              </p>
+              </a>
             </div>
           </div>
           <div className=" col-6">
-            <h3 className="border-b-4 text-center w-[150px] text-white border-[#7DAF19]">
+            <h3 className="border-b-4 text-center w-[150px] text-white border-[rgb(125,175,25)]">
               Quick Links
             </h3>
             <ul className="list-none flex flex-col gap-2 text-white">
-              <li>Home</li>
-              <li>Why Us?</li>
-              <li>Product Category</li>
-              <li>Blog</li>
-              <li>About Us</li>
-              <li>Contact Us</li>
+              <Link to="/" className=" nav-link">Home</Link>
+              <Link to="/WhyUs" className=" nav-link">Why Us?</Link>
+              <Link to="/Product" className=" nav-link">Product Category</Link>
+              <Link to="/Blog" className=" nav-link">Blog</Link>
+              <Link to="/AboutUs" className=" nav-link">About Us</Link>
+              <Link to="/ContactUs" className=" nav-link">Contact Us</Link>
             </ul>
           </div>
         </div>

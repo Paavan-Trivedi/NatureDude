@@ -28,8 +28,8 @@ const Navbar = () => {
   };
 
   return (
-    <div className=" bg-[#e6c4c4] lg:h-[100vh] lg:w-[25%] md:h-[10vh] md:w-[100%] h-[10vh] w-[100%] lg:block md:flex flex justify-content-between align-items-center fixed lg:overflow-y-auto scroll-smooth overflow-visible z-[99]">
-      <div className="  border-b-4 border-[#7DAF19]   lg:block hidden pb-0  ">
+    <div className=" bg-[#DDB88C] lg:h-[100vh] lg:w-[25%] md:h-[10vh] md:w-[100%] h-[10vh] w-[100%] lg:block md:flex flex justify-content-between align-items-center fixed lg:overflow-y-auto scroll-smooth overflow-visible z-[99]">
+      <div className="  border-b-4 border-[#566B30]   lg:block hidden pb-0  ">
         <img src="/images/logo.png" className=" h-[20vh]" alt="logo"></img>
       </div>
       <div className="  lg:pb-10 pb-0 lg:hidden md:block block ">
@@ -47,16 +47,16 @@ const Navbar = () => {
           toggle ? "block" : "d-none"
         }  absolute top-0 right-0  w-[80%] h-[100vh] bg-[#e6c4c4be] backdrop-blur-sm   pt-12 `}
       >
-        <div className=" flex flex-col justify-center align-items-center gap-4 py-3 boredr border-b-4 border-[#7DAF19] pb-10">
+        <div className=" flex flex-col justify-center align-items-center gap-4 py-3 boredr border-b-4 border-[#566B30] pb-10">
           <Link
             to="/"
-            className=" text-[#674422] active:text-[#db5b5b]  text-decoration-none"
+            className=" text-[#4C180A] active:text-[#db5b5b]  text-decoration-none"
           >
             Home
           </Link>
           <Link
             to="/WhyUs"
-            className=" text-[#674422] active:text-[brown] hover:text-[brown] text-decoration-none"
+            className=" text-[#4C180A] active:text-[brown] hover:text-[brown] text-decoration-none"
           >
             Why Us?
           </Link>
@@ -66,7 +66,7 @@ const Navbar = () => {
           >
             <Link
               to="/Product"
-              className=" text-[#674422] active:text-[brown] hover:text-[brown] text-decoration-none"
+              className=" text-[#4C180A] active:text-[brown] hover:text-[brown] text-decoration-none"
             >
               Product Category
               <FontAwesomeIcon icon={faCaretDown} className="ms-1" />
@@ -93,50 +93,50 @@ const Navbar = () => {
           </div>
           <Link
             to="/Blog"
-            className=" text-[#674422] active:text-[brown] hover:text-[brown] text-decoration-none"
+            className=" text-[#4C180A] active:text-[brown] hover:text-[brown] text-decoration-none"
           >
             Blog
           </Link>
           <Link
             to="/AboutUs"
-            className=" text-[#674422] active:text-[brown] hover:text-[rgb(165,42,42)] text-decoration-none"
+            className=" text-[#4C180A] active:text-[brown] hover:text-[rgb(165,42,42)] text-decoration-none"
           >
             About Us
           </Link>
           <Link
             to="/ContactUs"
-            className=" text-[#674422] active:text-[brown] hover:text-[brown] text-decoration-none"
+            className=" text-[#4C180A] active:text-[brown] hover:text-[brown] text-decoration-none"
           >
             Contact Us
           </Link>
         </div>
-        <div className="flex justify-center gap-4 text-[#674422] py-3 border-b-4 border-[#7DAF19] pb-10">
-          <a href="#" className="text-[#674422]" target="_blank">
+        <div className="flex justify-center gap-4 text-[#4C180A] py-3 border-b-4 border-[#566B30] pb-10">
+          <a href="#" className="text-[#4C180A]" target="_blank">
             <FontAwesomeIcon icon={faFacebookF}></FontAwesomeIcon>
           </a>
-          <a href="#" className="text-[#674422]" target="_blank">
+          <a href="#" className="text-[#4C180A]" target="_blank">
             {" "}
             <FontAwesomeIcon icon={faInstagram}></FontAwesomeIcon>
           </a>
-          <a href="#" className="text-[#674422]" target="_blank">
+          <a href="#" className="text-[#4C180A]" target="_blank">
             <FontAwesomeIcon icon={faTwitter}></FontAwesomeIcon>
           </a>
-          <a href="#" className="text-[#674422]" target="_blank">
+          <a href="#" className="text-[#4C180A]" target="_blank">
             <FontAwesomeIcon icon={faLinkedinIn}></FontAwesomeIcon>
           </a>
         </div>
       </div>
       <div className=" md:hidden lg:block hidden">
-        <div className=" flex flex-col justify-center align-items-center gap-4 py-3 boredr border-b-4 border-[#7DAF19] pb-10">
+        <div className=" flex flex-col justify-center align-items-center gap-4 py-3 boredr border-b-4 border-[#566B30] pb-10">
           <Link
             to="/"
-            className=" text-[#674422] active:text-[#db5b5b]  text-decoration-none"
+            className=" text-[#4C180A] active:text-[#db5b5b]  text-decoration-none"
           >
             Home
           </Link>
           <Link
             to="/WhyUs"
-            className=" text-[#674422] active:text-[brown] hover:text-[brown] text-decoration-none"
+            className=" text-[#4C180A] active:text-[brown] hover:text-[brown] text-decoration-none"
           >
             Why Us?
           </Link>
@@ -147,7 +147,7 @@ const Navbar = () => {
           >
             <Link
               to="/Product"
-              className=" text-[#674422]  active:text-[brown] hover:text-[brown] text-decoration-none"
+              className=" text-[#4C180A]  active:text-[brown] hover:text-[brown] text-decoration-none"
             >
               Product Category
               <FontAwesomeIcon icon={faCaretDown} className="ms-1" />
@@ -174,35 +174,35 @@ const Navbar = () => {
           </div>
           <Link
             to="/Blog"
-            className=" text-[#674422] active:text-[brown] hover:text-[brown] text-decoration-none"
+            className=" text-[#4C180A] active:text-[brown] hover:text-[brown] text-decoration-none"
           >
             Blog
           </Link>
           <Link
             to="/AboutUs"
-            className=" text-[#674422] active:text-[brown] hover:text-[rgb(165,42,42)] text-decoration-none"
+            className=" text-[#4C180A] active:text-[brown] hover:text-[rgb(165,42,42)] text-decoration-none"
           >
             About Us
           </Link>
           <Link
             to="/ContactUs"
-            className=" text-[#674422] active:text-[brown] hover:text-[brown] text-decoration-none"
+            className=" text-[#4C180A] active:text-[brown] hover:text-[brown] text-decoration-none"
           >
             Contact Us
           </Link>
         </div>
-        <div className="flex justify-center gap-4 text-[#674422] py-3 border-b-4 border-[#7DAF19] pb-10">
-          <a href="#" className="text-[#674422]" target="_blank">
+        <div className="flex justify-center gap-4 text-[#4C180A] py-3 border-b-4 border-[#566B30] pb-10">
+          <a href="#" className="text-[#4C180A]" target="_blank">
             <FontAwesomeIcon icon={faFacebookF}></FontAwesomeIcon>
           </a>
-          <a href="#" className="text-[#674422]" target="_blank">
+          <a href="#" className="text-[#4C180A]" target="_blank">
             {" "}
             <FontAwesomeIcon icon={faInstagram}></FontAwesomeIcon>
           </a>
-          <a href="#" className="text-[#674422]" target="_blank">
+          <a href="#" className="text-[#4C180A]" target="_blank">
             <FontAwesomeIcon icon={faTwitter}></FontAwesomeIcon>
           </a>
-          <a href="#" className="text-[#674422]" target="_blank">
+          <a href="#" className="text-[#4C180A]" target="_blank">
             <FontAwesomeIcon icon={faLinkedinIn}></FontAwesomeIcon>
           </a>
         </div>
