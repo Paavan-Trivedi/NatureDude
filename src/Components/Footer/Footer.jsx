@@ -12,20 +12,10 @@ const Footer = () => {
   const CurrentYear = new Date().getFullYear();
   return (
     <>
-      <div className=" flex flex-col justify-center items-center pt-2 h-[500px] w-[100%] bg-black">
-        <div className="  h-[150px] w-[150px]">
-          <img src="./images/Footer/FooterLogo.png" alt="" />
-        </div>
-        <div className="grid grid-cols-4 py-4 justify-center ">
-          <div className="px-3">
-            <h3 className="border-b-4 w-[150px] border-[#7DAF19] text-white">
-              About Us
-            </h3>
-            <p className="text-white">
-              Bringing India's Finest <br /> to the World: Your Global FMCG
-              Partner.
-            </p>
-            <div className="flex  gap-4 text-[#674422] py-2">
+      <div className=" row  justify-center items-center  border border-b border-[white] w-[100%] bg-black py-4 m-0">
+        <div className=" col-lg-4 col-md-4 col-12 align-self-start  flex flex-col justify-center align-items-center gap-6 ">
+          <img className=" h-[200px] w-[200px]" src="/images/Footer/FooterLogo.png" alt="" />
+          <div className="flex  gap-4 text-[#674422] py-2">
               <a href="#" className="text-[#674422]" target="_blank">
                 <FontAwesomeIcon icon={faFacebookF}></FontAwesomeIcon>
               </a>
@@ -40,9 +30,20 @@ const Footer = () => {
                 <FontAwesomeIcon icon={faLinkedinIn}></FontAwesomeIcon>
               </a>
             </div>
+        </div>
+        <div className="col-lg-8 col-md-8 col-12  row justify-center ">
+          <div className="col-6 ">
+            <h3 className="border-b-4 w-[150px] text-center border-[#7DAF19] text-white">
+              About Us
+            </h3>
+            <p className="text-white">
+              Bringing India's Finest <br /> to the World: Your Global FMCG
+              Partner.
+            </p>
+            
           </div>
-          <div>
-            <h3 className="border-b-4 w-[150px] border-[#7DAF19] text-white">
+          <div className="col-6">
+            <h3 className="border-b-4 w-[150px] text-center border-[#7DAF19] text-white">
               Address
             </h3>
             <div className="flex gap-2">
@@ -62,8 +63,8 @@ const Footer = () => {
               </p>
             </div>
           </div>
-          <div>
-            <h3 className="border-b-4 w-[150px] border-[#7DAF19] text-white">
+          <div className=" col-6">
+            <h3 className="border-b-4 w-[150px] text-center border-[#7DAF19] text-white">
               Contact
             </h3>
             <div className="flex gap-1">
@@ -90,8 +91,8 @@ const Footer = () => {
               </p>
             </div>
           </div>
-          <div>
-            <h3 className="border-b-4 w-[170px] text-white border-[#7DAF19]">
+          <div className=" col-6">
+            <h3 className="border-b-4 text-center w-[150px] text-white border-[#7DAF19]">
               Quick Links
             </h3>
             <ul className="list-none flex flex-col gap-2 text-white">

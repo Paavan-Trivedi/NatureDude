@@ -22,10 +22,10 @@ const ProductRoute = () => {
           <div className=" text-[red] flex"><Link className="nav-link " to="/">Home </Link> / <Link className="nav-link " to="/Product">Product</Link>/{params.id}</div>
          </div>
         </div>
-        <div className=" h-[60vh] w-[100%] flex  flex-col flex-wrap p-3">
+        <div className="w-[100%] row p-3 border-dashed border-[green]">
           {productData && productData[0].details.map((item,index)=>(
         
-              <dl key={index}>
+              <dl key={index} className=" col-4">
                 <dt className=" list-decimal  text-pretty"> {item.name}</dt>
                 {item.item&&
                 

@@ -161,9 +161,7 @@ const Navbar = () => {
                 <ul>
                   {Data.map((product, index) => (
                     <Link
-                    
                       to={`/Product/${product.product_name}`}
-                    
                       className=" nav-link p-2 ps-0 hover:text-[red]"
                       key={index}
                     >

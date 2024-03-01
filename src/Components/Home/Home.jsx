@@ -1,7 +1,7 @@
 import React from "react";
 import Navbar from "../Navbar/Navbar";
 import Layout from "../Layout/Layout";
-import Slider from "../Functionality/Slider/Slider";
+import Slider, { TestimonialsSlider } from "../Functionality/Slider/Slider";
 import Service from "../../Data/ServiceCapability.json";
 import { ProductSlider } from "../Functionality/Slider/Slider";
 import { CertificationsSlider } from "../Functionality/Slider/Slider";
@@ -84,6 +84,7 @@ const Home = () => {
           </div>
         </div>
       </div>
+      <TestimonialsSlider></TestimonialsSlider>
       <CertificationsSlider></CertificationsSlider>
     </Layout>
   );

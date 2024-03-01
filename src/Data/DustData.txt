@@ -1,0 +1,224 @@
+{
+    "image": "images/products/Agarbatti.jpg",
+    "product_name": "Agarbatti",
+    "details": [
+        {
+            "name": "1. BIG BOUQUET"
+        },
+        {
+            "name": "2. BRAZO"
+        },
+        {
+            "name": "3. CHAMPA"
+        },
+        {
+            "name": "4. DHOOP STICKS",
+            "item": [
+                "- LAVENDER",
+                "- MOGRA",
+                "- ROSE ",
+                "- SANDAL"
+            ]
+        },
+        {
+            "name": "5. JASMINE"
+        },
+        {
+            "name": "6. LAVENDER"
+        },
+        {
+            "name": "7. LILY"
+        },
+        {
+            "name": "8. MOGRA"
+        },
+        {
+            "name": "9. MONALISA"
+        },
+        {
+            "name": "10. MUSK"
+        },
+        {
+            "name": "11. MYSORE CHANDAN"
+        },
+        {
+            "name": "12. PREMIUM FLORA"
+        },
+        {
+            "name": "13. ROSE"
+        },
+        {
+            "name": "14. WONDER"
+        },
+        {
+            "name": "15. SANDAL"
+        }
+    ]
+},
+
+
+"{
+    "image": "images/products/Bakery.jpg",
+    "product_name": "Bakery Products",
+    "details": [
+        {
+            "name": "1. BUTTER (BUN TOAST)",
+            "item": [
+                "- AJWAIN",
+                "- JEERA",
+                "- METHI"
+            ]
+        },
+        {
+            "name": "2. CAKERAS",
+            "item": [
+                "- PLAIN",
+                "- TUTIFRUTI"
+            ]
+        },
+        {
+            "name": "3. COOKIES",
+            "item": [
+                "- AJWAIN",
+                "- BADAM PISTA",
+                "- CASHEW",
+                "- CHOCOLATE",
+                "- CHOCOLATE CHIPS",
+                "- COCONUT",
+                "- FARALI",
+                "- FRUIT",
+                "-ITALIAN SWEET & SPICY"
+            ]
+        },
+        {
+            "name": "4. KHARI",
+            "item": [
+                "- JEERA",
+                "- MASALA",
+                "- MASKA",
+                "- METHI",
+                "- PLAIN",
+                "- RICH BUTTER",
+                "- SUGAR"
+            ]
+        },
+        {
+            "name": "5. MUNCH BITES",
+            "item": [
+                "- CHEESE GARLIC",
+                "- MEXICAN",
+                "- SCHEZWAN",
+                "- TOMATO"
+            ]
+        },
+        {
+            "name": "6. NANKHATAI",
+            "item": [
+                "- CHOCOLATE",
+                "- ELAICHI",
+                "- KESAR",
+                "- ORANGE",
+                "- PINEAPPLE",
+                "- PISTA ELAICHI"
+            ]
+        },
+        {
+            "name": "7. NUTRIBITE COOKIES -100% WHOLE WHEAT",
+            "item": [
+                "- CASHEW RAISIN",
+                "- CHOCO CHIPS",
+                "- PISTA BADAM",
+                "- ROYAL BUTTER"
+            ]
+        },
+        {
+            "name": "8. PREMIUM COOKIES",
+            "item": [
+                "- ALMOND & DATES",
+                "- BUTTER SCOTCH",
+                "- CASHEW BUTTER",
+                "- CHOCO CHIPS",
+                "- CHOCONUTS",
+                "- COCONUT",
+                "- MUMBAI MAGIC",
+                "- PISTA BADAM"
+            ]
+        },
+        {
+            "name": "9. RUSK & TOST",
+            "item": [
+                "- BUTTER",
+                "- FRUIT",
+                "- HERBS & GARLIC",
+                "- JEERA",
+                "- KAJU",
+                "- MASALA",
+                "- METHI",
+                "- MILK",
+                "- PALAK",
+                "- PLAIN",
+                "- SOOJI",
+                "- SUGAR FREE"
+            ]
+        },
+        {
+            "name": "10. VANILLA CAKE RUSK (EGGLESS)",
+            "item": []
+        }
+    ]
+}
+
+
+
+{
+    "image": "images/products/Agarbatti.jpg",
+    "product_name": "Confectionary",
+    "details": []
+},
+
+
+{
+    "image": "images/products/HealthySnacks.jpg",
+    "product_name": "Healthy Snacks",
+    "details": []
+},
+
+{
+    "image": "images/products/Khakhra.jpg",
+    "product_name": "Khakhra",
+    "details": []
+},
+
+
+{
+    "image": "images/products/Sweets.jpg",
+    "product_name": "Sweets",
+    "details": []
+}
+
+
+  {
+        "image": "images/products/Mukhwas.jpg",
+        "product_name": "Mukhwas",
+        "details": []
+    },
+
+
+
+
+    , 
+    {
+        "image": "",
+        "product_name": "Jaggery ",
+        "details": []
+    },
+    {
+        "image": "",
+        "product_name": "Chikki",
+        "details": []
+    },
+    {
+        "image": "images/products/Papad.jpg",
+        "product_name": "Papad",
+        "details": []
+    }
