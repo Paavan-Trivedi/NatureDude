@@ -28,7 +28,7 @@ const Navbar = () => {
   };
 
   return (
-    <div className=" bg-[#DDB88C] lg:h-[100vh] lg:w-[25%] md:h-[10vh] md:w-[100%] h-[10vh] w-[100%] lg:block md:flex flex justify-content-between align-items-center fixed lg:overflow-y-auto scroll-smooth overflow-visible z-[99]">
+    <div className=" poppins bg-[#DDB88C] lg:h-[100vh] lg:w-[25%] md:h-[10vh] md:w-[100%] h-[10vh] w-[100%] lg:block md:flex flex justify-content-between align-items-center fixed lg:overflow-y-auto scroll-smooth overflow-visible z-[99]">
       <div className="  border-b-4 border-[#566B30]   lg:block hidden pb-0  ">
         <img src="/images/logo.png" className=" h-[20vh]" alt="logo"></img>
       </div>

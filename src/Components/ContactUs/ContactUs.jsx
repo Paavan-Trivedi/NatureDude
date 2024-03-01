@@ -94,13 +94,12 @@ const ContactUs = () => {
 
   return (
     <Layout>
-      
       <div
         style={{
           backgroundImage: "url(images/ContactUs/ContactUsBG.jpg)",
           backgroundSize: "contain",
         }}
-        className="w-[100%] flex  justify-center items-center "
+        className="w-[100%] flex poppins justify-center items-center "
       >
         <form
           onSubmit={formik.handleSubmit}
