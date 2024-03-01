@@ -56,11 +56,11 @@ export default () => {
       <SwiperSlide className=" h-full w-full">
         <div className=" h-full w-[100%] m-0 p-0 row justify-content-center align-items-center">
           <div className=" col-12 col-lg-6 text-start order-lg-0 order-1 leading-[18px]">
-            <p className=" text-[red] text-[32px]">We Provide</p>
+            <p className=" text-[#7DAF19] text-[32px]">We Provide</p>
             <h1>
               {" "}
               Consultations To{" "}
-              <span className=" underline text-[red]">Establish</span> A Strong
+              <span className=" underline text-[#7DAF19]">Establish</span> A Strong
               <br /> Global Presence{" "}
             </h1>
           </div>
@@ -76,11 +76,11 @@ export default () => {
       <SwiperSlide className=" h-full w-full">
         <div className=" h-full w-[100%] m-0 p-0 row justify-content-center align-items-center">
           <div className=" col-12 col-lg-6 text-start order-lg-0 order-1 leading-[18px]">
-            <p className=" text-[red] text-[32px]">We Are</p>
+            <p className=" text-[#7DAF19] text-[32px]">We Are</p>
             <h1>
               {" "}
               Leading Aggregator{" "}
-              <span className=" underline text-[red]">Platform</span> For
+              <span className=" underline text-[#7DAF19]">Platform</span> For
               Importers
               <br />
               And Exporters{" "}
@@ -98,9 +98,9 @@ export default () => {
       <SwiperSlide className=" h-full w-full">
         <div className=" h-full w-[100%] m-0 p-0 row justify-content-center align-items-center">
           <div className=" col-12 col-lg-6 text-start order-lg-0 order-1 leading-[18px]">
-            <p className=" text-[red] text-[32px]">Delivering</p>
+            <p className=" text-[#7DAF19] text-[32px]">Delivering</p>
             <h1>
-              Quality <span className=" underline text-[red]">Product</span>{" "}
+              Quality <span className=" underline text-[#7DAF19]">Product</span>{" "}
               Around
               <br /> The World{" "}
             </h1>
@@ -123,7 +123,7 @@ export const ProductSlider = () => {
   const [spp,setSpp]=useState(1)
   return (
     <div className="my-16">
-    <h2 className="text-red mb-5 text-center">Our Products</h2>
+    <h2 className="text-[#566B30] mb-5 text-center">Our Products</h2>
     <div className="lg:hidden md:hidden block"> {/* Render only on small screens */}
       <Swiper
         effect="coverflow"
@@ -147,7 +147,7 @@ export const ProductSlider = () => {
         loopPreventsSliding={true}
       >
         {Products.map((item, index) => (
-          <SwiperSlide key={index} className="h-full w-full bg-[#e6c4c4] border">
+          <SwiperSlide key={index} className="h-full w-full bg-[#DDB88C] border">
             <div className="h-full w-[100%] m-0 p-0 row justify-content-center align-items-center bg-[#ffffff58] offset-10">
               <img className="h-[80%] w-[30%] object-cover" src={item.image} alt={item.product_name} />
               <div className="text-center">
@@ -181,7 +181,7 @@ export const ProductSlider = () => {
         loopPreventsSliding={true}
       >
         {Products.map((item, index) => (
-          <SwiperSlide key={index} className="h-full w-full bg-[#e6c4c4] border">
+          <SwiperSlide key={index} className="h-full w-full bg-[#DDB88C] border">
             <div className="h-full w-[100%] m-0 p-0 row justify-content-center align-items-center bg-[#ffffff58] offset-10">
               <img className="h-[80%] w-[30%] object-cover" src={item.image} alt={item.product_name} />
               <div className="text-center">
@@ -204,7 +204,7 @@ export const TestimonialsSlider = () => {
   
   return (
     <div className="my-16 ">
-      <h2 className=" text-[red] mb-5 text-center">Testimonials</h2>
+      <h2 className=" text-[#566B30] mb-5 text-center">Testimonials</h2>
       <Swiper
         // install Swiper modules
         // effect={'coverflow'}
@@ -273,7 +273,7 @@ export const TestimonialsSlider = () => {
 export const CertificationsSlider = () => {
   return (
     <div className="my-16 ">
-      <h2 className=" text-[red] mb-5 text-center">Certifications</h2>
+      <h2 className=" text-[#566B30] mb-5 text-center">Certifications</h2>
       <Swiper
         // install Swiper modules
         // effect={'coverflow'}

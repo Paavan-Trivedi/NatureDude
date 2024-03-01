@@ -16,13 +16,13 @@ const ProductRoute = () => {
   return (
     <Layout>
       <div>
-        <div className="w-full bg-[#E6C4C4] h-[30vh] flex rounded justify-center align-items-center">
+        <div className="w-full bg-[#DDB88C] h-[30vh] flex rounded justify-center align-items-center">
          <div className=" text-center">
-          <h2>{params.id}</h2>
-          <div className=" text-[red] flex"><Link className="nav-link " to="/">Home </Link> / <Link className="nav-link " to="/Product">Product</Link>/{params.id}</div>
+          <h2 className="text-[#566B30]">{params.id}</h2>
+          <div className=" text-[#4C180A] flex"><Link className="nav-link " to="/">Home </Link> / <Link className="nav-link " to="/Product">Product</Link>/{params.id}</div>
          </div>
         </div>
-        <div className="w-[100%] row p-3 border-dashed border-[green]">
+        <div className="w-[100%] row p-3 border-dashed border-[#566B30]">
           {productData && productData[0].details.map((item,index)=>(
         
               <dl key={index} className=" col-4">

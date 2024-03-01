@@ -13,7 +13,7 @@ const Home = () => {
     <Layout>
       <Slider></Slider>
       <div className=" my-16">
-        <h2 className=" text-[red] text-center mb-5">Service Capability</h2>
+        <h2 className=" text-[#566B30] text-center mb-5">Service Capability</h2>
         <div className=" flex flex-wrap justify-content-center align-items-center gap-3 ">
           {Service &&
             Service.map((item, index) => (
@@ -31,7 +31,7 @@ const Home = () => {
 
       <div className=" my-32">
         <div className=" flex flex-wrap justify-content-center align-items-center gap-3">
-          <div className=" bg-[#f6d8d8]  flex flex-col justify-between align-items-center gap-5  border rounded p-3 h-[350px] w-[300px]">
+          <div className=" bg-[#DDB88C]  flex flex-col justify-between align-items-center gap-5  border rounded p-3 h-[350px] w-[300px]">
             <div className=" flex justify-center">
               <img
                 className="h-[50px] w-[50px]"
@@ -48,7 +48,7 @@ const Home = () => {
               </p>
             </div>
           </div>
-          <div className=" bg-[#f6d8d8] rounded flex flex-col justify-between align-items-center gap-5  border p-3 h-[350px] w-[300px]">
+          <div className=" bg-[#DDB88C] rounded flex flex-col justify-between align-items-center gap-5  border p-3 h-[350px] w-[300px]">
             <div className=" flex justify-center">
               <img
                 className="h-[50px] w-[50px]"
@@ -65,7 +65,7 @@ const Home = () => {
               </p>
             </div>
           </div>
-          <div className=" bg-[#f6d8d8] rounded flex flex-col justify-between align-items-center gap-5  border p-3 h-[350px] w-[300px]">
+          <div className=" bg-[#DDB88C] rounded flex flex-col justify-between align-items-center gap-5  border p-3 h-[350px] w-[300px]">
             <div className=" flex justify-center">
               <img
                 className="h-[50px] w-[50px]"
