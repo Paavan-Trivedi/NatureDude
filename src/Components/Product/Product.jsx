@@ -16,15 +16,16 @@ const Product = () => {
         <div className=' flex flex-wrap justify-center gap-3 align-items-center m-2'>
           {
             Data&&Data.map((item,index)=>(
-              <div className=' w-[290px] h-[400px] rounded bg-[white] mb-2 shadow ' key={index}>
+              <Link key={index}  to={`/Product/${item.product_name}`} className=' nav-link'>
+              <div className=' w-[290px] h-[400px] rounded bg-[white] mb-2 ' >
                 <div className='image 80% rounded-t'>
                 <img src={item.image} className='img '></img></div>
-                <div className=' border-[3px] border-dashed  border-[green] h-[20%] flex justify-center align-items-center'>
+                <div className=' border-[3px] border-dashed  rounded-b border-[green] h-[20%] flex justify-center align-items-center'>
                     <h4 className=' text-center'>{item.product_name}</h4>
                 
                     
                 </div>
-              </div>
+              </div></Link>
             ))
           }
         </div>

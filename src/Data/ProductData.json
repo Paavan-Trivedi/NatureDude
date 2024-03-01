@@ -1,220 +1,1800 @@
 [
     {
-        "image": "images/products/Agarbatti.jpg",
-        "product_name": "Agarbatti",
+        "image": "images/products/Snacks.jpg",
+        "product_name": "Snacks",
+        "details": [{"name":"1. ALL IN ONE"},
+        {"name":"2. ALOO LACHHA"},
+        {"name":"3. BANANA CHIPS",
+        "item":["- MASALA",
+        "- SALT N PEPPER",
+        "- TOMATO",
+        "- YELLOW"]},
+        {"name":"4. BHAJANI CHAKLI"},
+        {"name":"5. BHAKARWADI"},
+        {"name":"6. BHEL MIX"},
+        {"name":"7. BHEL PURI"},
+        {"name":"8. BHUJIA",
+        "item":["- ALOO",
+        "- BIKANERI",
+        "- BUNDI MIX",
+        "- GARLIC",
+        "- SEV"]},
+        {"name":"9. BIKANERI PAPAD"},
+        {"name":"10. BINGO TRIANGLES (7 FLAVORS)"},
+        {"name":"11. BOONDI",
+        "item":["- MASALA",
+        "- PUDINA",
+        "- SALTED"]},
+        {"name":"12. CHANA CHOR"},
+        {"name":"13. CHANA DAL"},
+        {"name":"14. CHATAKA DHAMAKA",
+        "item":["- MASALA",
+        "- TOMATO"]},
+        {"name":"15. CHATPATA TRIANGLE"},
+        {"name":"16. CHATPATI KATORI"},
+        {"name":"17. CHEESE BALL"},
+        {"name":"18. CHEESE STICK"},
+        {"name":"19. CHEKARULU"},
+        {"name":"20. CHOCO VANILLA SNACKS"},
+        {"name":"21. CHOW MEIN NOODLES"},
+        {"name":"22. CORN CHIPS",
+        "item":["- CREAM & ONION",
+        "- RED CHILLI CHATKA"]},
+        {"name":"23. CORN TWIST",
+        "item":["- HONEY & BUTTER",
+        "- TOMATO"]},
+        {"name":"24. DAL BIJI"},
+        {"name":"25. DAL MUTH"},
+        {"name":"26. DRY FRUIT MIX"},
+        {"name":"27. DRY KACHORI"},
+        {"name":"28. DRY FRUIT KACHORI"},
+        {"name":"29. FAFDA"},
+        {"name":"30. FARALI CHIVDA"},
+        {"name":"31. FARALI DRY FRUIT CHIVDA"},
+        {"name":"32. FATAKA (KURKURE)",
+        "item":["- AACHAR MASTI",
+        "- MASALA",
+        "- TOMATO"]},
+        {"name":"33. FRENCH FRIES",
+        "item":["- MASALA",
+        "- SALTED"]},
+        {"name":"34. FULWADI"},
+        {"name":"35. GARLIC MIX"},
+        {"name":"36. GATHIYA",
+        "item":["- BHAVNAGARI",
+        "- METHI",
+        "- NYLON",
+        "- PALAK",
+        "- TAMTAM",
+        "- VANELA"]},
+        {"name":"37. GOLDEN MIX"},
+        {"name":"38. KAJU MIX"},
+        {"name":"39. KATAK MATAK"},
+        {"name":"40. KENYA MIX"},
+        {"name":"41. KHATTA MITHA MIX"},
+        {"name":"42. KHATTI MITHI RING"},
+        {"name":"43. LAJAWAB MIX"},
+        {"name":"44. LEMON BHEL"},
+        {"name":"45. LILO CHEVDO"},
+        {"name":"46. LITE CHEVDA"},
+        {"name":"47. LITE MIX"},
+        {"name":"48. MADHUVAN MIX"},
+        {"name":"49. MADRAS MIX"},
+        {"name":"50. MAHALAXMI CHIVDA"},
+        {"name":"51. MAKAI DRY FRUIT CHIVDA"},
+        {"name":"52. MANGLORI MIX"},
+        {"name":"53. MASALA PEAS"},
+        {"name":"54. MASTANA MIX"},
+        {"name":"55. MATHRI"},
+        {"name":"56. MIX FARSAN"},
+        {"name":"57. MIX PULSES"},
+        {"name":"58. MOON CHIPS"},
+        {"name":"59. MOONG DAL"},
+        {"name":"60. MOORUKULU"},
+        {"name":"61. MUMBAI MIX"},
+        {"name":"62. MURUKKU",
+        "item":["- MASALA",
+        "- SALTED"]},
+        {"name":"63. NAAN CHIPS",
+        "item":["- BUTTER GARLIC",
+        "- CHATPATA PUDINA",
+        "- TEZ TANDOORI"]},
+        {"name":"64. NAAN CHIPS N DIP",
+        "item":["- BUTTER GARLIC N MAKHANI DIP",
+        "- CHATPATA PUDINA N TANDOORI DIP",
+        "- TEZ TANDOORI N PUDINA DIP"]},
+        {"name":"65. NACHO CHIPS",
+        "item":["- CHEESE",
+        "- JALAPENO",
+        "- PERI PERI",
+        "- ROASTED MASALA",
+        "- SALSA",
+        "- SWEET CHILLY"]},
+        {"name":"66. NADIYADI MIX"},
+        {"name":"67. NATKHAT NIMBU"},
+        {"name":"68. NAVRATNA MIX"},
+        {"name":"69. PANCHRATNA MIXTURE"},
+        {"name":"70. PAPAD POHA MIXTURE"},
+        {"name":"71. PAPADI",
+        "item":["- MASALA",
+        "- PLAIN"]},
+        {"name":"72. PEANUTS",
+        "item":["- LIME CHILLI COATED",
+        "- BLACK PEPPER",
+        "- CHEESE TOMATO",
+        "- CHILLI GARLIC",
+        "- CLASSIC SALTED",
+        "- HING JEERA",
+        "- ROCK SALT",
+        "- SPICY MASALA",
+        "- TANGY MINT"]},
+        {"name":"73. PINEAPPLE MIXTURE"},
+        {"name":"74. PITA CHIPS",
+        "item":["- JALAPENO",
+        "- PARMESAN & MEDITERRANEAN HERBS",
+        "- PIRI PIRI",
+        "- CREAM & ONION",
+        "- TANGY CHEESE",
+        "- THAI SWEET CHILLI"]},
+        {"name":"75. PITA CHIPS N DIP",
+        "item":["- JALAPENO N SWEET CHILLI GARLIC DIP",
+        "- TANGY CHEESE N PERI PERI SALSA DIP"]},
+        {"name":"76. POHA CHIVDA",
+        "item":["- DIET",
+        "- ROASTED"]},
+        {"name":"77. POPCORN",
+        "item":["- CARAMEL",
+        "- CHAT",
+        "- CHILLI",
+        "- CHEESE",
+        "- SALTED",
+        "- SCHEZWAN",
+        "- TOMATO"]},
+        {"name":"78. POTATO CHIPS",
+        "item":["- CREAM & ONION",
+        "- FARALI",
+        "- INDIAN MASALA",
+        "- INDORI MASALA",
+        "- MASALA CRISS CROSS",
+        "- SALTED CRISS CROSS",
+        "- SIMPLY SALTED",
+        "- SWEET THAI CHILI",
+        "- TOMATO MUNCHIES"]},
+        {"name":"79. PREMIUM BHAKARWADI"},
+        {"name":"80. PUFF",
+        "item":["- MASALA",
+        "- PUDINA",
+        "- TOMATO"]},
+        {"name":"81. PUNE MISAL"},
+        {"name":"82. PUNJABI TADKA"},
+        {"name":"83. PURI",
+        "item":["- CHAT",
+        "- MASALA"]},
+        {"name":"84. RAJWADI MIX"},
+        {"name":"85. RICE POHA MIXTURE"},
+        {"name":"86. ROASTED CHANA",
+        "item":["- CHATPATA",
+        "- GUD (JAGGERY)",
+        "- HING JEERA",
+        "- LEMON PUDINA",
+        "- MAHABALESHWAR",
+        "- PLAIN",
+        "- SALTED",
+        "- SPICY MASALA",
+        "- YELLOW"]},
+        {"name":"87. SAKKARPARA",
+        "item":["- CHOCOLATE",
+        "- MANGO",
+        "- OREO/VANILLA",
+        "- PINEAPPLE",
+        "- STRAWBERRY",
+        "- SWEET"]},
+        {"name":"88. SALTED REFILL"},
+        {"name":"89. SAMOSA"},
+        {"name":"90. SEV",
+        "item":["- ALOO",
+        "- ALOO TOMATO",
+        "- GARLIC",
+        "- HING",
+        "- LAUNG",
+        "- MORI",
+        "- NYLON",
+        "- RATLAMI",
+        "- SABJI",
+        "- TIKHI",
+        "- UJJAINI",
+        "- USAL"]},
+        {"name":"91. SEV MAMRA",
+        "item":["- GARLIC",
+        "- KHATTA MITHA",
+        "- PLAIN"]},
+        {"name":"92. SING BHUJIYA"},
+        {"name":"93. SOLAPURI CHEVDO"},
+        {"name":"94. SOUTH MIXTURE"},
+        {"name":"95. SOYA STICKS"},
+        {"name":"96. SP",
+        "item":["- ALPHABET",
+        "- CHOKDI",
+        "- CUP",
+        "- TOMATO CUP"]},
+        {"name":"97. TIKHA MITHA MIX"},
+        {"name":"98. TOMATO BALL"},
+        {"name":"99. TOMATO RING"},
+        {"name":"100. WHEELS"},
+        {"name":"101. WHEAT CHAKRI"},
+        {"name":"102. WHEAT PUFF MIXTURE"}]
+    },
+    {
+        "image": "images/products/Spices.jpg",
+        "product_name": "Spices",
+        "details": [{"name":"1. AJWAIN POWDER"},
+        {"name":"2. AJWAIN SEEDS"},
+        {"name":"3. BAY LEAVES"},
+        {"name":"4. BAY LEAVES POWDER"},
+        {"name":"5. BLACK PEPPER POWDER"},
+        {"name":"6. BLACK PEPPER WHOLE",
+        "item":["- 550 LTR",
+        "- 600 LTR",
+        "- CRACKED"]},
+        {"name":"7. BLACK CARDAMOM"},
+        {"name":"8. BLACK CUMIN POWDER"},
+        {"name":"9. BLACK CUMIN SEEDS"},
+        {"name":"10. BLACK SALT POWDER"},
+        {"name":"11. BLACK SESAME SEEDS"},
+        {"name":"12. CARDAMOM GREEN"},
+        {"name":"13. CINNAMON POWDER"},
+        {"name":"14. CINNAMON STICK",
+        "item":["- BROKEN",
+        "- FLAT",
+        "- ROUND"]},
+        {"name":"15. CLOVE POWDER"},
+        {"name":"16. CLOVE WHOLE"},
+        {"name":"17. CORIANDER CUMIN"},
+        {"name":"18. CORIANDER POWDER"},
+        {"name":"19. CORIANDER SEEDS"},
+        {"name":"20. CUMIN POWDER"},
+        {"name":"21. CUMIN SEEDS",
+        "item":["- BOLD",
+        "- SINGAPORE"]},
+        {"name":"22. FENNEL POWDER"},
+        {"name":"23. FENNEL SEEDS"},
+        {"name":"24. FENUGREEK POWDER"},
+        {"name":"25. FENUGREEK SEED"},
+        {"name":"26. GANTHODA POWDER"},
+        {"name":"27. GINGER POWDER"},
+        {"name":"28. GREEN CARDAMOM",
+        "item":["- 5 TO 6 MM",
+        "- 6 TO 7 MM",
+        "- 7 TO 8 MM",
+        "- 7.5 MM",
+        "- BOLD"]},
+        {"name":"29. GREEN CARDAMOM POWDER"},
+        {"name":"30. KALONJI (NIGELLA SEEDS)"},
+        {"name":"31. KASURI METHI"},
+        {"name":"32. KATLU POWDER"},
+        {"name":"33. MACE POWDER"},
+        {"name":"34. MACE WHOLE"},
+        {"name":"35. METHI KURIA"},
+        {"name":"36. MUSTARD SEEDS",
+        "item":["- BLACK BIG",
+        "- BLACK SMALL",
+        "- YELLOW"]},
+        {"name":"37. NUTMEG POWDER"},
+        {"name":"38. NUTMEG WHOLE"},
+        {"name":"39. RAI KURIA"},
+        {"name":"40. RED CHILLI POWDER",
+        "item":["- DANDICUT",
+        "- EX HOT",
+        "- GATI",
+        "- GULAB",
+        "- KAMAL EXTRA HOT",
+        "- KAMAL HOT",
+        "- KASHMIRI",
+        "- KASHMIRI (DOMESTIC)",
+        "- KASHMIRI SWEET",
+        "- RESHAM KASHMIRI"]},
+        {"name":"41. RED CHILLI WHOLE"},
+        {"name":"42. ROCK SALT"},
+        {"name":"43. WHITE SESAME SEEDS",
+        "item":["- HULLED",
+        "- NATURAL"]},
+        {"name":"44. TURMERIC POWDER",
+        "item":["- DELUX",
+        "- RAJAPURI",
+        "- SELAM",
+        "- SUPER"]},
+        {"name":"45. SALT"},
+        {"name":"46. STAR ANISE POWDER"},
+        {"name":"47. STAR ANISE WHOLE"},
+        {"name":"48. STRONG HING (ASAFOETIDA)"},
+        {"name":"49. SWEET BASIL SEEDS"},
+        {"name":"50. WHITE CHILLI POWDER"},
+        {"name":"51. WHITE PEPPER POWDER"},
+        {"name":"52. WHITE PEPPER WHOLE"}]
+    },
+  
+    {
+        "image": "images/products/Oils.jpg",
+        "product_name": "Edible Oils",
+        "details": [
+            {"name":"1. COLD PRESSED OILS",
+        "item":["- COCONUT",
+        "- COCONUT (EXTRA VIRGIN)",
+        "- GROUNDNUT",
+        "- MUSTARD",
+        "- SESAME"]},
+        {"name":"2. CORN OIL (REFINED)"},
+        {"name":"3. COTTONSEED OIL (REFINED)"},
+        {"name":"4. GROUNDNUT OIL (DOUBLE FILTERED)"},
+        {"name":"5. GROUNDNUT OIL (REFINED)"},
+        {"name":"6. MUSTARD OIL (KACHHI GHANI)",
+        "item":["- MILD",
+        "- SPICY"]},
+        {"name":"7. SOYBEAN OIL (REFINED)"},
+        {"name":"8. SUNFLOWER OIL (REFINED)"}]
+    },
+    {
+        "image": "",
+        "product_name": "Baked Goods",
+        "details": []
+    },  {
+        "image": "images/products/BlendedSpices.jpg",
+        "product_name": "Blended Spices",
         "details": [
             {
-                "name": "1. BIG BOUQUET"
+                "name": "1. ACHAR MASALA HOT"
             },
             {
-                "name": "2. BRAZO"
+                "name": "2. ACHAR MASALA SWEET"
             },
             {
-                "name": "3. CHAMPA"
+                "name": "3. AMERICAN CAJUN SEASONING"
             },
             {
-                "name": "4. DHOOP STICKS",
+                "name": "4. AMERICAN RANCH SEASONING"
+            },
+            {
+                "name": "5. POTATO VADA MASALA"
+            },
+            {
+                "name": "6. BHARELA RAVAIYA MASALA"
+            },
+            {
+                "name": "7. BIRYANI MASALA",
                 "item": [
-                    "- LAVENDER",
-                    "- MOGRA",
-                    "- ROSE ",
-                    "- SANDAL"
+                    "- SHAHI",
+                    "- BOMBAY",
+                    "- SINDHI"
                 ]
             },
-           
             {
-                "name": "5. JASMINE"
+                "name": "8. BUTTERMILK MASALA"
             },
             {
-                "name": "6. LAVENDER"
+                "name": "9. CHAT MASALA"
             },
             {
-                "name": "7. LILY"
+                "name": "10. CHEVDA MASALA"
             },
             {
-                "name": "8. MOGRA"
+                "name": "11. CHHOLE MASALA"
             },
             {
-                "name": "9. MONALISA"
+                "name": "12. CHORAFALI MASALA"
             },
             {
-                "name": "10. MUSK"
+                "name": "13. DABELI MASALA"
             },
             {
-                "name": "11. MYSORE CHANDAN"
+                "name": "14. DAL FRY MASALA"
             },
             {
-                "name": "12. PREMIUM FLORA"
+                "name": "15. DAL MAKHANI MASALA"
             },
             {
-                "name": "13. ROSE"
+                "name": "16. DRY MANGO POWDER"
             },
             {
-                "name": "14. WONDER"
+                "name": "17. FRANKIE MASALA"
             },
             {
-                "name": "15. SANDAL"
+                "name": "18. GARLIC BREAD MASALA"
+            },
+            {
+                "name": "19. GOLKERI MASALA"
+            },
+            {
+                "name": "20. JAL JEERA POWDER"
+            },
+            {
+                "name": "21. KAJU CURRY MASALA"
+            },
+            {
+                "name": "22. KASHMIRI DUM ALOO MASALA"
+            },
+            {
+                "name": "23. KESARI MILK MASALA"
+            },
+            {
+                "name": "24. KHICHADI MASALA"
+            },
+            {
+                "name": "25. KITCHEN KING MASALA"
+            },
+            {
+                "name": "26. LEMON POWDER"
+            },
+            {
+                "name": "27. MADRAS CURRY POWDER"
+            },
+            {
+                "name": "28. MAGICAL GARLIC MASALA"
+            },
+            {
+                "name": "29. MAGGI MASALA"
+            },
+            {
+                "name": "30. MAKHANI SPICE MIX MALAI KOFTA MASALA"
+            },
+            {
+                "name": "31. MANCHURIAN MASALA"
+            },
+            {
+                "name": "32. MAURITIUS MASALA"
+            },
+            {
+                "name": "33. MEDITERRANEAN SEASONING"
+            },
+            {
+                "name": "34. MEXICAN SEASONING"
+            },
+            {
+                "name": "35. MINT FLAKES"
+            },
+            {
+                "name": "36. MIX MASALA"
+            },
+            {
+                "name": "37. MOMO MASALA"
+            },
+            {
+                "name": "38. MUTTER PANEER MASALA (J)"
+            },
+            {
+                "name": "39. MUTTER METHI MASALA"
+            },
+            {
+                "name": "40. NOODLES MASALA"
+            },
+            {
+                "name": "41. PALAK PANEER MASALA"
+            },
+            {
+                "name": "42. PANI PURI MASALA"
+            },
+            {
+                "name": "43. PANEER BHURJI MASALA"
+            },
+            {
+                "name": "44. PANEER BUTTER MASALA (J)"
+            },
+            {
+                "name": "45. PANEER CHILLI MASALA"
+            },
+            {
+                "name": "46. PANEER MAKHANWALA MASALA (J)"
+            },
+            {
+                "name": "47. PANEER METHI MALAI MASALA (J)"
+            },
+            {
+                "name": "48. PANEER TIKKA MASALA (J)"
+            },
+            {
+                "name": "49. PASTA MASALA"
+            },
+            {
+                "name": "50. PAV BHAJI MASALA"
+            },
+            {
+                "name": "51. PERI PERI SEASONING"
+            },
+            {
+                "name": "52. PIZZA MASALA"
+            },
+            {
+                "name": "53. PUDINA POWDER"
+            },
+            {
+                "name": "54. PULAO SPICE MIX"
+            },
+            {
+                "name": "55. PUNJABI KADAI MASALA"
+            },
+            {
+                "name": "56. RAGDA PETIS MASALA"
+            },
+            {
+                "name": "57. RAJWADI GARAM MASALA"
+            },
+            {
+                "name": "58. ROJANA MASALA"
+            },
+            {
+                "name": "59. SAAG PANEER MASALA"
+            },
+            {
+                "name": "60. SABJI MASALA"
+            },
+            {
+                "name": "61. SAMBHAR MASALA"
+            },
+            {
+                "name": "62. SANDWICH MASALA"
+            },
+            {
+                "name": "63. SAUNF POWDER"
+            },
+            {
+                "name": "64. SHAHI PANEER MASALA"
+            },
+            {
+                "name": "65. SHAMI KEBAB MASALA"
+            },
+            {
+                "name": "66. SMOKED TANDOORI SPICE MIX"
+            },
+            {
+                "name": "67. SODA MASALA"
+            },
+            {
+                "name": "68. SPICY MOROCCAN SEASONING"
+            },
+            {
+                "name": "69. SPICY SCHEZWAN"
+            },
+            {
+                "name": "70. TAMARIND POWDER"
+            },
+            {
+                "name": "71.TANDOORI MASALA"
+            },
+            {
+                "name": "72. TEA MASALA"
+            },
+            {
+                "name": "73. UNDHIYU MASALA"
+            },
+            {
+                "name": "74. VADA PAV MASALA"
+            },
+            {
+                "name": "75. VAGHAR MASALA"
+            },
+            {
+                "name": "76. VEG. CURRY MASALA"
+            },
+            {
+                "name": "77. VEG. KADAI MASALA"
+            },
+            {
+                "name": "78. WHITE SAUCE WITH HERBS MIX"
             }
         ]
     },
     {
-        "image": "images/products/Bakery.jpg",
-        "product_name": "Bakery Products",
-        "details": [{"name":"1. BUTTER (BUN TOAST)",
-        "item":["- AJWAIN",
-        "- JEERA",
-        "- METHI"]},
-        {"name":"2. CAKERAS",
-        "item":["- PLAIN",
-        "- TUTIFRUTI"]},
-        {"name":"3. COOKIES",
-        "item":["- AJWAIN",
-        "- BADAM PISTA",
-        "- CASHEW",
-        "- CHOCOLATE",
-        "- CHOCOLATE CHIPS",
-        "- COCONUT",
-        "- FARALI",
-        "- FRUIT",
-        "-ITALIAN SWEET & SPICY"]},
-        {"name":"4. KHARI",
-        "item":["- JEERA",
-        "- MASALA",
-        "- MASKA",
-        "- METHI",
-        "- PLAIN",
-        "- RICH BUTTER",
-        "- SUGAR"]},
-        {"name":"5. MUNCH BITES",
-        "item":["- CHEESE GARLIC",
-        "- MEXICAN",
-        "- SCHEZWAN",
-        "- TOMATO"]},
-        {"name":"6. NANKHATAI",
-        "item":["- CHOCOLATE",
-        "- ELAICHI",
-        "- KESAR",
-        "- ORANGE",
-        "- PINEAPPLE",
-        "- PISTA ELAICHI"]},
-        {"name":"7. NUTRIBITE COOKIES -100% WHOLE WHEAT",
-        "item":["- CASHEW RAISIN",
-        "- CHOCO CHIPS",
-        "- PISTA BADAM",
-        "- ROYAL BUTTER"]},
-        {"name":"8. PREMIUM COOKIES",
-        "item":["- ALMOND & DATES",
-        "- BUTTER SCOTCH",
-        "- CASHEW BUTTER",
-        "- CHOCO CHIPS",
-        "- CHOCONUTS",
-        "- COCONUT",
-        "- MUMBAI MAGIC",
-        "- PISTA BADAM"]},
-        {"name":"9. RUSK & TOST",
-        "item":["- BUTTER",
-        "- FRUIT",
-        "- HERBS & GARLIC",
-        "- JEERA",
-        "- KAJU",
-        "- MASALA",
-        "- METHI",
-        "- MILK",
-        "- PALAK",
-        "- PLAIN",
-        "- SOOJI",
-        "- SUGAR FREE"]},
-        {"name":"10. VANILLA CAKE RUSK (EGGLESS)",
-        "item":[]}]
+        "image": "images/products/Pulses.jpg",
+        "product_name": "Pulses & Grains",
+        "details": [
+            {
+              "name": "1. BARLEY"
+            },
+            {
+              "name": "2. BASMATI RICE",
+              "item": [
+                "- BROWN",
+                "- CLASSIC",
+                "- DUBAR",
+                "- FEAST ROZANA",
+                "- MOGRA",
+                "- MURMURA",
+                "- REGULAR",
+                "- ROZANA GOLD",
+                "- ROZANA SUPER",
+                "- SUPER",
+                "- TRADITIONAL"
+              ]
+            },
+            {
+              "name": "3. BLACK EYE BEAN"
+            },
+            {
+              "name": "4. CHANA DAL",
+              "item": [
+                "- BOLD",
+                "- REGULAR"
+              ]
+            },
+            {
+              "name": "5. CHICKPEAS",
+              "item": [
+                "- MACHINE CLEAN",
+                "- RAW",
+                "- SORTEX"
+              ]
+            },
+            {
+              "name": "6. JOWAR (SORGHUM)"
+            },
+            {
+              "name": "7. KABULI CHICKPEAS",
+              "item": [
+                "- 9 MM",
+                "- 12 MM"
+              ]
+            },
+            {
+              "name": "8. MUNG DAL",
+              "item": [
+                "- CHILKA",
+                "- YELLOW"
+              ]
+            },
+            {
+              "name": "9. MASOOR DAL"
+            },
+            {
+              "name": "10. MASOOR WHOLE"
+            },
+            {
+              "name": "11. MATH SUPER"
+            },
+            {
+              "name": "12. MUNG WHOLE",
+              "item": [
+                "- BOLD",
+                "- POLISH",
+                "- UNPOLISHED"
+              ]
+            },
+            {
+              "name": "13. RAGI"
+            },
+            {
+              "name": "14. RAJIGARA"
+            },
+            {
+              "name": "15. RAJMA"
+            },
+            {
+              "name": "16. TOOR DAL",
+              "item": [
+                "- OILY",
+                "- PLAIN"
+              ]
+            },
+            {
+              "name": "17. URAD DAL",
+              "item": [
+                "- BLACK",
+                "- WHITE (GOTA)"
+              ]
+            },
+            {
+              "name": "18. URAD WHOLE",
+              "item": [
+                "- BLACK",
+                "- WHITE (GOTA)"
+              ]
+            },
+            {
+              "name": "19. WHEAT"
+            }
+          ]
     },
+    
     {
         "image": "images/products/Beverages.jpg",
         "product_name": "Beverages",
-        "details": []
-    },
-    {
-        "image": "images/products/BlendedSpices.jpg",
-        "product_name": "Blended Spices",
-        "details": []
-    },
-    {
-        "image": "images/products/Condiments.jpg",
-        "product_name": "Condiments",
-        "details": []
-    },
-    {
-        "image": "images/products/Agarbatti.jpg",
-        "product_name": "Confectionary",
-        "details": []
-    },
-    {
-        "image": "images/products/Oils.jpg",
-        "product_name": "Edible Oils",
-        "details": []
-    },
-    {
-        "image": "images/products/Flours.jpg",
-        "product_name": "Flours",
-        "details": []
-    },
-    {
-        "image": "images/products/HealthySnacks.jpg",
-        "product_name": "Healthy Snacks",
-        "details": []
+        "details": [
+            {
+                "name": "1. ALMOND"
+            },
+            {
+                "name": "2. ALPHONSO MANGO"
+            },
+            {
+                "name": "3. BANANA SMOOTHIE"
+            },
+            {
+                "name": "4. BEETROOT CARROT"
+            },
+            {
+                "name": "5. BLACK JAMUN"
+            },
+            {
+                "name": "6. BUTTERSCOTCH"
+            },
+            {
+                "name": "7. CAFE MOCHA"
+            },
+            {
+                "name": "8. CAPPUCCINO"
+            },
+            {
+                "name": "9. CHOCO CRUNCH"
+            },
+            {
+                "name": "10. CHOCO FUDGE"
+            },
+            {
+                "name": "11. CHOCO MINT"
+            },
+            {
+                "name": "12. COLD COFFEE"
+            },
+            {
+                "name": "13. COOKIE & CREAM"
+            },
+            {
+                "name": "14. DARK CHOCOLATE"
+            },
+            {
+                "name": "15. DRY FRUIT MASALA"
+            },
+            {
+                "name": "16. FLAVOURED MILK",
+                "item": [
+                    "- ELAICHI",
+                    "- KESAR",
+                    "- KULFI",
+                    "- ROSE"
+                ]
+            },
+            {
+                "name": "17. FRENCH VANILLA SMOOTHIE"
+            },
+            {
+                "name": "18. GUAVA"
+            },
+            {
+                "name": "19. ICE TEA",
+                "list": [
+                    "- LEMON",
+                    "- PEACH"
+                ]
+            },
+            {
+                "name": "20. JEERA XTREME"
+            },
+            {
+                "name": "21. KASHMIRA JEERA"
+            },
+            {
+                "name": "22. LEMEE LEMON"
+            },
+            {
+                "name": "23. LEMEE ORANGE"
+            },
+            {
+                "name": "24. LYCHEE"
+            },
+            {
+                "name": "25. MANGO"
+            },
+            {
+                "name": "26. MIXED FRUIT"
+            },
+            {
+                "name": "27. OPENER SODA",
+                "item": [
+                    "- GINGER",
+                    "- GINGER ALE",
+                    "- ICECREAM",
+                    "- NIMBU",
+                    "- PINEAPPLE",
+                    "- RASPBERRY"
+                ]
+            },
+            {
+                "name": "28. ORANGE"
+            },
+            {
+                "name": "29. PEACH"
+            },
+            {
+                "name": "30. POMEGRANATE"
+            },
+            {
+                "name": "31. RAW MANGO"
+            },
+            {
+                "name": "32. ROSE"
+            },
+            {
+                "name": "33. RUNNER - ENERGY DRINK"
+            },
+            {
+                "name": "34. SHAHI GULKAND"
+            },
+            {
+                "name": "35. SODA (PLAIN)"
+            },
+            {
+                "name": "36. SOSYO",
+                "item": [
+                    "- BANANA",
+                    "- GUAVA",
+                    "- LEMON",
+                    "- LITCHI",
+                    "- MANGO",
+                    "- MIXED FRUIT",
+                    "- STRAWBERRY"
+                ]
+            },
+            {
+                "name": "37. THANDAI"
+            },
+            {
+                "name": "38. THICK MANGO DRINK"
+            },
+            {
+                "name": "39. TURMERIC LATTE"
+            }
+        ]
     },
     {
         "image": "images/products/Dessert.jpg",
-        "product_name": "Instant/Dessert Mix",
-        "details": []
+        "product_name": "Instant Mixes",
+        "details": [
+            {
+              "name": "1. LOCHO MIX"
+            },
+            {
+              "name": "2. BESAN LADOO MIX"
+            },
+            {
+              "name": "3. BASUNDI MIX"
+            },
+            {
+              "name": "4. BHAKHRI MIX"
+            },
+            {
+              "name": "5. DAHI VADA MIX"
+            },
+            {
+              "name": "6. DAKOR GOTA MIX"
+            },
+            {
+              "name": "7. DALWADA MIX"
+            },
+            {
+              "name": "8. DHOKLA MIX"
+            },
+            {
+              "name": "9. CHOCOLATE CAKE MIX"
+            },
+            {
+              "name": "10. COLD COCOA MIX"
+            },
+            {
+              "name": "11. DHOKLA MIX"
+            },
+            {
+              "name": "13. DOSA MIX"
+            },
+            {
+              "name": "14. EGGLESS CAKE MIX"
+            },
+            {
+              "name": "15. FALOODA MIX",
+              "item": [
+                "- BADAM PISTA",
+                "- BUTTERSCOTCH",
+                "- CHOCOLATE",
+                "- KESAR",
+                "- KESAR PISTA",
+                "- MANGO",
+                "- MILK SHAKE MIX",
+                "- PISTA",
+                "- RAJBHOG",
+                "- ROSE",
+                "- STRAWBERRY"
+              ]
+            },
+            {
+              "name": "16. FUDGE BROWNIE MIX"
+            },
+            {
+              "name": "17. GAJAR HALWA MIX"
+            },
+            {
+              "name": "18. GOTA MIX"
+            },
+            {
+              "name": "19. GULAB JAMUN MIX"
+            },
+            {
+              "name": "20. HANDVO MIX"
+            },
+            {
+              "name": "21. HOT CHOCOLATE MIX"
+            },
+            {
+              "name": "22. ICE CREAM MIX",
+              "item": [
+                "- BUTTERSCOTCH",
+                "- CHOCOLATE",
+                "- KESAR PISTA",
+                "- VENILLA"
+              ]
+            },
+            {
+              "name": "23. IDLI MIX"
+            },
+            {
+              "name": "24. KESAR HALWA MIX"
+            },
+            {
+              "name": "25. KHAMAN/KHAMANI MIX"
+            },
+            {
+              "name": "26. KHEER"
+            },
+            {
+              "name": "27. KHICHU MIX"
+            },
+            {
+              "name": "28. MEDU VADA"
+            },
+            {
+              "name": "29. METHI GOTA MIX"
+            },
+            {
+              "name": "30. MILK MASALA MIX"
+            },
+            {
+              "name": "31. MILK SHAKE MIX",
+              "item": [
+                "- CHOCOLATE",
+                "- MANGO",
+                "- ROSE",
+                "- STRAWBERRY"
+              ]
+            },
+            {
+              "name": "32. NYLON FAFDA"
+            },
+            {
+              "name": "33. NYLON KHAMAN"
+            },
+            {
+              "name": "34. PAKODA MIX"
+            },
+            {
+              "name": "35. PIZZA DOUGH MIX"
+            },
+            {
+              "name": "36. RAVA DOSA"
+            },
+            {
+              "name": "37. RAVA IDLI"
+            },
+            {
+              "name": "38. SAMBHAR MIX"
+            },
+            {
+              "name": "39. SHEER KHURMA MIX"
+            },
+            {
+              "name": "40. SOUP MIX",
+              "item": [
+                "- MUSHROOM",
+                "- SWEET CORN",
+                "- TOMATO",
+                "- VEGETABLE"
+              ]
+            },
+            {
+              "name": "41. SUKHDI POWDER"
+            },
+            {
+              "name": "42. SURTI DAL LOCHO"
+            },
+            {
+              "name": "43. UPMA MIX"
+            },
+            {
+              "name": "44. UTTAPAM MIX"
+            },
+            {
+              "name": "45. VADA MIX"
+            },
+            {
+              "name": "46. VANILLA CAKE MIX"
+            },
+            {
+              "name": "47. VANILLA COOKIE MIX"
+            },
+            {
+              "name": "48. VANILLA CREAM MUFFIN MIX"
+            },
+            {
+              "name": "49. VATI DAL KHAMAN MIX"
+            },
+            {
+              "name": "50. WHITE DHOKLA"
+            },
+            {
+              "name": "51. YELLOW DHOKLA"
+            }
+          ]
+    },
+        {
+        "image": "images/products/Flours.jpg",
+        "product_name": "Flours",
+        "details": [
+            {
+              "name": "1. ATTA CHAKKI FRESH"
+            },
+            {
+              "name": "2. BAJRI (MILLET)"
+            },
+            {
+              "name": "3. BESAN",
+              "item": [
+                "- COARSE",
+                "- FINE"
+              ]
+            },
+            {
+              "name": "4. FADA LAPSI",
+              "item": [
+                "- COARSE",
+                "- FINE"
+              ]
+            },
+            {
+              "name": "5. FARALI FLOUR"
+            },
+            {
+              "name": "6. HANDVO"
+            },
+            {
+              "name": "7. IDLI FLOUR",
+              "item": [
+                "- RAWA",
+                "- RICE"
+              ]
+            },
+            {
+              "name": "8. JAWAR (BARLEY)"
+            },
+            {
+              "name": "9. JOWAR (SORGHUM)"
+            },
+            {
+              "name": "10. MAGAZ FLOUR"
+            },
+            {
+              "name": "11. MAIDA FLOUR"
+            },
+            {
+              "name": "12. MAIZE FLOUR"
+            },
+            {
+              "name": "13. MULTI GRAIN ATTA"
+            },
+            {
+              "name": "14. ORGANIC ATTA"
+            },
+            {
+              "name": "15. RAGI"
+            },
+            {
+              "name": "16. RAJGIRA FLOUR"
+            },
+            {
+              "name": "17. RAWA"
+            },
+            {
+              "name": "18. RICE FLOUR",
+              "item": [
+                "- COARSE",
+                "- FINE"
+              ]
+            },
+            {
+              "name": "19. SINGODA (WATER CHESTNUT)"
+            },
+            {
+              "name": "20. SOOJI (SEMOLINA)",
+              "item": [
+                "- COARSE",
+                "- FINE"
+              ]
+            },
+            {
+              "name": "21. URAD",
+              "item": [
+                "- COARSE",
+                "- FINE"
+              ]
+            }
+          ]
     },
     {
-        "image": "images/products/Khakhra.jpg",
-        "product_name": "Khakhra",
-        "details": []
+        "image": "images/products/Sauces.jpg",
+        "product_name": "Sauces, Chutneys & Syrup",
+        "details": [
+            {
+              "name": "1. ACHARI SAUCE"
+            },
+            {
+              "name": "2. ALL IN ONE CHUTNEY"
+            },
+            {
+              "name": "3. ALPHONSO MANGO SQUASH"
+            },
+            {
+              "name": "4. AMBIENT DIPS",
+              "item": [
+                "- CHIPOTLE",
+                "- CHOCOLATE PEANUT BUTTER",
+                "- CREAMY HERB",
+                "- FIERY DESERT MUSTARD",
+                "- SPICY PEANUT BUTTER"
+              ]
+            },
+            {
+              "name": "5. AMLA MURABBA"
+            },
+            {
+              "name": "6. BHELPURI SAUCE"
+            },
+            {
+              "name": "7. BHUT SRIRACHA SAUCE"
+            },
+            {
+              "name": "8. BIRYANI PASTE"
+            },
+            {
+              "name": "9. CHILLI GARLIC SAUCE"
+            },
+            {
+              "name": "10. CHINESE SECRET SAUCE"
+            },
+            {
+              "name": "11. CHOW MEIN STIR FRY"
+            },
+            {
+              "name": "12. CORIANDER CHUTNEY"
+            },
+            {
+              "name": "13. DELHI CHAAT SAUCE"
+            },
+            {
+              "name": "14. GARLIC PASTE"
+            },
+            {
+              "name": "15. GINGER GARLIC PASTE"
+            },
+            {
+              "name": "16. GINGER PASTE"
+            },
+            {
+              "name": "17. GREEN CHILLI SAUCE"
+            },
+            {
+              "name": "18. GREEN CHUTNEY"
+            },
+            {
+              "name": "19. GREEN DAREDEVIL CHILLI SAUCE"
+            },
+            {
+              "name": "20. HONEY MUSTARD"
+            },
+            {
+              "name": "21. HOT & SWEET SAUCE"
+            },
+            {
+              "name": "22. HOT MANGO CHUTNEY"
+            },
+            {
+              "name": "23. JAM",
+              "item": [
+                "- MIXED FRUIT",
+                "- PINEAPPLE",
+                "- STRAWBERRY"
+              ]
+            },
+            {
+              "name": "24. JAM-E-SHIRIN SYRUP",
+              "item": [
+                "- KHUS",
+                "- ROSE",
+                "- SANDAL"
+              ]
+            },
+            {
+              "name": "25. KESAR SYRUP"
+            },
+            {
+              "name": "26. KHUS SYRUP"
+            },
+            {
+              "name": "27. KOLHAPURI THECHA"
+            },
+            {
+              "name": "28. MADRAS CURRY PASTE"
+            },
+            {
+              "name": "29. MAJOR GREY MANGO CHUTNEY"
+            },
+            {
+              "name": "30. MANDARIN SQUASH"
+            },
+            {
+              "name": "31. MAYONNAISE (EGGLESS)",
+              "item": [
+                "- ACHARI",
+                "- BARBEQUE",
+                "- GARLIC (AIOLI)",
+                "- ITALIAN HERB",
+                "- MINT",
+                "- PREMIUM VEG",
+                "- SRIRACHA",
+                "- TANDOORI",
+                "- WASABI"
+              ]
+            },
+            {
+              "name": "32. MEXICAN SALSA"
+            },
+            {
+              "name": "33. MINT CHUTNEY"
+            },
+            {
+              "name": "34. MINT CILANTRO"
+            },
+            {
+              "name": "35. MUSK MELON SQUASH"
+            },
+            {
+              "name": "36. PANIPURI PASTE"
+            },
+            {
+              "name": "37. PERI PERI KETCHUP"
+            },
+            {
+              "name": "38. PIZZA N PASTA SAUCE"
+            },
+            {
+              "name": "39. RED CHILI SAUCE"
+            },
+            {
+              "name": "40. RED CHILLI -GARLIC SAUCE"
+            },
+            {
+              "name": "41. ROSE SYRUP"
+            },
+            {
+              "name": "42. SANDWICH SPREAD"
+            },
+            {
+              "name": "43. SAMOSA CHUTNEY"
+            },
+            {
+              "name": "44. SCHEZWAN CHILLI GARLIC SAUCE"
+            },
+            {
+              "name": "45. SCHEZWAN CHUTNEY"
+            },
+            {
+              "name": "46. SCHEZWAN SAUCE"
+            },
+            {
+              "name": "47. SOYA SAUCE"
+            },
+            {
+              "name": "48. SPICED MANGO"
+            },
+            {
+              "name": "49. SWEET CHILLI GARLIC SAUCE"
+            },
+            {
+              "name": "50. SWEET CHILLI SAUCE"
+            },
+            {
+              "name": "51. SWEET MANGO CHUTNEY"
+            },
+            {
+              "name": "52. TAMARIND CHUTNEY"
+            },
+            {
+              "name": "53. TAMARIND-DATE CHUTNEY"
+            },
+            {
+              "name": "54. TAMARIND PASTE"
+            },
+            {
+              "name": "55. TANDOORI PASTE"
+            },
+            {
+              "name": "56. TANDOORI SAUCE"
+            },
+            {
+              "name": "57. TANGY TAMARIND"
+            },
+            {
+              "name": "58. THOUSAND ISLAND SAUCE"
+            },
+            {
+              "name": "59. TIKKA PASTE"
+            },
+            {
+              "name": "60. TOMATO KETCHUP (J)"
+            },
+            {
+              "name": "61. VINDALOO PASTE"
+            }
+          ]
     },
     {
-        "image": "images/products/Miscellaneous.jpg",
-        "product_name": "Miscellaneous",
-        "details": []
-    },
-    {
-        "image": "images/products/Mukhwas.jpg",
-        "product_name": "Mukhwas",
-        "details": []
-    },
-    {
-        "image": "images/products/Papad.jpg",
-        "product_name": "Papad",
+        "image": "",
+        "product_name": "RTE Foods",
         "details": []
     },
     {
         "image": "images/products/Pickles.jpg",
         "product_name": "Pickles",
-        "details": []
+        "details": [
+            {
+              "name": "1. AMLA"
+            },
+            {
+              "name": "2. ANDHRA AVAKAYA MANGO"
+            },
+            {
+              "name": "3. ANDHRA GONGURA"
+            },
+            {
+              "name": "4. ANDHRA LIME"
+            },
+            {
+              "name": "5. ANDHRA TOMATO"
+            },
+            {
+              "name": "6. ANDHRA GINGER"
+            },
+            {
+              "name": "7. BENGALI MANGO"
+            },
+            {
+              "name": "8. BENGALI MIXED"
+            },
+            {
+              "name": "9. BRINJAL"
+            },
+            {
+              "name": "10. CARROT"
+            },
+            {
+              "name": "11. CARROT & CHILLY"
+            },
+            {
+              "name": "12. CHANA METHI KERI"
+            },
+            {
+              "name": "13. CUT MANGO (S.I.S.)"
+            },
+            {
+              "name": "14. DHABA MIX"
+            },
+            {
+              "name": "15. DRY FRUIT"
+            },
+            {
+              "name": "16. FENUGREEK"
+            },
+            {
+              "name": "17. GARLIC"
+            },
+            {
+              "name": "18. GINGER"
+            },
+            {
+              "name": "19. GOLKERI"
+            },
+            {
+              "name": "20. GREEN CHILLY"
+            },
+            {
+              "name": "21. GREEN TOMATO"
+            },
+            {
+              "name": "22. GUJARATI METHIA MANGO"
+            },
+            {
+              "name": "23. GUNDA KERI"
+            },
+            {
+              "name": "24. KATHAL"
+            },
+            {
+              "name": "25. KER"
+            },
+            {
+              "name": "26. KERALA LIME"
+            },
+            {
+              "name": "27. KERALA MANGO"
+            },
+            {
+              "name": "28. KERALA VADU MANGO"
+            },
+            {
+              "name": "29. KHARAK"
+            },
+            {
+              "name": "30. KHATI KERI"
+            },
+            {
+              "name": "31. LEMON GINGER"
+            },
+            {
+              "name": "32. LEMON GREEN CHILLY"
+            },
+            {
+              "name": "33. LEMON SPICY"
+            },
+            {
+              "name": "34. LEMON SWEET"
+            },
+            {
+              "name": "35. MADRAS ONION"
+            },
+            {
+              "name": "36. MADRAS THOKKU"
+            },
+            {
+              "name": "37. MAHARASHTRA MANGO"
+            },
+            {
+              "name": "38. MANGO - HOT"
+            },
+            {
+              "name": "39. MANGO - MILD"
+            },
+            {
+              "name": "40. MANGO & CHILLY"
+            },
+            {
+              "name": "41. MANGO CHHUNDA"
+            },
+            {
+              "name": "42. MANGO GINGER"
+            },
+            {
+              "name": "43. MANGO MURABBA"
+            },
+            {
+              "name": "44. MANGO TADKA"
+            },
+            {
+              "name": "45. MASALA KERDA"
+            },
+            {
+              "name": "46. MIXED SWEET"
+            },
+            {
+              "name": "47. MIXED TADKA"
+            },
+            {
+              "name": "48. MIX PUNJABI"
+            },
+            {
+              "name": "49. PUNJABI PACHRANGA"
+            },
+            {
+              "name": "50. PUNJABI TEEKHA MANGO"
+            },
+            {
+              "name": "51. RAJASTHANI SWEET LIME"
+            },
+            {
+              "name": "52. RED CHILLI"
+            },
+            {
+              "name": "53. STUFFED RED CHILLI"
+            },
+            {
+              "name": "54. SWEET & SOUR LIME"
+            },
+            {
+              "name": "55. TURMERIC"
+            }
+          ]
     },
     {
-        "image": "images/products/Pulses.jpg",
-        "product_name": "Pulses & Grains",
-        "details": []
+        "image": "images/products/Condiments.jpg",
+        "product_name": "Condiments",
+        "details": [
+            {
+              "name": "1. AJI-NO-MORE"
+            },
+            {
+              "name": "2. APPLE CIDER VINEGAR"
+            },
+            {
+              "name": "3. BAKING POWDER"
+            },
+            {
+              "name": "4. BAKING SODA"
+            },
+            {
+              "name": "5. BASIL LEAVES"
+            },
+            {
+              "name": "6. CAKE SPRINKLES",
+              "item": [
+                "- CHOCOLATE",
+                "- MIX"
+              ]
+            },
+            {
+              "name": "7. CHEESE POWDER"
+            },
+            {
+              "name": "8. CHILI FLAKES"
+            },
+            {
+              "name": "9. CITRIC ACID"
+            },
+            {
+              "name": "10. C.M.C. POWDER"
+            },
+            {
+              "name": "11. COCOA POWDER"
+            },
+            {
+              "name": "12. COCONUT POWDER FINE"
+            },
+            {
+              "name": "13. CORN FLOUR"
+            },
+            {
+              "name": "14. CRACKED WHEAT"
+            },
+            {
+              "name": "15. CUSTARD POWDER"
+            },
+            {
+              "name": "16. FOOD COLOR POWDER"
+            },
+            {
+              "name": "17. FOOD COLOR ESSENCE"
+            },
+            {
+              "name": "18. GARLIC GRANULES"
+            },
+            {
+              "name": "19. GARLIC POWDER"
+            },
+            {
+              "name": "20. GLUCOSE D"
+            },
+            {
+              "name": "21. G.M.S. POWDER"
+            },
+            {
+              "name": "22. ICING SUGAR"
+            },
+            {
+              "name": "23. INSTANT DRY YEAST"
+            },
+            {
+              "name": "24. ITALIAN HERBS BLEND"
+            },
+            {
+              "name": "25. JELLY CRYSTAL"
+            },
+            {
+              "name": "26. LEMON POWDER"
+            },
+            {
+              "name": "27. MARJORAM LEAVES"
+            },
+            {
+              "name": "28. MINT FLEX"
+            },
+            {
+              "name": "29. MIXED HERBS"
+            },
+            {
+              "name": "30. MONOSODIUM GLUTAMATE"
+            },
+            {
+              "name": "31. NON DAIRY CREAMER"
+            },
+            {
+              "name": "32. ONION POWDER"
+            },
+            {
+              "name": "33. OREGANO"
+            },
+            {
+              "name": "34. PARSLEY LEAVES"
+            },
+            {
+              "name": "35. PRESERVATIVE"
+            },
+            {
+              "name": "36. PUDINA POWDER"
+            },
+            {
+              "name": "37. ROSEMARY LEAVES"
+            },
+            {
+              "name": "38. SOFT DRINK CONCENTRATE"
+            },
+            {
+              "name": "39. TAMARIND POWDER"
+            },
+            {
+              "name": "40. THYME"
+            },
+            {
+              "name": "41. TOMATO POWDER"
+            },
+            {
+              "name": "42. WHITE VINEGAR"
+            }
+          ]
     },
     {
-        "image": "images/products/Sauces.jpg",
-        "product_name": "Sauces, Chutneys & Syrup",
-        "details": []
-    },
-    {
-        "image": "images/products/Snacks.jpg",
-        "product_name": "Snacks",
-        "details": []
-    },
-    {
-        "image": "images/products/Spices.jpg",
-        "product_name": "Spices",
-        "details": []
-    },
-    {
-        "image": "images/products/Sweets.jpg",
-        "product_name": "Sweets",
+        "image": "images/products/Miscellaneous.jpg",
+        "product_name": "Miscellaneous",
+        "details": [
+            {
+              "name": "1. COFFEE",
+              "item": [
+                "- INSTANT COFFEE",
+                "- PREMIX"
+              ]
+            },
+            {
+              "name": "2. FAR FAR - BHINDI CUT"
+            },
+            {
+              "name": "3. FRIED ONION"
+            },
+            {
+              "name": "4. GREEN TEA",
+              "item": [
+                "- BASIL LEAVES",
+                "- CHAMOMILE FLOWERS",
+                "- HIBISCUS FLOWERS",
+                "- LEMONGRASS",
+                "- PEPPERMINT LEAVES",
+                "- ROSE PETALS"
+              ]
+            },
+            {
+              "name": "5. HAKKA NOODLES"
+            },
+            {
+              "name": "6. MAMRA",
+              "item": [
+                "- CORN",
+                "- KOLHAPURI",
+                "- REGULAR"
+              ]
+            },
+            {
+              "name": "7. MANGO PAPAD",
+              "item": [
+                "- BARFI",
+                "- SQUARE"
+              ]
+            },
+            {
+              "name": "8. MOONG WADI"
+            },
+            {
+              "name": "9. PAPAD KHARO"
+            },
+            {
+              "name": "10. PASTA",
+              "item": [
+                "- FUSILLI",
+                "- MACARONI",
+                "- PENNE",
+                "- SHELL",
+                "- SPIRAL",
+                "- SPIRAL MINI"
+              ]
+            },
+            {
+              "name": "11. PHOOL MAKHANA"
+            },
+            {
+              "name": "12. POHA",
+              "item": [
+                "- CORN",
+                "- DAGDI",
+                "- MEDIUM",
+                "- NYLON"
+              ]
+            },
+            {
+              "name": "13. RICE",
+              "item": [
+                "- BROWN",
+                "- JEERASAR"
+              ]
+            },
+            {
+              "name": "14. SAFFRON"
+            },
+            {
+              "name": "15. SOYA CHUNKS"
+            },
+            {
+              "name": "16. TAMARIND SLAB - SEEDLESS"
+            },
+            {
+              "name": "17. READY TO COOK",
+              "item": [
+                "- BURNT GARLIC RICE",
+                "- DALIYA UPMA -SCHEZWAN RICE",
+                "- TAWA PULAV"
+              ]
+            },
+            {
+              "name": "18. READY TO EAT",
+              "item": [
+                "- AMBAWADI TAWA FRY",
+                "- BOMBAY BHEL",
+                "- BUTTER MASALA GRAVY",
+                "- HYDERABADI DUM BIRYANI",
+                "- INSTANT POHA",
+                "- INSTANT UPMA",
+                "- MUGHLAI MASALA",
+                "- SMOKED GRAVY",
+                "- SURPRISE MASALA"
+              ]
+            },
+            {
+              "name": "19. TEA",
+              "item": [
+                "- AMAR LEAF",
+                "- DARJEELING LEAF",
+                "- GREEN LEAF",
+                "- MASALA LEAF",
+                "- PREMIUM LEAF"
+              ]
+            },
+            {
+              "name": "20. TEA PREMIX",
+              "item": [
+                "- ELAICHI",
+                "- GINGER",
+                "- LEMONGRASS",
+                "- MASALA"
+              ]
+            },
+            {
+              "name": "21. VERMICELLI"
+            }
+          ]
+    },{
+        "image": "",
+        "product_name": "Tea & Coffee",
         "details": []
     }
+
+  
 ]
+
+
