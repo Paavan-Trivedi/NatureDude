@@ -3,30 +3,28 @@ import emailjs from "@emailjs/browser";
 import { useFormik } from "formik";
 import * as Yup from "yup";
 import Layout from "../Layout/Layout";
+import ButtonComp from "../ButtonComp";
+import { useNavigate } from "react-router-dom";
 
 const ContactUs = () => {
   const formRef = useRef();
+  const navigate = useNavigate();
   const productNames = [
-    "Agarbatti",
-    "Bakery Products",
-    "Beverages",
-    "Blended Spices",
-    "Condiments",
-    "Confectionary",
-    "Edible Oils",
-    "Flours",
-    "Healthy Snacks",
-    "Instant/Dessert Mix",
-    "Khakhra",
-    "Miscellaneous",
-    "Mukhwas",
-    "Papad",
-    "Pickles",
-    "Pulses & Grains",
-    "Sauces, Chutneys & Syrup",
     "Snacks",
     "Spices",
-    "Sweets",
+    "Edible Oils",
+    "Baked Goods",
+    "Blended Spices",
+    "Pulses & Grains",
+    "Beverages",
+    "Instant Mixes",
+    "Flours",
+    "Sauces & Syrups",
+    "RTE Foods",
+    "Pickles",
+    "Condiments",
+    "Miscellaneous",
+    "Tea & Coffee",
   ];
 
   const validationSchema = Yup.object().shape({
@@ -68,6 +66,7 @@ const ContactUs = () => {
         // setLoading(false)
         // toast.success("Email sent successfully!");
         formik.resetForm();
+        navigate("/");
       } catch (error) {
         // setLoading(false)
         console.log("FAILED...", error);
@@ -95,156 +94,176 @@ const ContactUs = () => {
 
   return (
     <Layout>
-      <div className="max-w-md mx-auto mt-8">
+      <div
+        style={{
+          backgroundImage: "url(images/ContactUs/ContactUsBG.jpg)",
+          backgroundSize: "contain",
+        }}
+        className="w-[100%] flex  justify-center items-center "
+      >
         <form
           onSubmit={formik.handleSubmit}
           ref={formRef}
-          className="bg-white  p-6 rounded shadow-md"
+          className="bg-[rgba(255,255,255,0.6)] backdrop-blur-[3px] w-[100%] flex flex-col  justify-center items-center  p-6 rounded shadow-md"
         >
-          <label className="block mb-2 text-sm font-bold text-[#7DAF19]">
-            Your Name:
-          </label>
-          <input
-            type="text"
-            name="name"
-            value={formik.values.name}
-            onChange={handleChange}
-            className="w-full p-2 border-b-[#4C180A] border-b-2 outline-none  rounded"
-            required
-          />
-
-          <label className="block mt-4 mb-2 text-sm font-bold text-[#7DAF19]">
-            Your Address:
-          </label>
-          <input
-            type="text"
-            name="address"
-            value={formik.values.address}
-            onChange={handleChange}
-            className="w-full p-2 border-b-[#4C180A] border-b-2 outline-none rounded"
-          />
-
-          <label className="block mt-4 mb-2 text-sm font-bold text-[#7DAF19]">
-            City & Province:
-          </label>
-          <input
-            type="text"
-            name="cityProvince"
-            value={formik.values.cityProvince}
-            onChange={handleChange}
-            className="w-full p-2 border-b-[#4C180A] border-b-2 outline-none rounded"
-          />
-
-          <label className="block mt-4 mb-2 text-sm font-bold text-[#7DAF19]">
-            Country:
-          </label>
-          <input
-            type="text"
-            name="country"
-            value={formik.values.country}
-            onChange={handleChange}
-            className="w-full p-2 border-b-[#4C180A] border-b-2 outline-none rounded"
-          />
-
-          <label className="block mt-4 mb-2 text-sm font-bold text-[#7DAF19]">
-            Your Phone no.:
-          </label>
-          <input
-            type="tel"
-            name="phone"
-            value={formik.values.phone}
-            onChange={handleChange}
-            className="w-full p-2 border-b-[#4C180A] border-b-2 rounded outline-none"
-          />
-
-          <label className="block mt-4 mb-2 text-sm font-bold text-[#7DAF19]">
-            Your Email:
-          </label>
-          <input
-            type="email"
-            name="email"
-            value={formik.values.email}
-            onChange={handleChange}
-            className="w-full p-2 border-b-[#4C180A] border-b-2 outline-none rounded"
-            required
-          />
-
-          <label className="block mt-4 mb-2 text-sm font-bold text-[#7DAF19]">
-            I Am (Identity Who you are)
-          </label>
-          <div className="flex items-center">
-            <label className="inline-flex items-center">
-              <input
-                type="radio"
-                name="identity"
-                value="Consumer"
-                checked={formik.values.identity === "Consumer"}
-                onChange={handleChange}
-                className="form-radio h-5 w-5 text-blue-500"
-              />
-              <span className="ml-2">Consumer</span>
+          <div className="flex">
+            <label className="block w-[200px] mb-2 text-base font-bold text-[#566B30]">
+              Your Name:
             </label>
-
-            <label className="inline-flex items-center ml-6">
-              <input
-                type="radio"
-                name="identity"
-                value="Retailer"
-                checked={formik.values.identity === "Retailer"}
-                onChange={handleChange}
-                className="form-radio h-5 w-5 text-blue-500"
-              />
-              <span className="ml-2">Retailer</span>
-            </label>
-
-            <label className="inline-flex items-center ml-6">
-              <input
-                type="radio"
-                name="identity"
-                value="Supplier"
-                checked={formik.values.identity === "Supplier"}
-                onChange={handleChange}
-                className="form-radio h-5 w-5 text-blue-500"
-              />
-              <span className="ml-2">Supplier</span>
-            </label>
+            <input
+              type="text"
+              name="name"
+              value={formik.values.name}
+              onChange={handleChange}
+              className="w-[300px] p-2 bg-transparent border-b-[#4C180A] border-b-2 outline-none  rounded"
+              required
+            />
           </div>
 
-          <label className="block mt-4 mb-2 text-sm font-bold text-[#7DAF19]">
-            Products Interested In
-          </label>
-          <div className="flex flex-col">
-            {productNames.map((productName, index) => (
-              <label key={index} className="inline-flex items-center mt-2">
+          <div className="flex">
+            <label className="block w-[200px] mt-4 mb-2 text-base font-bold text-[#566B30]">
+              Your Address:
+            </label>
+            <input
+              type="text"
+              name="address"
+              value={formik.values.address}
+              onChange={handleChange}
+              className="w-[300px] p-2 bg-transparent border-b-[#4C180A] border-b-2 outline-none rounded"
+            />
+          </div>
+
+          <div className="flex">
+            <label className="block w-[200px] mt-4 mb-2 text-base font-bold text-[#566B30]">
+              City & Province:
+            </label>
+            <input
+              type="text"
+              name="cityProvince"
+              value={formik.values.cityProvince}
+              onChange={handleChange}
+              className="w-[300px] p-2 bg-transparent border-b-[#4C180A] border-b-2 outline-none rounded"
+            />
+          </div>
+
+          <div className="flex">
+            <label className="block w-[200px] mt-4 mb-2 text-base font-bold text-[#566B30]">
+              Country:
+            </label>
+            <input
+              type="text"
+              name="country"
+              value={formik.values.country}
+              onChange={handleChange}
+              className="w-[300px] p-2 bg-transparent border-b-[#4C180A] border-b-2 outline-none rounded"
+            />
+          </div>
+
+          <div className="flex">
+            <label className="block w-[200px] mt-4 mb-2 text-base font-bold text-[#566B30]">
+              Your Phone no.:
+            </label>
+            <input
+              type="tel"
+              name="phone"
+              value={formik.values.phone}
+              onChange={handleChange}
+              className="w-[300px] p-2 bg-transparent border-b-[#4C180A] border-b-2 rounded outline-none"
+            />
+          </div>
+
+          <div className="flex">
+            <label className="block w-[200px] mt-4 mb-2 text-base font-bold text-[#566B30]">
+              Your Email:
+            </label>
+            <input
+              type="email"
+              name="email"
+              value={formik.values.email}
+              onChange={handleChange}
+              className="w-[300px] p-2 bg-transparent border-b-[#4C180A] border-b-2 outline-none rounded"
+              required
+            />
+          </div>
+
+          <div className="flex">
+            <label className="block w-[200px] mt-4 mb-2 text-base font-bold text-[#566B30]">
+              I Am (Identity Who you are)
+            </label>
+            <div className="flex items-center">
+              <label className="inline-flex items-center">
                 <input
-                  type="checkbox"
-                  name="products"
-                  value={productName}
-                  checked={formik.values.products.includes(productName)}
-                  onChange={() => handleCheckboxChange(productName)}
-                  className="form-checkbox h-5 w-5 text-blue-500"
+                  type="radio"
+                  name="identity"
+                  value="Consumer"
+                  checked={formik.values.identity === "Consumer"}
+                  onChange={handleChange}
+                  className="form-radio  h-5 w-5 text-blue-500"
                 />
-                <span className="ml-2">{productName}</span>
+                <span className="ml-2">Importer</span>
               </label>
-            ))}
+
+              <label className="inline-flex items-center ml-6">
+                <input
+                  type="radio"
+                  name="identity"
+                  value="Retailer"
+                  checked={formik.values.identity === "Retailer"}
+                  onChange={handleChange}
+                  className="form-radio h-5 w-5 text-blue-500"
+                />
+                <span className="ml-2">Supermarkets</span>
+              </label>
+
+              <label className="inline-flex items-center ml-6">
+                <input
+                  type="radio"
+                  name="identity"
+                  value="Supplier"
+                  checked={formik.values.identity === "Supplier"}
+                  onChange={handleChange}
+                  className="form-radio h-5 w-5 text-blue-500"
+                />
+                <span className="ml-2">Supplier</span>
+              </label>
+            </div>
           </div>
 
-          <label className="block mt-4 mb-2 text-sm font-bold text-[#7DAF19]">
-            Your Comments
-          </label>
-          <textarea
-            name="comments"
-            value={formik.values.comments}
-            onChange={handleChange}
-            className="w-full p-2 border rounded"
-          />
+          <div className="flex">
+            <label className="block w-[200px] mt-4 mb-2 text-base font-bold text-[#566B30]">
+              Products Interested In:
+            </label>
+            <div className="grid grid-cols-3 gap-3 px-3 py-3">
+              {productNames.map((productName, index) => (
+                <label key={index} className="inline-flex items-center mt-2">
+                  <input
+                    type="checkbox"
+                    name="products"
+                    value={productName}
+                    checked={formik.values.products.includes(productName)}
+                    onChange={() => handleCheckboxChange(productName)}
+                    className=" bg-transparent h-5 w-5 text-blue-500"
+                  />
+                  <span className="ml-2">{productName}</span>
+                </label>
+              ))}
+            </div>
+          </div>
 
-          <button
-            type="submit"
-            className="mt-4 bg-blue-500 text-white p-2 rounded"
-          >
-            Submit
-          </button>
+          <div className="flex">
+            <label className="block w-[200px] mt-4 mb-2 text-base font-bold text-[#566B30]">
+              Your Comments:
+            </label>
+            <textarea
+              name="comments"
+              value={formik.values.comments}
+              onChange={handleChange}
+              className="w-[300px] bg-transparent p-2 border-b-[#4C180A] border-b-2 rounded"
+            />
+          </div>
+          <div className="flex py-4 justify-center items-center">
+            <ButtonComp onClick={formik.handleSubmit} Bname={"Submit"} />
+          </div>
         </form>
       </div>
     </Layout>
