@@ -30,7 +30,7 @@ const About = () => {
       <div className="flex flex-col poppins py-5 justify-center items-center">
         <div className="flex flex-col   border-4 border-r-lime-800 border-b-lime-800 border-l-amber-950 border-t-amber-950 rounded-3xl shadow-2xl   w-[90%] h-[470px]  ">
           <div className="flex justify-center items-center">
-            <h1 className="text-lime-800">About Us</h1>
+            <h1 className="text-[#7DAF19]">About Us</h1>
           </div>
 
           <div className=" flex justify-between p-4  items-center">
@@ -38,7 +38,7 @@ const About = () => {
               <img src={ExportProductsImg} alt="" />
             </div>
             <div className="w-[400px]  relative h-[350px]  flex flex-col justify-center items-center">
-              <h3 className="text-left w-[370px] text-amber-950 ">
+              <h3 className="text-left w-[370px] text-[#674422] ">
                 Welcome to Nature Dude
               </h3>
               <p className="w-[370px]">
@@ -56,7 +56,7 @@ const About = () => {
           </div>
         </div>
         <div className="w-[80%] py-5 px-5">
-          <p className="font-bold text-4xl">
+          <p className="font-bold text-[#7DAF19] text-4xl">
             Why Choose Nature Dude for Your Global Trade Endeavors?
           </p>
           <p className="text-lg w-[90%]">
@@ -79,7 +79,7 @@ const About = () => {
             <div className="flex flex-col justify-between  w-[400px] h-[500px] border-4 border-lime-800 border-tl rounded-tr-[100px] rounded-bl-[100px] border-dashed">
               <div className="w-[150px] bg-transparent absolute  h-[150px] border-l-amber-950 border-t-amber-950 border-t-[15px] border-l-[15px]"></div>
               <div className="flex pt-5 justify-center items-center">
-                <h4 className="text-lime-800">{item.title}</h4>
+                <h4 className="text-[#7DAF19]">{item.title}</h4>
               </div>
 
               <div className=" flex justify-center items-center">

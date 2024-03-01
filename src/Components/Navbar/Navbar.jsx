@@ -29,9 +29,24 @@ const Navbar = () => {
 
   return (
     <div className=" poppins bg-[#DDB88C] lg:h-[100vh] lg:w-[25%] md:h-[10vh] md:w-[100%] h-[10vh] w-[100%] lg:block md:flex flex justify-content-between align-items-center fixed lg:overflow-y-auto scroll-smooth overflow-visible z-[99]">
-      <div className="  border-b-4 border-[#566B30]   lg:block hidden pb-0  ">
-        <img src="/images/logo.png" className=" h-[20vh]" alt="logo"></img>
+      <div>
+        <div className=" mt-4 flex flex-col  justify-center items-center w-full   border-b-4 border-[#566B30]  pb-0  ">
+          <div className="flex flex-col justify-center items-center w-full gap-4">
+            <img
+              src="/images/Footer/FooterLogo.png"
+              className=" h-[14vh]"
+              alt="logo"
+            ></img>
+            <div className="flex text-4xl">
+              <span className="poppinsBold text-[#674422]">NATURE</span>
+              <span className="poppinsBold text-[#7DAF19] ">DUDE</span>
+            </div>
+          </div>
+
+          <p className="text-[#674422]">FMCG Exportized</p>
+        </div>
       </div>
+
       <div className="  lg:pb-10 pb-0 lg:hidden md:block block ">
         <img src="/images/logo.png" className=" h-[10vh]" alt="logo"></img>
       </div>

@@ -124,7 +124,7 @@ export const ProductSlider = () => {
   const [spp, setSpp] = useState(1);
   return (
     <div className="my-16">
-      <h2 className="text-[#566B30] mb-5 text-center">Our Products</h2>
+      <h2 className="text-[#7DAF19] mb-5 text-center">Our Products</h2>
       <div className="lg:hidden md:hidden block">
         {" "}
         {/* Render only on small screens */}
@@ -167,8 +167,8 @@ export const ProductSlider = () => {
                   src={item.image}
                   alt={item.product_name}
                 />
-                <div className="text-center">
-                  <h3>{item.product_name}</h3>
+                <div className="  text-center">
+                  <h3 className="text-[#674422]">{item.product_name}</h3>
                 </div>
               </div>
             </SwiperSlide>
@@ -234,7 +234,7 @@ export const TestimonialsSlider = () => {
 
   return (
     <div className="poppins my-16 ">
-      <h2 className=" text-[#566B30] mb-5  text-center">Testimonials</h2>
+      <h2 className=" text-[#7DAF19] mb-5  text-center">Testimonials</h2>
       <Swiper
         // install Swiper modules
         // effect={'coverflow'}
@@ -295,7 +295,7 @@ export const TestimonialsSlider = () => {
 export const CertificationsSlider = () => {
   return (
     <div className="my-16 ">
-      <h2 className=" text-[#566B30] mb-5 text-center">Certifications</h2>
+      <h2 className=" text-[#7DAF19] mb-5 text-center">Certifications</h2>
       <Swiper
         // install Swiper modules
         // effect={'coverflow'}
