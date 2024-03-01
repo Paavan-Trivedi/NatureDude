@@ -163,6 +163,12 @@ body{
   font-family: "Poppins", sans-serif; 
 }
 
+.poppinsBold{
+  font-family: "Poppins", sans-serif; 
+  font-weight: 800;
+  font-style: normal;
+}
+
 @media only screen and (max-width: 720px) {
   .swiperslide:after {
     width: 250px; height: 250px;

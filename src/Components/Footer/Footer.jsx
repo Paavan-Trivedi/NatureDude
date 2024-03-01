@@ -13,14 +13,14 @@ const Footer = () => {
   const CurrentYear = new Date().getFullYear();
   return (
     <>
-      <div className=" row poppins justify-center items-center  border border-b border-[white] w-[100%] bg-black py-4 m-0">
+      <div className=" row poppins justify-center items-center  border border-b border-[white] w-[100%] bg-[#674422] py-4 m-0">
         <div className=" col-lg-4 col-md-4 col-12 align-self-start  flex flex-col justify-center align-items-center gap-6 ">
           <img
-            className=" h-[200px] w-[200px]"
-            src="/images/Footer/FooterLogo.png"
+            className=" h-[150px] w-[150px]"
+            src="/images/Footer/FooterBack.png"
             alt=""
           />
-          <div className="flex  gap-4 text-[#4C180A] py-2">
+          <div className="flex  gap-4 text-xl text-[#4C180A] py-2">
             <a href="#" className="text-[#7DAF19]" target="_blank">
               <FontAwesomeIcon icon={faFacebookF}></FontAwesomeIcon>
             </a>

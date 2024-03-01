@@ -13,7 +13,7 @@ const Home = () => {
     <Layout>
       <Slider></Slider>
       <div className=" poppins my-16">
-        <h2 className=" text-[#566B30] text-center mb-5">Service Capability</h2>
+        <h2 className=" text-[#7DAF19] text-center mb-5">Service Capability</h2>
         <div className=" flex flex-wrap justify-content-center align-items-center gap-3 ">
           {Service &&
             Service.map((item, index) => (
@@ -41,7 +41,7 @@ const Home = () => {
 
             <div>
               <h3 className=" text-center">Sincerity</h3>
-              <p className="   text-center">
+              <p className="  text-[#674422] text-center">
                 Sincerity & seriousness is our major philosophy. We deliver what
                 we promise - with superior assistance & meet deadlines in the
                 stipulated time.
@@ -58,7 +58,7 @@ const Home = () => {
 
             <div>
               <h3 className=" text-center">Customer Centric Approach</h3>
-              <p className=" text-center">
+              <p className=" text-[#674422] text-center">
                 We help our clientele to improve their competitiveness in the
                 global trade markets, to enhance the quality of products thanks
                 to local culture and experience.
@@ -75,7 +75,7 @@ const Home = () => {
 
             <div>
               <h3 className=" text-center">Commitment</h3>
-              <p className=" text-center">
+              <p className=" text-[#674422] text-center">
                 To establish & to continually develop human relationships aimed
                 to build accessible markets, safer & more open to cultural
                 exchange.
