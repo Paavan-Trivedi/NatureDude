@@ -9,6 +9,7 @@ import {
   EffectCube,
 } from "swiper/modules";
 import Products from "../../../Data/ProductData.json";
+import TestimonialsData from "../../../Data/Testimonials.json"
 
 import { Swiper, SwiperSlide } from "swiper/react";
 
@@ -19,6 +20,7 @@ import "swiper/css/effect-coverflow";
 import "swiper/css/pagination";
 import "swiper/css/effect-cube";
 import "swiper/css/scrollbar";
+import { useEffect, useState } from "react";
 
 export default () => {
   return (
@@ -45,7 +47,7 @@ export default () => {
         disableOnInteraction: false,
       }}
       A11y={true}
-      onSwiper={(swiper) => console.log(swiper)}
+      // onSwiper={(swiper) => console.log(swiper)}
       loop={true}
       className="h-[70vh] mb-5 bg-[]  "
       speed={1000}
@@ -117,12 +119,14 @@ export default () => {
 
 export const ProductSlider = () => {
   const Data = Products;
+
+  const [spp,setSpp]=useState(1)
   return (
-    <div className="my-16 ">
-      <h2 className=" text-[red] mb-5 text-center">Our Products</h2>
+    <div className="my-16">
+    <h2 className="text-red mb-5 text-center">Our Products</h2>
+    <div className="lg:hidden md:hidden block"> {/* Render only on small screens */}
       <Swiper
-        // install Swiper modules
-        effect={"coverflow"}
+        effect="coverflow"
         coverflowEffect={{
           rotate: 50,
           stretch: 0,
@@ -130,8 +134,89 @@ export const ProductSlider = () => {
           modifier: 1,
           slideShadows: true,
         }}
+        modules={[Navigation, Pagination, Scrollbar, A11y, Autoplay, EffectCoverflow]}
+        slidesPerView={1}
+        // onSlideChange={(swiper) => handleSlideChange(swiper)}
+        loop={true}
+        className="h-[50vh] w-[70%] mx-auto mb-5"
+        speed={1000}
+        autoplay={{
+          delay: 2000,
+          disableOnInteraction: false,
+        }}
+        loopPreventsSliding={true}
+      >
+        {Products.map((item, index) => (
+          <SwiperSlide key={index} className="h-full w-full bg-[#e6c4c4] border">
+            <div className="h-full w-[100%] m-0 p-0 row justify-content-center align-items-center bg-[#ffffff58] offset-10">
+              <img className="h-[80%] w-[30%] object-cover" src={item.image} alt={item.product_name} />
+              <div className="text-center">
+                <h3>{item.product_name}</h3>
+              </div>
+            </div>
+          </SwiperSlide>
+        ))}
+      </Swiper>
+    </div>
+    <div className="hidden lg:block md:block"> {/* Render only on medium and large screens */}
+      <Swiper
+        effect="coverflow"
+        coverflowEffect={{
+          rotate: 50,
+          stretch: 0,
+          depth: 100,
+          modifier: 1,
+          slideShadows: true,
+        }}
+        modules={[Navigation, Pagination, Scrollbar, A11y, Autoplay, EffectCoverflow]}
+        slidesPerView={3}
+        // onSlideChange={(swiper) => handleSlideChange(swiper)}
+        loop={true}
+        autoplay={{
+          delay: 2000,
+          disableOnInteraction: false,
+        }}
+        className="h-[70vh] w-[100%] mb-5"
+        speed={1000}
+        loopPreventsSliding={true}
+      >
+        {Products.map((item, index) => (
+          <SwiperSlide key={index} className="h-full w-full bg-[#e6c4c4] border">
+            <div className="h-full w-[100%] m-0 p-0 row justify-content-center align-items-center bg-[#ffffff58] offset-10">
+              <img className="h-[80%] w-[30%] object-cover" src={item.image} alt={item.product_name} />
+              <div className="text-center">
+                <h3>{item.product_name}</h3>
+              </div>
+            </div>
+          </SwiperSlide>
+        ))}
+      </Swiper>
+    </div>
+  </div>
+  );
+};
+
+export const TestimonialsSlider = () => {
+
+
+  const [widthscreen,setWidthScreen]=useState(screen.width)
+
+  
+  return (
+    <div className="my-16 ">
+      <h2 className=" text-[red] mb-5 text-center">Testimonials</h2>
+      <Swiper
+        // install Swiper modules
+        // effect={'coverflow'}
+        // coverflowEffect={{
+        //   rotate: 50,
+        //   stretch: 0,
+        //   depth: 100,
+        //   modifier: 1,
+        //   slideShadows: true,
+        // }}
         style={{
-          backgroundImage: "url(images/product-bg.png)",
+          // backgroundImage: "url(images/product-bg.png)",
           backgroundSize: "contain",
         }}
         modules={[
@@ -142,37 +227,44 @@ export const ProductSlider = () => {
           Autoplay,
           EffectCoverflow,
         ]}
-        // spaceBetween={50}
-        slidesPerView={3}
+        spaceBetween={50}
+        slidesPerView={1}
         // navigation
-        // autoplay={{
-        //   delay: 2000,
-        //   disableOnInteraction: false,
-        // }}
+        autoplay={{
+          delay: 2000,
+          disableOnInteraction: false,
+        }}
         A11y={true}
-        onSwiper={(swiper) => console.log(swiper)}
+        // onSwiper={(swiper) => console.log(swiper)}
         loop={true}
-        className="lg:h-[80vh] mb-5 "
+        className="h-[80vh] lg:w-[60%] md:w-[60%] w-[100%]  mb-5 bg-[] "
+        // lg:h-[80vh] md:h-[80vh] h-[25vh]
         speed={1000}
         loopPreventsSliding={true}
       >
-        {Data &&
-          Data.map((item, index) => (
-            <SwiperSlide
-              className=" h-full w-full bg-[#e6c4c4] border"
-              key={index}
-            >
-              <div className=" h-full w-[100%] m-0 p-0 row justify-content-center align-items-center bg-[#ffffff58] offset-10">
-                <img
-                  className="h-[80%] w-[30%]  object-cover "
-                  src={item.image}
-                ></img>
-                <div className=" text-center">
-                  <h3>{item.product_name}</h3>
-                </div>
-              </div>
-            </SwiperSlide>
-          ))}
+        {
+          TestimonialsData&&TestimonialsData.map((item,index)=>(
+            <SwiperSlide className="swiperslide h-full " key={index}>
+            <div className=" h-full w-[100%]  m-0 p-0 absolute row justify-content-center align-items-center  offset-10">
+              {/* <img
+                className="h-[80%] w-[30%]  object-contain "
+                src="images/fssai.avif"
+              ></img> */}
+              <p className=" ">
+                {item.review}
+              </p>
+              <h3 className=" absolute lg:right-[-8%] md:right-[-8%] right-[-2%] lg:bottom-[-40%] md:bottom-[-45%] bottom-[-45%] text-[#ddb88c]">
+  {item.name}
+  </h3>
+            </div>
+          </SwiperSlide>
+
+          ))
+
+        }
+       
+        
+       
       </Swiper>
     </div>
   );
@@ -207,12 +299,12 @@ export const CertificationsSlider = () => {
         // spaceBetween={50}
         slidesPerView={3}
         // navigation
-        // autoplay={{
-        //   delay: 2000,
-        //   disableOnInteraction: false,
-        // }}
+        autoplay={{
+          delay: 2000,
+          disableOnInteraction: false,
+        }}
         A11y={true}
-        onSwiper={(swiper) => console.log(swiper)}
+        // onSwiper={(swiper) => console.log(swiper)}
         loop={true}
         className="lg:h-[80vh] md:h-[80vh] h-[25vh]   mb-5 bg-[] "
         speed={1000}
