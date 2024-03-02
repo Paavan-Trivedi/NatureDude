@@ -11,6 +11,7 @@ import Blog from "./Components/Blog/Blog";
 import About from "./Components/About/About";
 import ContactUs from "./Components/ContactUs/ContactUs";
 import ProductRoute from "./Components/ProductRoutes/ProductRoute";
+import BlogsComponent from "./Components/BlogsComponent/BlogsComponent";
 
 
 function App() {
@@ -22,6 +23,8 @@ function App() {
     <Route path="/Product" Component={Product}></Route>
     <Route path="/Product/:id" Component={ProductRoute}></Route>
     <Route path="/Blog" Component={Blog}></Route>
+    <Route path="/Blog/:id" Component={BlogsComponent}></Route>
+
     <Route path="/AboutUs" Component={About}></Route>
     <Route path="/ContactUs" Component={ContactUs}></Route>
 
