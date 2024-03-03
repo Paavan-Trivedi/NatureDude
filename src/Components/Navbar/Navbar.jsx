@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
@@ -27,14 +27,24 @@ const Navbar = () => {
     setShowDropdown(!showDropdown);
   };
 
+
+
+  useEffect(()=>{
+    if (toggle||showDropdown) {
+      document.body.style.overflow = 'hidden';
+    } else {
+      document.body.style.overflow = ''; 
+    }
+  },[toggle,showDropdown])
+
   return (
     <div className=" poppins bg-[#DDB88C] lg:h-[100vh] lg:w-[25%] md:h-[10vh] md:w-[100%] h-[10vh] w-[100%] lg:block md:flex flex justify-content-between align-items-center fixed lg:overflow-y-auto scroll-smooth overflow-visible z-[99]">
       <div>
-        <div className=" mt-4 flex flex-col  justify-center items-center w-full   border-b-4 border-[#566B30]  pb-0  ">
-          <div className="flex flex-col justify-center items-center w-full gap-4">
+        <div className=" lg:mt-4 md:mt-0 mt-0 flex flex-col  justify-center items-center w-full   lg:border-b-4 md:border-b-0 border-b-0 border-[#566B30]  pb-0  ">
+          <div className="flex lg:flex-col  justify-center items-center w-full lg:gap-4 md:gap-1 gap-1">
             <img
               src="/images/Footer/FooterLogo.png"
-              className=" h-[14vh]"
+              className=" lg:h-[14vh] md:h-[8vh] h-[8vh] "
               alt="logo"
             ></img>
             <div className="flex text-4xl">
@@ -43,13 +53,13 @@ const Navbar = () => {
             </div>
           </div>
 
-          <p className="text-[#674422]">FMCG Exportized</p>
+          <p className="text-[#674422] lg:block md:hidden hidden">FMCG Exportized</p>
         </div>
       </div>
 
-      <div className="  lg:pb-10 pb-0 lg:hidden md:block block ">
+      {/* <div className="  lg:pb-10 pb-0 lg:hidden md:block block ">
         <img src="/images/logo.png" className=" h-[10vh]" alt="logo"></img>
-      </div>
+      </div> */}
       <div className="  lg:hidden block px-4 relative z-1">
         <FontAwesomeIcon
           className=" text-[20px] "
@@ -97,7 +107,7 @@ const Navbar = () => {
                     <Link
                       key={index}
                       to={`/Product/${product.product_name}`}
-                      className=" p-2 ps-0 hover:text-[#b44343] "
+                      className="nav-link p-2 ps-0 hover:text-[#b44343] "
                     >
                       {product.product_name}
                     </Link>
@@ -169,7 +179,7 @@ const Navbar = () => {
             </Link>
             {showDropdown && (
               <div
-                className="absolute right-[-30px] top-4  h-[290px] overflow-x-auto mt-2 w-[200px]  p-2 bg-[#f7f2f2e6] backdrop:bg-transparent rounded shadow"
+                className="absolute right-[-30px] top-4  h-[245px] overflow-x-auto mt-2 w-[200px]  p-2 bg-[#f7f2f2e6] backdrop:bg-transparent rounded shadow"
                 style={{ scrollbarWidth: "none" }}
               >
                 {/* Your dropdown content here */}
