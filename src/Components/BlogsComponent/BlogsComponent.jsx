@@ -10,7 +10,7 @@ const BlogsComponent = () => {
   return (
     <Layout>
         <div>
-        <div className="w-full bg-[#DDB88C] h-[30vh] flex rounded justify-center align-items-center">
+        <div className="w-full bg-[#DDB88C] h-[30vh] flex rounded-b justify-center align-items-center">
          <div className=" text-center flex flex-col justify-center align-items-center">
           <h2 className="text-[#566B30] w-[30%] textellipsis text-center">{blogData.Title}</h2>
           <div className=" text-[#4C180A] flex"><Link className="nav-link " to="/">Home </Link> / <Link className="nav-link " to="/Blog">Blog</Link>/{params.id}</div>

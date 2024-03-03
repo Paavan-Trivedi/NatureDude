@@ -13,10 +13,14 @@ const ProductRoute = () => {
     }
   }, [params.id]); // Include params.id in the dependency array
 
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
     <Layout>
       <div>
-        <div className="w-full bg-[#DDB88C] h-[30vh] flex rounded justify-center align-items-center">
+        <div className="w-full bg-[#DDB88C] h-[30vh] flex rounded-b justify-center align-items-center">
          <div className=" text-center">
           <h2 className="text-[#566B30]">{params.id}</h2>
           <div className=" text-[#4C180A] flex"><Link className="nav-link " to="/">Home </Link> / <Link className="nav-link " to="/Product">Product</Link>/{params.id}</div>

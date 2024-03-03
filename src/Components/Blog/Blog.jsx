@@ -1,13 +1,16 @@
-import React from 'react'
-import Layout from '../Layout/Layout'
-import { Link } from 'react-router-dom'
-import BlogData from "../../Data/Blog.json"
-
+import React, { useEffect } from "react";
+import Layout from "../Layout/Layout";
+import { Link } from "react-router-dom";
+import BlogData from "../../Data/Blog.json";
 
 const Blog = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <Layout>
-      <div className="w-full bg-[#DDB88C] h-[30vh] flex rounded justify-center align-items-center">
+      <div>
+        <div className="w-full bg-[#DDB88C] h-[30vh] flex rounded-b justify-center align-items-center">
           <div className=" text-center flex flex-col justify-center align-items-center">
             <h2 className="text-[#566B30]">Blog</h2>
             <div className=" text-[#4C180A] flex">
@@ -15,27 +18,46 @@ const Blog = () => {
                 Home{" "}
               </Link>{" "}
               /{" "}
-              <Link className="nav-link " to="/Product">
+              <p className="nav-link " to="/Product">
                 Blog
-              </Link>
+              </p>
             </div>
           </div>
         </div>
-        <div className=' row align-items-center justify-center gap-[30px] mt-5 mb-5  '>
-          {
-            BlogData&&BlogData.map((item,index)=>(
-              <div key={item.id} className='h-[400px] w-[100%]  border col-lg-5 col-md-10 bg-[#DDB88C]'>
-                <img src='' className='  h-[50%]' alt={item.Title}></img>
-                <Link to={`/blog/${item.id}`} className=' nav-link text-[35px]  hover:text-[#566B30]'><h3>{item.Title}</h3></Link>
-                <p className='textellipsis'>{item.Description}</p>
-                <Link to={`/blog/${item.id}`} className=' nav-link text-[35px] text-end hover:text-[#566B30]'>Read More </Link>
+        <div className=" row blog-main align-items-center justify-center gap-[30px] mt-5  mb-5 ">
+          {BlogData &&
+            BlogData.map((item, index) => (
+              <div
+                key={item.id}
+                className="h-[500px]   border col-lg-5 col-md-6 col-sm-8 col-9 bg-[#DDB88C] p-2"
+              >
+                <img
+                  src="images/products/Bakery.jpg"
+                  className=" img-blog  h-[60%] w-[100%]"
+                  alt={item.Title}
+                ></img>
+
+                <Link
+                  to={`/blog/${item.id}`}
+                  className=" hover:text-[#566B30] text-[#4C180A] text-[16px] text-decoration-none"
+                >
+                  <h3>{item.Title}</h3>
+                </Link>
+                <p className="textellipsis">{item.Description}</p>
+                <Link
+                  to={`/blog/${item.id}`}
+                  className=" hover:text-[#566B30]  text-decoration-none text-[16px] flex justify-end text-end text-[#4C180A]"
+                >
+                  Read More{" "}
+                </Link>
               </div>
-            ))
-
-          }
+            ))}
+          
         </div>
+      
+      </div>
     </Layout>
-  )
-}
+  );
+};
 
-export default Blog
+export default Blog;

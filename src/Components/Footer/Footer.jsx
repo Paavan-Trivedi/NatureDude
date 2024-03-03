@@ -14,7 +14,7 @@ const Footer = () => {
   return (
     <>
       <div className=" row poppins justify-center items-center  border border-b border-[white] w-[100%] bg-[#674422] py-4 m-0">
-        <div className=" col-lg-4 col-md-4 col-12 align-self-start  flex flex-col justify-center align-items-center gap-6 ">
+        <div className=" col-lg-12 col-md-12 col-12 align-self-start  flex flex-col justify-center align-items-center gap-6 ">
           <img
             className=" h-[150px] w-[150px]"
             src="/images/Footer/FooterBack.png"
@@ -36,8 +36,8 @@ const Footer = () => {
             </a>
           </div>
         </div>
-        <div className="col-lg-8 col-md-8 col-12  row justify-center ">
-          <div className="col-6 ">
+        <div className="col-lg-12 col-md-12 col-12  row justify-center  ">
+          <div className="col-lg-3 col-md-6 col-sm-12  ">
             <h3 className="border-b-4 w-[150px] text-center border-[#7DAF19] text-white">
               About Us
             </h3>
@@ -46,7 +46,7 @@ const Footer = () => {
               Partner.
             </p>
           </div>
-          <div className="col-6">
+          <div className="col-lg-3 col-md-6 col-sm-12">
             <h3 className="border-b-4 w-[150px] text-center border-[#7DAF19] text-white">
               Address
             </h3>
@@ -67,7 +67,7 @@ const Footer = () => {
               </p>
             </div>
           </div>
-          <div className=" col-6">
+          <div className=" col-lg-3 col-md-6 col-sm-12">
             <h3 className="border-b-4 w-[150px] text-center border-[#7DAF19] text-white">
               Contact
             </h3>
@@ -104,8 +104,8 @@ const Footer = () => {
               </a>
             </div>
           </div>
-          <div className=" col-6">
-            <h3 className="border-b-4 text-center w-[150px] text-white border-[rgb(125,175,25)]">
+          <div className="col-lg-3 col-md-6 col-sm-12">
+            <h3 className="border-b-4 text-center w-[160px] text-white border-[rgb(125,175,25)]">
               Quick Links
             </h3>
             <ul className="list-none flex flex-col gap-2 text-white">
