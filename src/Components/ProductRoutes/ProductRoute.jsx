@@ -26,18 +26,16 @@ const ProductRoute = () => {
           <div className=" text-[#4C180A] flex"><Link className="nav-link " to="/">Home </Link> / <Link className="nav-link " to="/Product">Product</Link>/{params.id}</div>
          </div>
         </div>
-        <div className="w-[100%] row p-3 border-dashed border-[#566B30]">
+        <div className="w-[100%] flex flex-wrap justify-center gap-3 p-1 mt-2  ">
           {productData && productData[0].details.map((item,index)=>(
         
-              <dl key={index} className=" col-4">
-                <dt className=" list-decimal  text-pretty"> {item.name}</dt>
-                {item.item&&
+              <div key={index} className="  h-[200px] relative w-[270px] mb-2 bg-gradient-to-b from-[#4C180A] to-[#DDB88C]  rounded flex flex-col gap-4 justify-center align-items-center  border-[3px] border-[#4C180A]  mt-[100px]">
+                <img src={item.image} alt={item.name} className="h-[200px] w-[200px] rounded-[50%]  border-[3px]  border-[#DDB88C]  bg-[#4C180A] object-contain absolute top-[-50%] "></img>
+
+                <h3 className="list-decimal text-center text-pretty underline absolute bottom-5 text-[#4C180A] overflow-hidden whitespace-normal w-[270px]">{item.name}</h3>          
                 
-                item.item?.map((item,index)=>(
-                  <dd className=" ms-3" key={index}>{item}</dd>
-                ))
-                }
-              </dl>
+             
+              </div>
          
           ))}
         </div>
