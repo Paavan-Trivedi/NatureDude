@@ -31,7 +31,7 @@
         .profile-card:hover{
             border-radius: 10px;
             height: 360px;
-            background-color: #DDB88C;
+            background-color: #FAEADD;
         }
         .profile-card .img{
             position: relative;

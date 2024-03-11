@@ -4,7 +4,7 @@ import { useFormik } from "formik";
 import * as Yup from "yup";
 import Layout from "../Layout/Layout";
 import ButtonComp from "../ButtonComp";
-import { useNavigate } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 
 const ContactUs = () => {
   const formRef = useRef();
@@ -29,6 +29,7 @@ const ContactUs = () => {
 
   const validationSchema = Yup.object().shape({
     name: Yup.string().required("Your Name is required"),
+    company: Yup.string().required("Your Company Name is required"),
     address: Yup.string(),
     cityProvince: Yup.string(),
     country: Yup.string(),
@@ -42,6 +43,7 @@ const ContactUs = () => {
   const formik = useFormik({
     initialValues: {
       name: "",
+      company: "",
       address: "",
       cityProvince: "",
       country: "",
@@ -99,8 +101,22 @@ const ContactUs = () => {
           backgroundImage: "url(images/ContactUs/ContactUsBG.jpg)",
           backgroundSize: "contain",
         }}
-        className="w-[100%] flex poppins justify-center items-center "
+        className="w-[100%] flex flex-col poppins justify-center items-center "
       >
+        <div className="w-full bg-[#FAEADD] h-[30vh] flex rounded-b justify-center align-items-center">
+          <div className=" text-center flex flex-col justify-center align-items-center">
+            <h2 className="text-[#7DAF19]">Contact Us</h2>
+            <div className=" text-[#4C180A] flex">
+              <Link className="nav-link " to="/">
+                Home{" "}
+              </Link>{" "}
+              /{" "}
+              <p className="nav-link " to="/WhyUs">
+                Contact Us
+              </p>
+            </div>
+          </div>
+        </div>
         <form
           onSubmit={formik.handleSubmit}
           ref={formRef}
@@ -116,6 +132,20 @@ const ContactUs = () => {
               value={formik.values.name}
               onChange={handleChange}
               className="w-[300px] p-2 bg-transparent border-b-[#4C180A] border-b-2 outline-none  rounded"
+              required
+            />
+          </div>
+
+          <div className="flex">
+            <label className="block mt-3 w-[200px] mb-2 text-base font-bold text-[#566B30]">
+              Your Company Name:
+            </label>
+            <input
+              type="text"
+              name="company"
+              value={formik.values.company}
+              onChange={handleChange}
+              className="w-[300px] h-[56px] p-2 bg-transparent border-b-[#4C180A] border-b-2 outline-none  rounded"
               required
             />
           </div>

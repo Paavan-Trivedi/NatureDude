@@ -2,6 +2,7 @@ import React from "react";
 import Layout from "../Layout/Layout";
 import ExportProductsImg from "../../assets/deliverytruck.jpg";
 import "./About.css";
+import { Link } from "react-router-dom";
 const About = () => {
   const AboutData = [
     {
@@ -23,14 +24,22 @@ const About = () => {
 
   return (
     <Layout>
-      <div class="flex flex-col poppins py-5 justify-center items-center">
-        <div class="xl:flex md:flex-col lg:flex flex-col  border-4 border-r-lime-800 border-b-lime-800 border-l-amber-950 border-t-amber-950 rounded-3xl shadow-2xl   md:w-[90%] lg:w-[80%] xl:w-[90%]  md:h-[500px] lg:h-[550px] xl:h-[500px] w-[300px] h-[600px] ">
-          <div class="  flex  justify-center items-center">
-            <h1 class="text-[#7DAF19] text-3xl md:text-4xl lg:text-5xl">
-              About Us
-            </h1>
+      <div class="flex flex-col poppins pb-5 justify-center items-center">
+        <div className="w-full bg-[#FAEADD] h-[30vh] flex rounded-b justify-center align-items-center">
+          <div className=" text-center flex flex-col justify-center align-items-center">
+            <h2 className="text-[#7DAF19]">About Us</h2>
+            <div className=" text-[#4C180A] flex">
+              <Link className="nav-link " to="/">
+                Home{" "}
+              </Link>{" "}
+              /{" "}
+              <p className="nav-link " to="/AboutUs">
+                About Us
+              </p>
+            </div>
           </div>
-
+        </div>
+        <div class="xl:flex md:flex-col lg:flex flex-col py-5 mt-5 border-4 border-r-lime-800 border-b-lime-800 border-l-amber-950 border-t-amber-950 rounded-3xl shadow-2xl   md:w-[90%] lg:w-[80%] xl:w-[90%]  md:h-[500px] lg:h-[550px] xl:h-[500px] w-[300px] h-[600px] ">
           <div class=" xl:flex    justify-between p-4 items-center">
             <div class=" md:w-[530px] relative flex border-4 border-gray-900 items-center">
               <img
@@ -82,7 +91,7 @@ const About = () => {
 
         <div class="grid grid-cols-3  gap-5 py-7">
           {AboutData.map((item) => (
-            <div class="flex flex-col justify-between w-[300px]  h-[450px] border-[2px] border-lime-800 border-tl rounded-tr-[100px] rounded-bl-[100px] border-dashed mx-auto">
+            <div class="flex flex-col justify-between w-[300px]  h-[450px] border-[2px] border-lime-800 border-tl rounded-tr-[100px] rounded-bl-[100px]  mx-auto">
               <div class="w-[150px] bg-transparent absolute h-[150px] border-l-amber-950 border-t-amber-950 border-t-[15px] border-l-[15px]"></div>
               <div class="flex pt-5 justify-center items-center">
                 <h4 class="text-[#7DAF19] w-[200px] text-2xl font-bold text-center">
@@ -102,7 +111,7 @@ const About = () => {
           ))}
         </div>
 
-        <div class="flex flex-col justify-between w-[700px] h-[300px] border-[2px] border-lime-800 border-tl rounded-tr-[100px] rounded-bl-[100px] border-dashed mx-auto">
+        <div class="flex flex-col justify-between w-[700px] h-[300px] border-[2px] border-lime-800 border-tl rounded-tr-[100px] rounded-bl-[100px]  mx-auto">
           <div class="w-[150px] bg-transparent absolute h-[150px] border-l-amber-950 border-t-amber-950 border-t-[15px] border-l-[15px]"></div>
           <div class="flex pt-4 justify-center items-center">
             <h4 class="text-[#7DAF19] w-[500px] text-2xl font-bold text-center">

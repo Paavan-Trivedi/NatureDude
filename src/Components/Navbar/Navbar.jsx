@@ -27,24 +27,22 @@ const Navbar = () => {
     setShowDropdown(!showDropdown);
   };
 
-
-
-  useEffect(()=>{
-    if (toggle||showDropdown) {
-      document.body.style.overflow = 'hidden';
+  useEffect(() => {
+    if (toggle || showDropdown) {
+      document.body.style.overflow = "hidden";
     } else {
-      document.body.style.overflow = ''; 
+      document.body.style.overflow = "";
     }
-  },[toggle,showDropdown])
+  }, [toggle, showDropdown]);
 
   return (
-    <div className=" poppins bg-[#DDB88C] lg:h-[100vh] lg:w-[25%] md:h-[10vh] md:w-[100%] h-[10vh] w-[100%] lg:block md:flex flex justify-content-between align-items-center fixed lg:overflow-y-auto scroll-smooth overflow-visible z-[99]">
+    <div className=" poppins bg-[#FAEADD] lg:h-[100vh] lg:w-[25%] md:h-[10vh] md:w-[100%] h-[10vh] w-[100%] lg:block md:flex flex justify-content-between align-items-center fixed lg:overflow-y-auto scroll-smooth overflow-visible z-[99]">
       <div>
         <div className=" lg:mt-4 md:mt-0 mt-0 flex flex-col  justify-center items-center w-full   lg:border-b-4 md:border-b-0 border-b-0 border-[#566B30]  pb-0  ">
           <div className="flex lg:flex-col  justify-center items-center w-full lg:gap-4 md:gap-1 gap-1">
             <img
               src="/images/Footer/FooterLogo.png"
-              className=" lg:h-[14vh] md:h-[8vh] h-[8vh] "
+              className=" mt-3 lg:h-[14vh] md:h-[8vh] h-[8vh] "
               alt="logo"
             ></img>
             <div className="flex text-4xl">
@@ -53,7 +51,9 @@ const Navbar = () => {
             </div>
           </div>
 
-          <p className="text-[#674422] lg:block md:hidden hidden">FMCG Exportized</p>
+          <p className="text-[#674422] lg:block md:hidden hidden">
+            FMCG Exportized
+          </p>
         </div>
       </div>
 

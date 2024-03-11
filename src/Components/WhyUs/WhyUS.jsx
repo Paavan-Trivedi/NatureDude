@@ -1,5 +1,6 @@
 import React from "react";
 import Layout from "../Layout/Layout";
+import { Link } from "react-router-dom";
 
 const WhyUS = () => {
   const steps = [
@@ -42,10 +43,24 @@ const WhyUS = () => {
 
   return (
     <Layout>
-      <div className="flex flex-col poppins py-5 px-2 justify-center  items-center">
-        <h2 className="text-[#7DAF19] py-3">Supply Chain Optimization</h2>
-        <div className="flex flex-col justify-center border-r-[#7DAF19] border-b-[#7DAF19] border-l-[#4C180A] border-t-[#4C180A] border-4 rounded-lg xl:w-[90%] xl:h-[550px] lg:w-[90%] lg:h-[550px] md:w-[90%] md:h-[550px]  items-center">
-          <div className="w-[90%]">
+      <div className="flex flex-col poppins pb-5 px-2 justify-center  items-center">
+        <div className="w-full bg-[#FAEADD] h-[30vh] flex rounded-b justify-center align-items-center">
+          <div className=" text-center flex flex-col justify-center align-items-center">
+            <h2 className="text-[#7DAF19]">Supply Chain Optimization</h2>
+            <div className=" text-[#4C180A] flex">
+              <Link className="nav-link " to="/">
+                Home{" "}
+              </Link>{" "}
+              /{" "}
+              <p className="nav-link " to="/WhyUs">
+                Why Us
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div className="flex mt-5 flex-col justify-center border-r-[#7DAF19] border-b-[#7DAF19] border-l-[#4C180A] border-t-[#4C180A] border-4 rounded-lg xl:w-[90%] xl:h-[550px] lg:w-[90%] lg:h-[550px] md:w-[90%] md:h-[550px]  items-center">
+          <div className="w-[75%]">
             <img src="./images/WhyUs/FlowChart.png" alt="" />
           </div>
         </div>
@@ -58,7 +73,7 @@ const WhyUS = () => {
         </div>
         <div className="flex flex-col justify-center items-center gap-4">
           {steps.map((items, index) => (
-            <div class="flex flex-col  w-[90%] h-[370px] border-[2px] border-lime-800 border-tl rounded-tr-[100px] rounded-bl-[100px] xl:h-[280px] lg:h-[250px] md:h-[290px] sm:h-[310px] border-dashed ">
+            <div class="flex flex-col  w-[90%] h-[500px] border-[2px] border-lime-800 border-tl rounded-tr-[100px] rounded-bl-[100px] xl:h-[250px] lg:h-[250px] md:h-[290px] sm:h-[310px]  ">
               <div class="w-[150px] bg-transparent absolute h-[150px] border-l-amber-950 border-t-amber-950 border-t-[15px] border-l-[15px]"></div>
               <div class="flex pt-4 justify-center items-center">
                 <h4 class="text-[#7DAF19] w-full px-4 py-2 text-2xl font-bold text-left">
@@ -67,7 +82,7 @@ const WhyUS = () => {
               </div>
 
               <div class="flex justify-center items-center">
-                <div class="w-full px-4 mt-5 text-base relative h-[100px] text-[#674422] flex flex-col justify-center items-center">
+                <div class="w-full px-4 mt-32 xl:mt-5 lg:mt-5 md:mt-5 sm:mt-5 text-base relative h-[100px] text-[#674422] flex flex-col justify-center items-center">
                   <p>{items.desc}</p>
                 </div>
               </div>
