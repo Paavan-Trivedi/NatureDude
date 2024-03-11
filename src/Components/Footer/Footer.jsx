@@ -21,17 +21,17 @@ const Footer = () => {
             alt=""
           />
           <div className="flex  gap-4 text-xl text-[#4C180A] py-2">
-            <a href="#" className="text-[#7DAF19]" target="_blank">
+            <a href="https://www.facebook.com/NatureDude.in/" className="text-[#7DAF19]" target="_blank">
               <FontAwesomeIcon icon={faFacebookF}></FontAwesomeIcon>
             </a>
-            <a href="#" className="text-[#7DAF19]" target="_blank">
+            <a href="https://www.instagram.com/naturedude.india/" className="text-[#7DAF19]" target="_blank">
               {" "}
               <FontAwesomeIcon icon={faInstagram}></FontAwesomeIcon>
             </a>
-            <a href="#" className="text-[#7DAF19]" target="_blank">
+            <a href="https://twitter.com/NatureDude_in" className="text-[#7DAF19]"  target="_blank">
               <FontAwesomeIcon icon={faTwitter}></FontAwesomeIcon>
             </a>
-            <a href="#" className="text-[#7DAF19]" target="_blank">
+            <a href="https://in.linkedin.com/company/nature-dude-fmcg-exportised" className="text-[#7DAF19]" target="_blank">
               <FontAwesomeIcon icon={faLinkedinIn}></FontAwesomeIcon>
             </a>
           </div>
