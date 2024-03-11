@@ -21,8 +21,14 @@ import "swiper/css/pagination";
 import "swiper/css/effect-cube";
 import "swiper/css/scrollbar";
 import { useEffect, useState } from "react";
+import ButtonComp from "../../ButtonComp";
+import { useNavigate } from "react-router-dom";
 
 export default () => {
+  const navigate = useNavigate();
+  const handleClick = () => {
+    navigate("/ContactUs");
+  };
   return (
     <Swiper
       // install Swiper modules
@@ -54,8 +60,14 @@ export default () => {
       loopPreventsSliding={true}
     >
       <SwiperSlide className=" h-full w-full">
-        <div className=" h-full w-[100%] m-0 p-0 row justify-content-center align-items-center">
-          <div className=" col-12 col-lg-6 text-start order-lg-0 order-1 leading-[18px]">
+        <div
+          style={{
+            backgroundImage: "url(images/Main-Products/prod2.jpeg)",
+            backgroundSize: "cover",
+          }}
+          className=" h-full w-[100%] m-0 p-0 row justify-content-center align-items-center"
+        >
+          {/* <div className=" col-12 col-lg-6 text-start order-lg-0 order-1 leading-[18px]">
             <p className=" text-[#7DAF19] text-[32px]">We Provide</p>
             <h1>
               {" "}
@@ -64,19 +76,25 @@ export default () => {
               Strong
               <br /> Global Presence{" "}
             </h1>
-          </div>
-          <div className=" col-12 col-lg-6 flex justify-center order-lg-1 order-0">
+          </div> */}
+          {/* <div className=" col-12 col-lg-6 flex justify-center order-lg-1 order-0">
             <img
               className=" md:w-[200px] md:h-[200px] lg:h-[350px] lg:w-[350px] h-[150px] w-[150px]  object-cover rounded-full "
-              src="images/home-slide-1.png"
+              src="images/Footer/FooterBack.png"
             ></img>
-          </div>
+          </div> */}
         </div>
       </SwiperSlide>
 
       <SwiperSlide className=" h-full w-full">
-        <div className=" h-full w-[100%] m-0 p-0 row justify-content-center align-items-center">
-          <div className=" col-12 col-lg-6 text-start order-lg-0 order-1 leading-[18px]">
+        <div
+          style={{
+            backgroundImage: "url(images/Main-Products/prod3.jpeg)",
+            backgroundSize: "cover",
+          }}
+          className=" h-full w-[100%] m-0 p-0 row justify-content-center align-items-center"
+        >
+          {/* <div className=" col-12 col-lg-6 text-start order-lg-0 order-1 leading-[18px]">
             <p className=" text-[#7DAF19] text-[32px]">We Are</p>
             <h1>
               {" "}
@@ -86,31 +104,68 @@ export default () => {
               <br />
               And Exporters{" "}
             </h1>
-          </div>
-          <div className=" col-12 col-lg-6 flex justify-center order-lg-1 order-0">
+          </div> */}
+          {/* <div className=" col-12 col-lg-6 flex justify-center order-lg-1 order-0">
             <img
               className=" md:w-[200px] md:h-[200px] lg:h-[300px] lg:w-[300px] h-[150px] w-[150px]  object-cover rounded-full "
-              src="images/home-slide-2.png"
+              src="images/Footer/FooterBack.png"
             ></img>
-          </div>
+          </div> */}
         </div>
       </SwiperSlide>
 
       <SwiperSlide className=" h-full w-full">
-        <div className=" h-full w-[100%] m-0 p-0 row justify-content-center align-items-center">
-          <div className=" col-12 col-lg-6 text-start order-lg-0 order-1 leading-[18px]">
+        <div
+          style={{
+            backgroundImage: "url(images/Main-Products/prod4.jpeg)",
+            backgroundSize: "cover",
+          }}
+          className=" h-full w-[100%] m-0 p-0 row justify-content-center align-items-center"
+        >
+          {/* <div className=" col-12 col-lg-6 text-start order-lg-0 order-1 leading-[18px]">
             <p className=" text-[#7DAF19] text-[32px]">Delivering</p>
             <h1>
               Quality <span className=" underline text-[#7DAF19]">Product</span>{" "}
               Around
               <br /> The World{" "}
             </h1>
-          </div>
-          <div className=" col-12 col-lg-6 flex justify-center order-lg-1 order-0">
+          </div> */}
+          {/* <div className=" col-12 col-lg-6 flex justify-center order-lg-1 order-0">
             <img
               className=" md:w-[200px] md:h-[200px] lg:h-[300px] lg:w-[300px] h-[150px] w-[150px]  object-cover rounded-full "
-              src="images/home-slide-3.png"
+              src="images/Footer/FooterBack.png"
             ></img>
+          </div> */}
+        </div>
+      </SwiperSlide>
+
+      <SwiperSlide className=" h-full w-full">
+        <div
+          style={{
+            backgroundImage: "url(images/Main-Products/prod1.jpeg)",
+            backgroundSize: "cover",
+          }}
+          className=" h-full w-[100%] m-0 p-0 row justify-content-center align-items-center"
+        >
+          {/* <div className=" col-12 col-lg-6 text-start order-lg-0 order-1 leading-[18px]">
+            <p className=" text-[#7DAF19] text-[32px]">Delivering</p>
+            <h1>
+              Quality <span className=" underline text-[#7DAF19]">Product</span>{" "}
+              Around
+              <br /> The World{" "}
+            </h1>
+          </div> */}
+          {/* <div className=" col-12 col-lg-6 flex justify-center order-lg-1 order-0">
+            <img
+              className=" md:w-[200px] md:h-[200px] lg:h-[300px] lg:w-[300px] h-[150px] w-[150px]  object-cover rounded-full "
+              src="images/Footer/FooterBack.png"
+            ></img>
+          </div> */}
+          <div
+            onClick={handleClick}
+            className="flex justify-end mr-28 items-center h-full py-5"
+          >
+            <ButtonComp Bname={"Contact Us"} />
           </div>
         </div>
       </SwiperSlide>
@@ -123,7 +178,7 @@ export const ProductSlider = () => {
 
   const [spp, setSpp] = useState(1);
   return (
-    <div className="my-16">
+    <div className="my-32">
       <h2 className="text-[#7DAF19] mb-5 text-center">Our Products</h2>
       <div className="lg:hidden md:hidden block">
         {" "}
@@ -159,7 +214,7 @@ export const ProductSlider = () => {
           {Products.map((item, index) => (
             <SwiperSlide
               key={index}
-              className="h-full w-full bg-[#DDB88C] border"
+              className="h-full w-full bg-[#FAEADD] border-4 border-[#7DAF19]"
             >
               <div className="h-full w-[100%] m-0 p-0 row justify-content-center align-items-center bg-[#ffffff58] offset-10">
                 <img
@@ -209,7 +264,7 @@ export const ProductSlider = () => {
           {Products.map((item, index) => (
             <SwiperSlide
               key={index}
-              className="h-full w-full bg-[#DDB88C] border"
+              className="h-full w-full bg-[#FAEADD] border-2 border-[#7DAF19]"
             >
               <div className="h-full w-[100%] m-0 p-0 row justify-content-center align-items-center bg-[#ffffff58] offset-10">
                 <img

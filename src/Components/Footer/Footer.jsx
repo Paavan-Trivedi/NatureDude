@@ -131,7 +131,7 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <div className=" bg-black text-[white] h-[60px] py-3 text-center">
+      <div className=" bg-[#7DAF19] text-[white] h-[60px] py-3 text-center">
         <p>Nature Dude @{CurrentYear} All Rights Reserved </p>
       </div>
     </>

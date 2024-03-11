@@ -1,5 +1,74 @@
 [
   {
+    "image": "images/products/Beverages.jpg",
+    "product_name": "Beverages",
+    "details":[
+      {
+        "name":"Hajoori",
+        "image":"/images/Brand-Logos/Hajoori.png"
+      },
+      {
+        "name":"Sosyo",
+        "image":"/images/Brand-Logos/Sosyo.png"
+      }
+    ]
+  },
+  {
+    "image": "images/products/Spices.jpg",
+    "product_name": "Spices",
+    "details": [
+      {
+        "name": "Gopal          ",
+        "image": "/images/Brand-Logos/Gopal.png"
+      },
+      {
+        "name": "Hathi Masala        ",
+        "image": "/images/Brand-Logos/Hathi masala.png"
+      },
+      {
+        "name": "Navnath Spices        ",
+        "image": "/images/Brand-Logos/NAVNATH SPICES.jpg"
+      },
+      {
+        "name": "Temptin-RamBandhu       ",
+        "image": "/images/Brand-Logos/Temptin.png"
+      }
+    ]
+  },
+   
+  {
+    "image": "images/products/Oils.jpg",
+    "product_name": "Edible Oils",
+    "details": [
+      {
+        "name":"Auzat        ",
+        "image":"/images/Brand-Logos/AUZAT.png"
+      },
+      {
+        "name":"Gulab        ",
+        "image":"/images/Brand-Logos/Gulab.png"
+      },
+      {
+        "name":"Diamond Sing",
+        "image":"/images/Brand-Logos/DiamandSing.png"
+      }
+    ]
+  },
+  {
+    "image": "",
+    "product_name": "Tea & Coffee",
+    "details": [
+      {
+        "name":"Jivraj (Samaara)",
+        "image":"/images/Brand-Logos/SAMAARA TEA.png"
+      },
+      {
+        "name":"Society + TCW",
+        "image":"/images/Brand-Logos/SOCIETY TEA.png"
+      }
+    ]
+  },
+  {
     "image": "images/products/Snacks.jpg",
     "product_name": "Snacks",
     "details": [
@@ -37,46 +106,7 @@
       }
     ]
   },
-  {
-    "image": "images/products/Spices.jpg",
-    "product_name": "Spices",
-    "details": [
-      {
-        "name": "Gopal          ",
-        "image": "/images/Brand-Logos/Gopal.png"
-      },
-      {
-        "name": "Hathi Masala        ",
-        "image": "/images/Brand-Logos/Hathi masala.png"
-      },
-      {
-        "name": "Navnath Spices        ",
-        "image": "/images/Brand-Logos/NAVNATH SPICES.jpg"
-      },
-      {
-        "name": "Temptin-RamBandhu       ",
-        "image": "/images/Brand-Logos/Temptin.png"
-      }
-    ]
-  },
-  {
-    "image": "images/products/Oils.jpg",
-    "product_name": "Edible Oils",
-    "details": [
-      {
-        "name":"Auzat        ",
-        "image":"/images/Brand-Logos/AUZAT.png"
-      },
-      {
-        "name":"Gulab        ",
-        "image":"/images/Brand-Logos/Gulab.png"
-      },
-      {
-        "name":"Diamond Sing",
-        "image":"/images/Brand-Logos/DiamandSing.png"
-      }
-    ]
-  },
+ 
   {
     "image": "",
     "product_name": "Baked Goods",
@@ -119,20 +149,7 @@
       }
     ]
   },
-  {
-    "image": "images/products/Beverages.jpg",
-    "product_name": "Beverages",
-    "details":[
-      {
-        "name":"Hajoori",
-        "image":"/images/Brand-Logos/Hajoori.png"
-      },
-      {
-        "name":"Sosyo",
-        "image":"/images/Brand-Logos/Sosyo.png"
-      }
-    ]
-  },
+  
   {
     "image": "images/products/Dessert.jpg",
     "product_name": "Instant Mixes",
@@ -248,19 +265,6 @@
         "image":"/images/Brand-Logos/Eatsi.png"
       }
     ]
-},
-  {
-    "image": "",
-    "product_name": "Tea & Coffee",
-    "details": [
-      {
-        "name":"Jivraj (Samaara)",
-        "image":"/images/Brand-Logos/SAMAARA TEA.png"
-      },
-      {
-        "name":"Society + TCW",
-        "image":"/images/Brand-Logos/SOCIETY TEA.png"
-      }
-    ]
-  }
+}
+  
 ]

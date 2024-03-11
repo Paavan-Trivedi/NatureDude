@@ -10,9 +10,9 @@ const Blog = () => {
   return (
     <Layout>
       <div>
-        <div className="w-full bg-[#DDB88C] h-[30vh] flex rounded-b justify-center align-items-center">
+        <div className="w-full bg-[#FAEADD] h-[30vh] flex rounded-b justify-center align-items-center">
           <div className=" text-center flex flex-col justify-center align-items-center">
-            <h2 className="text-[#566B30]">Blog</h2>
+            <h2 className="text-[#7DAF19]">Blog</h2>
             <div className=" text-[#4C180A] flex">
               <Link className="nav-link " to="/">
                 Home{" "}
@@ -29,7 +29,7 @@ const Blog = () => {
             BlogData.map((item, index) => (
               <div
                 key={item.id}
-                className="h-[500px]   border col-lg-5 col-md-6 col-sm-8 col-9 bg-[#DDB88C] p-2"
+                className="h-[500px] shadow-lg col-lg-5 col-md-6 col-sm-8 col-9  p-2"
               >
                 <img
                   src="images/products/Bakery.jpg"
@@ -52,9 +52,7 @@ const Blog = () => {
                 </Link>
               </div>
             ))}
-          
         </div>
-      
       </div>
     </Layout>
   );

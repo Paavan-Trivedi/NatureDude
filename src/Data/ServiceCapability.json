@@ -9,10 +9,10 @@
         "name":"Packaging",
         "icon":"images/packaging.png"
     },{
-        "name":"Shipping",
-        "icon":"images/shipping.png"
-    },{
         "name":"Clearing",
         "icon":"images/clearing.png"
+    },{
+        "name":"Shipping",
+        "icon":"images/shipping.png"
     }
 ]
