@@ -39,8 +39,8 @@ const About = () => {
             </div>
           </div>
         </div>
-        <div class="xl:flex md:flex-col lg:flex flex-col py-5 mt-5 border-4 border-r-lime-800 border-b-lime-800 border-l-amber-950 border-t-amber-950 rounded-3xl shadow-2xl   md:w-[90%] lg:w-[80%] xl:w-[90%]  md:h-[500px] lg:h-[550px] xl:h-[500px] w-[300px] h-[600px] ">
-          <div class=" xl:flex    justify-between p-4 items-center">
+        <div class="xl:flex md:flex-col lg:flex flex-col py-5 mt-5 border-4 border-r-lime-800 border-b-lime-800 border-l-amber-950 border-t-amber-950 rounded-3xl shadow-2xl   md:w-[77%] lg:w-[80%] xl:w-[90%]  md:h-[750px] lg:h-[750px] xl:h-[500px] w-[300px] h-[900px] ">
+          <div class=" xl:flex   justify-between p-4 items-center">
             <div class=" md:w-[530px] relative flex border-4 border-gray-900 items-center">
               <img
                 src={ExportProductsImg}
@@ -48,11 +48,11 @@ const About = () => {
                 class="w-full h-full object-cover"
               />
             </div>
-            <div class="w-full md:w-[400px] relative h-[350px] flex flex-col justify-center items-center">
-              <h3 class="text-left w-full text-[#674422] text-xl md:text-2xl lg:text-3xl">
+            <div class="w-full xl:w-[50%] relative h-[350px] flex flex-col justify-center items-center">
+              <h3 class="text-left w-full text-[#674422] text-xl md:text-2xl md:mt-[25px] mt-[300px]">
                 Welcome to Nature Dude
               </h3>
-              <p class="w-full text-base text-[#4C180A]">
+              <p class="w-full  text-base text-[#4C180A]">
                 Nature Dude stands as a prominent aggregator platform catering
                 to the diverse needs of importers and exporters across the
                 globe. As a secure and dynamic platform, we specialize in
@@ -69,8 +69,8 @@ const About = () => {
           </div>
         </div>
 
-        <div class="w-[80%] py-5 px-5">
-          <p class="font-bold text-[#7DAF19] text-4xl  ">
+        <div class="w-[80%] md:py-5 md:px-5 xl:py-5 xl:px-5 lg:py-5 lg:px-5">
+          <p class="font-bold text-[#7DAF19] text-2xl md:text-4xl xl:text-4xl lg:text-4xl ">
             Why Choose Nature Dude for Your Global Trade Endeavors?
           </p>
           <p class="text-lg font-semibold text-[#4C180A] w-full md:w-[90%]">
@@ -89,7 +89,7 @@ const About = () => {
           </p>
         </div>
 
-        <div class="grid grid-cols-3  gap-5 py-7">
+        <div class="grid xl:grid-cols-3 lg:grid-cols-2 md:grid-cols-2 grid-cols-1 gap-5 py-7">
           {AboutData.map((item) => (
             <div class="flex flex-col justify-between w-[300px]  h-[450px] border-[2px] border-lime-800 border-tl rounded-tr-[100px] rounded-bl-[100px]  mx-auto">
               <div class="w-[150px] bg-transparent absolute h-[150px] border-l-amber-950 border-t-amber-950 border-t-[15px] border-l-[15px]"></div>
@@ -111,7 +111,7 @@ const About = () => {
           ))}
         </div>
 
-        <div class="flex flex-col justify-between w-[700px] h-[300px] border-[2px] border-lime-800 border-tl rounded-tr-[100px] rounded-bl-[100px]  mx-auto">
+        <div class="flex flex-col justify-between xl:w-[700px] xl:h-[300px] md:w-[700px] md:h-[300px] lg:w-[700px] lg:h-[300px] w-[300px] h-[550px] border-[2px] border-lime-800 border-tl rounded-tr-[100px] rounded-bl-[100px]  mx-auto">
           <div class="w-[150px] bg-transparent absolute h-[150px] border-l-amber-950 border-t-amber-950 border-t-[15px] border-l-[15px]"></div>
           <div class="flex pt-4 justify-center items-center">
             <h4 class="text-[#7DAF19] w-[500px] text-2xl font-bold text-center">
@@ -149,7 +149,7 @@ const About = () => {
 
         <h2 class="poppinsBold text-4xl text-[#7DAF19]">Our Team</h2>
 
-        <div class="home-container flex  justify-center items-center grid-cols-2 gap-5">
+        <div class="home-container grid xl:flex md:flex lg:flex h-[900px] xl:h-[500px] lg:h-[500px] md:h-[500px] justify-center items-center grid-cols-1 xl:grid-cols-2 md:grid-cols-2 lg:grid-cols-2 gap-2 xl:gap-5 lg:gap-5 md:gap-5">
           <div class="profile-card ">
             <div class="img">
               <img
