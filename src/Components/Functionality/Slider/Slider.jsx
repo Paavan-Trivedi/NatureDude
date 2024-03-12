@@ -388,10 +388,7 @@ export const CertificationsSlider = () => {
         //   modifier: 1,
         //   slideShadows: true,
         // }}
-        style={{
-          backgroundImage: "url(images/product-bg.png)",
-          backgroundSize: "contain",
-        }}
+      
         modules={[
           Navigation,
           Pagination,
@@ -410,11 +407,11 @@ export const CertificationsSlider = () => {
         A11y={true}
         // onSwiper={(swiper) => console.log(swiper)}
         loop={true}
-        className="lg:h-[80vh] md:h-[80vh] h-[25vh]   mb-5 bg-[] "
+        className="lg:h-[80vh] md:h-[80vh] h-[25vh]   mb-5 bg-none "
         speed={1000}
         loopPreventsSliding={true}
       >
-        <SwiperSlide className=" h-full w-full  border">
+        <SwiperSlide className=" h-full w-full  ">
           <div className=" h-full w-[100%] m-0 p-0 row justify-content-center align-items-center bg-[#ffffff58] offset-10">
             <img
               className="h-[80%] w-[30%]  object-contain "
@@ -422,7 +419,7 @@ export const CertificationsSlider = () => {
             ></img>
           </div>
         </SwiperSlide>
-        <SwiperSlide className=" h-full w-full  border">
+        <SwiperSlide className=" h-full w-full ">
           <div className=" h-full w-[100%] m-0 p-0 row justify-content-center align-items-center bg-[#ffffff58] offset-10">
             <img
               className="h-[80%] w-[50%]  object-contain "
@@ -430,7 +427,7 @@ export const CertificationsSlider = () => {
             ></img>
           </div>
         </SwiperSlide>
-        <SwiperSlide className=" h-full w-full border">
+        <SwiperSlide className=" h-full w-full">
           <div className=" h-full w-[90%] m-0 p-0 row justify-content-center align-items-center bg-[#ffffff58] offset-10">
             <img
               className="h-[80%] w-[30%]  object-contain "
@@ -438,7 +435,7 @@ export const CertificationsSlider = () => {
             ></img>
           </div>
         </SwiperSlide>
-        <SwiperSlide className=" h-full w-full  border">
+        <SwiperSlide className=" h-full w-full  ">
           <div className=" h-full w-[100%] m-0 p-0 row justify-content-center align-items-center bg-[#ffffff58] offset-10">
             <img
               className="h-[80%] w-[30%]  object-contain "
@@ -446,7 +443,7 @@ export const CertificationsSlider = () => {
             ></img>
           </div>
         </SwiperSlide>
-        <SwiperSlide className=" h-full w-full  border">
+        <SwiperSlide className=" h-full w-full  ">
           <div className=" h-full w-[100%] m-0 p-0 row justify-content-center align-items-center bg-[#ffffff58] offset-10">
             <img
               className="h-[80%] w-[50%]  object-contain "
@@ -454,7 +451,7 @@ export const CertificationsSlider = () => {
             ></img>
           </div>
         </SwiperSlide>
-        <SwiperSlide className=" h-full w-full border">
+        <SwiperSlide className=" h-full w-full ">
           <div className=" h-full w-[90%] m-0 p-0 row justify-content-center align-items-center bg-[#ffffff58] offset-10">
             <img
               className="h-[80%] w-[30%]  object-contain "

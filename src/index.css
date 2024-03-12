@@ -173,7 +173,7 @@ body{
 
 @media only screen and (max-width: 720px) {
   .swiperslide:after {
-    width: 250px; height: 250px;
+    width: 250px; height: 300px;
     top: -100px; right: 21%;
     border-radius: 200px;
     z-index: -1;
