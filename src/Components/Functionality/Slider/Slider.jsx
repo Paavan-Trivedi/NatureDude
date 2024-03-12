@@ -29,6 +29,15 @@ export default () => {
   const handleClick = () => {
     navigate("/ContactUs");
   };
+  const handleClick2 = () => {
+    navigate("/Blog");
+  };
+  const handleClick3 = () => {
+    navigate("/AboutUs");
+  };
+  const handleClick4 = () => {
+    navigate("/WhyUs");
+  };
   return (
     <Swiper
       // install Swiper modules
@@ -62,7 +71,7 @@ export default () => {
       <SwiperSlide className=" h-full w-full">
         <div
           style={{
-            backgroundImage: "url(images/Main-Products/prod2.jpeg)",
+            backgroundImage: "url(images/Main-Products/WhyUS.jpg)",
             backgroundSize: "cover",
           }}
           className=" h-full w-[100%] m-0 p-0 row justify-content-center align-items-center"
@@ -83,13 +92,19 @@ export default () => {
               src="images/Footer/FooterBack.png"
             ></img>
           </div> */}
+          <div
+            onClick={handleClick4}
+            className="flex justify-start ml-28 items-center h-full py-5"
+          >
+            <ButtonComp Bname={"Why Us"} />
+          </div>
         </div>
       </SwiperSlide>
 
       <SwiperSlide className=" h-full w-full">
         <div
           style={{
-            backgroundImage: "url(images/Main-Products/prod3.jpeg)",
+            backgroundImage: "url(images/Main-Products/AboutUs.jpg)",
             backgroundSize: "cover",
           }}
           className=" h-full w-[100%] m-0 p-0 row justify-content-center align-items-center"
@@ -111,13 +126,19 @@ export default () => {
               src="images/Footer/FooterBack.png"
             ></img>
           </div> */}
+          <div
+            onClick={handleClick3}
+            className="flex justify-start ml-28 items-center h-full py-5"
+          >
+            <ButtonComp Bname={"About Us"} />
+          </div>
         </div>
       </SwiperSlide>
 
       <SwiperSlide className=" h-full w-full">
         <div
           style={{
-            backgroundImage: "url(images/Main-Products/prod4.jpeg)",
+            backgroundImage: "url(images/Main-Products/Blogs.jpg)",
             backgroundSize: "cover",
           }}
           className=" h-full w-[100%] m-0 p-0 row justify-content-center align-items-center"
@@ -136,6 +157,12 @@ export default () => {
               src="images/Footer/FooterBack.png"
             ></img>
           </div> */}
+          <div
+            onClick={handleClick2}
+            className="flex justify-center  items-center h-full py-5"
+          >
+            <ButtonComp Bname={"Blogs"} />
+          </div>
         </div>
       </SwiperSlide>
 
