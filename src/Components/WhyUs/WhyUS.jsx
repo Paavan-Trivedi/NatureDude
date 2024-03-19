@@ -46,7 +46,7 @@ const WhyUS = () => {
       <div className="flex flex-col poppins pb-5 px-2 justify-center  items-center">
         <div className="w-full bg-[#FAEADD] h-[30vh] flex rounded-b justify-center align-items-center">
           <div className=" text-center flex flex-col justify-center align-items-center">
-            <h2 className="text-[#7DAF19]">Supply Chain Optimization</h2>
+            <h2 className="text-[#7DAF19]">Why Us</h2>
             <div className=" text-[#4C180A] flex">
               <Link className="nav-link " to="/">
                 Home{" "}
@@ -58,9 +58,11 @@ const WhyUS = () => {
             </div>
           </div>
         </div>
-
+        <div>
+          <h2 className="text-[#7DAF19] mt-10">Supply Chain Optimization</h2>
+        </div>
         <div className="flex mt-5 flex-col justify-center border-r-[#7DAF19] border-b-[#7DAF19] border-l-[#4C180A] border-t-[#4C180A] border-4 rounded-lg xl:w-[90%] xl:h-[550px] lg:w-[90%] lg:h-[550px] md:w-[90%] md:h-[550px]  items-center">
-          <div className="w-[75%]">
+          <div className="w-[70%]">
             <img src="./images/WhyUs/FlowChart.png" alt="" />
           </div>
         </div>

@@ -21,17 +21,33 @@ const Footer = () => {
             alt=""
           />
           <div className="flex  gap-4 text-xl text-[#4C180A] py-2">
-            <a href="https://www.facebook.com/NatureDude.in/" className="text-[#7DAF19]" target="_blank">
+            <a
+              href="https://www.facebook.com/NatureDude.in/"
+              className="text-[#7DAF19]"
+              target="_blank"
+            >
               <FontAwesomeIcon icon={faFacebookF}></FontAwesomeIcon>
             </a>
-            <a href="https://www.instagram.com/naturedude.india/" className="text-[#7DAF19]" target="_blank">
+            <a
+              href="https://www.instagram.com/naturedude.india/"
+              className="text-[#7DAF19]"
+              target="_blank"
+            >
               {" "}
               <FontAwesomeIcon icon={faInstagram}></FontAwesomeIcon>
             </a>
-            <a href="https://twitter.com/NatureDude_in" className="text-[#7DAF19]"  target="_blank">
+            <a
+              href="https://twitter.com/NatureDude_in"
+              className="text-[#7DAF19]"
+              target="_blank"
+            >
               <FontAwesomeIcon icon={faTwitter}></FontAwesomeIcon>
             </a>
-            <a href="https://in.linkedin.com/company/nature-dude-fmcg-exportised" className="text-[#7DAF19]" target="_blank">
+            <a
+              href="https://in.linkedin.com/company/nature-dude-fmcg-exportised"
+              className="text-[#7DAF19]"
+              target="_blank"
+            >
               <FontAwesomeIcon icon={faLinkedinIn}></FontAwesomeIcon>
             </a>
           </div>
@@ -132,7 +148,13 @@ const Footer = () => {
         </div>
       </div>
       <div className=" bg-[#7DAF19] text-[white] h-[60px] py-3 text-center">
-        <p>Nature Dude @{CurrentYear} All Rights Reserved </p>
+        <p>
+          Nature Dude @{CurrentYear} All Rights Reserved | Developed by{" "}
+          <a href="https://durvadrafting.com/" target="_blank">
+            {" "}
+            Durva DDS
+          </a>
+        </p>
       </div>
     </>
   );

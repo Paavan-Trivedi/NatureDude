@@ -5,26 +5,65 @@ import Slider, { TestimonialsSlider } from "../Functionality/Slider/Slider";
 import Service from "../../Data/ServiceCapability.json";
 import { ProductSlider } from "../Functionality/Slider/Slider";
 import { CertificationsSlider } from "../Functionality/Slider/Slider";
+import { useMediaQuery } from "@mui/material";
 
 const Home = () => {
   const Service_data = Service;
   console.log(Service_data);
+
+  const isXLargeScreen = useMediaQuery("(min-width:1920px)");
+  const isLargeScreen = useMediaQuery("(min-width:1280px)");
+  const isMediumScreen = useMediaQuery("(min-width:960px)");
+  const isSmallScreen = useMediaQuery("(min-width:600px)");
+
+  // Determine the current screen size
+  let screenSize;
+  if (isXLargeScreen) screenSize = "2xl";
+  else if (isLargeScreen) screenSize = "xl";
+  else if (isMediumScreen) screenSize = "lg";
+  else if (isSmallScreen) screenSize = "md";
+  else screenSize = "sm"; // Assume sm for smaller screens
+
   return (
     <Layout>
       <Slider></Slider>
-      <div className=" poppins my-16">
+      <div className=" poppins my-16 flex flex-col ">
         <h2 className="text-[#7DAF19] text-center mb-5">Service Capability</h2>
-        <div className="grid sm:grid-cols-1 md:grid-cols-3 justify-center max-w-[70%] md:ml-48 md:h-[400px]">
+        <div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 2xl:grid-cols-3 justify-center max-w-[70%] md:ml-48 md:h-[400px]">
           {Service &&
             Service.map((item, index) => (
               <div
-                className={`hover:bg-[#FAEADD] d-flex rounded flex-column justify-content-center gap-4 align-items-center w-[250px] h-[200px] xl:h-[200px] xl:w-[250px] lg:h-[200px] lg:w-[250px] md:h-[180px] md:w-[200px] border-[1px] border-[black]`}
+                className={`hover:bg-[#FAEADD] d-flex  rounded flex-column justify-center gap-4 items-center w-[250px] h-[200px] xl:h-[200px] xl:w-[220px] lg:h-[200px] lg:w-[200px] md:h-[180px] md:w-[200px] border-[1px] border-[black]`}
                 key={index}
                 style={{
-                  position: index >= 3 ? "relative" : "static",
-                  top: index >= 3 ? "60%" : "auto",
-                  left: index >= 3 ? "75%" : "auto",
-                  transform: index >= 3 ? "translate(-30%, -50%)" : "none",
+                  position:
+                    index >= 3 &&
+                    (screenSize === "xl" ||
+                      screenSize === "2xl" ||
+                      screenSize === "lg")
+                      ? "relative"
+                      : "static",
+                  top:
+                    index >= 3 &&
+                    (screenSize === "xl" ||
+                      screenSize === "2xl" ||
+                      screenSize === "lg")
+                      ? "60%"
+                      : "auto",
+                  left:
+                    index >= 3 &&
+                    (screenSize === "xl" ||
+                      screenSize === "2xl" ||
+                      screenSize === "lg")
+                      ? "75%"
+                      : "auto",
+                  transform:
+                    index >= 3 &&
+                    (screenSize === "xl" ||
+                      screenSize === "2xl" ||
+                      screenSize === "lg")
+                      ? "translate(-30%, -50%)"
+                      : "none",
                 }}
               >
                 <img

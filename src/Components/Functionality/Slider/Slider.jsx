@@ -206,7 +206,7 @@ export const ProductSlider = () => {
   const [spp, setSpp] = useState(1);
   return (
     <div className="my-32">
-      <h2 className="text-[#7DAF19] mb-5 text-center">Our Products</h2>
+      <h2 className="text-[#7DAF19] mb-5 py-7 text-center">Our Products</h2>
       <div className="lg:hidden md:hidden block">
         {" "}
         {/* Render only on small screens */}
@@ -388,7 +388,7 @@ export const CertificationsSlider = () => {
         //   modifier: 1,
         //   slideShadows: true,
         // }}
-      
+
         modules={[
           Navigation,
           Pagination,
