@@ -32,8 +32,8 @@ const Blog = () => {
                 className="h-[500px] shadow-lg col-lg-5 col-md-6 col-sm-8 col-9  p-2"
               >
                 <img
-                  src="images/products/Bakery.jpg"
-                  className=" img-blog  h-[60%] w-[100%]"
+                  src={item.image}
+                  className=" img-blog object-cover  h-[60%] w-[100%]"
                   alt={item.Title}
                 ></img>
 

@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Navbar from "../Navbar/Navbar";
 import Layout from "../Layout/Layout";
 import Slider, { TestimonialsSlider } from "../Functionality/Slider/Slider";
@@ -6,6 +6,7 @@ import Service from "../../Data/ServiceCapability.json";
 import { ProductSlider } from "../Functionality/Slider/Slider";
 import { CertificationsSlider } from "../Functionality/Slider/Slider";
 import { useMediaQuery } from "@mui/material";
+
 
 const Home = () => {
   const Service_data = Service;
@@ -23,7 +24,9 @@ const Home = () => {
   else if (isMediumScreen) screenSize = "lg";
   else if (isSmallScreen) screenSize = "md";
   else screenSize = "sm"; // Assume sm for smaller screens
-
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <Layout>
       <Slider></Slider>
