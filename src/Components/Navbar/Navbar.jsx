@@ -136,19 +136,19 @@ const Navbar = () => {
           </Link>
         </div>
         <div className="flex justify-center gap-4 text-[#4C180A] py-3 border-b-4 border-[#566B30] pb-10">
-          <a href="#" className="text-[#4C180A]" target="_blank">
-            <FontAwesomeIcon icon={faFacebookF}></FontAwesomeIcon>
-          </a>
-          <a href="#" className="text-[#4C180A]" target="_blank">
-            {" "}
-            <FontAwesomeIcon icon={faInstagram}></FontAwesomeIcon>
-          </a>
-          <a href="#" className="text-[#4C180A]" target="_blank">
-            <FontAwesomeIcon icon={faTwitter}></FontAwesomeIcon>
-          </a>
-          <a href="#" className="text-[#4C180A]" target="_blank">
-            <FontAwesomeIcon icon={faLinkedinIn}></FontAwesomeIcon>
-          </a>
+         <a href="https://www.facebook.com/NatureDude.in/" className="text-[#7DAF19]" target="_blank">
+              <FontAwesomeIcon icon={faFacebookF}></FontAwesomeIcon>
+            </a>
+            <a href="https://www.instagram.com/naturedude.india/" className="text-[#7DAF19]" target="_blank">
+              {" "}
+              <FontAwesomeIcon icon={faInstagram}></FontAwesomeIcon>
+            </a>
+            <a href="https://twitter.com/NatureDude_in" className="text-[#7DAF19]"  target="_blank">
+              <FontAwesomeIcon icon={faTwitter}></FontAwesomeIcon>
+            </a>
+            <a href="https://in.linkedin.com/company/nature-dude-fmcg-exportised" className="text-[#7DAF19]" target="_blank">
+              <FontAwesomeIcon icon={faLinkedinIn}></FontAwesomeIcon>
+            </a>
         </div>
       </div>
       <div className=" md:hidden lg:block hidden">
@@ -217,19 +217,19 @@ const Navbar = () => {
           </Link>
         </div>
         <div className="flex justify-center gap-4 text-[#4C180A] py-3 border-b-4 border-[#566B30] pb-10">
-          <a href="#" className="text-[#4C180A]" target="_blank">
-            <FontAwesomeIcon icon={faFacebookF}></FontAwesomeIcon>
-          </a>
-          <a href="#" className="text-[#4C180A]" target="_blank">
-            {" "}
-            <FontAwesomeIcon icon={faInstagram}></FontAwesomeIcon>
-          </a>
-          <a href="#" className="text-[#4C180A]" target="_blank">
-            <FontAwesomeIcon icon={faTwitter}></FontAwesomeIcon>
-          </a>
-          <a href="#" className="text-[#4C180A]" target="_blank">
-            <FontAwesomeIcon icon={faLinkedinIn}></FontAwesomeIcon>
-          </a>
+        <a href="https://www.facebook.com/NatureDude.in/" className="text-[#7DAF19]" target="_blank">
+              <FontAwesomeIcon icon={faFacebookF}></FontAwesomeIcon>
+            </a>
+            <a href="https://www.instagram.com/naturedude.india/" className="text-[#7DAF19]" target="_blank">
+              {" "}
+              <FontAwesomeIcon icon={faInstagram}></FontAwesomeIcon>
+            </a>
+            <a href="https://twitter.com/NatureDude_in" className="text-[#7DAF19]"  target="_blank">
+              <FontAwesomeIcon icon={faTwitter}></FontAwesomeIcon>
+            </a>
+            <a href="https://in.linkedin.com/company/nature-dude-fmcg-exportised" className="text-[#7DAF19]" target="_blank">
+              <FontAwesomeIcon icon={faLinkedinIn}></FontAwesomeIcon>
+            </a>
         </div>
       </div>
     </div>

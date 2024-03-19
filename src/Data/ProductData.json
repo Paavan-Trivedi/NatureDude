@@ -55,7 +55,7 @@
     ]
   },
   {
-    "image": "",
+    "image": "images/products/TeaCoffee.jpg",
     "product_name": "Tea & Coffee",
     "details": [
       {
@@ -108,7 +108,7 @@
   },
  
   {
-    "image": "",
+    "image": "images/products/BakedGoods.jpg",
     "product_name": "Baked Goods",
     "details": [
       {
@@ -197,7 +197,7 @@
     ]
   },
   {
-    "image": "",
+    "image": "images/products/RTEFoods.jpg",
     "product_name": "RTE Foods",
     "details": [
       {
