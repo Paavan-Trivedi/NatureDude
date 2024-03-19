@@ -1,4 +1,4 @@
-import React from "react";
+import React,{useEffect} from "react";
 import Layout from "../Layout/Layout";
 import ExportProductsImg from "../../assets/deliverytruck.jpg";
 import "./About.css";
@@ -21,6 +21,9 @@ const About = () => {
       text: "Our overarching goal in the global trade market is to create a stable and reliable platform for both Buyers and Sellers. Nature Dude ensures a mutually beneficial environment for all parties involved by fostering trust, transparency, and efficiency.",
     },
   ];
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
 
   return (
     <Layout>
