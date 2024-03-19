@@ -29,11 +29,11 @@ const Blog = () => {
             BlogData.map((item, index) => (
               <div
                 key={item.id}
-                className="h-[500px] shadow-lg col-lg-5 col-md-6 col-sm-8 col-9  p-2"
+                className="h-[570px] shadow-lg col-lg-5 col-md-6 col-sm-8 col-9  p-2"
               >
                 <img
                   src={item.image}
-                  className=" img-blog object-cover  h-[60%] w-[100%]"
+                  className=" img-blog   h-[60%] w-[100%]"
                   alt={item.Title}
                 ></img>
 
