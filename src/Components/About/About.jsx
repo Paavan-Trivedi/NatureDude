@@ -1,4 +1,4 @@
-import React,{useEffect} from "react";
+import React, { useEffect } from "react";
 import Layout from "../Layout/Layout";
 import ExportProductsImg from "../../assets/deliverytruck.jpg";
 import "./About.css";
@@ -165,9 +165,24 @@ const About = () => {
               <h3>Anmol Shah</h3>
               <p>Managing Director</p>
               <div class="social-links">
-                <i class="fa-brands fa-linkedin"></i>
-                <i class="fa-brands fa-facebook"></i>
-                <i class="fa-brands fa-instagram"></i>
+                <a
+                  href="https://www.linkedin.com/in/anmol-shah-a1695b1b3?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+                  target="_blank"
+                >
+                  <i class="fa-brands fa-linkedin"></i>
+                </a>
+                <a
+                  href="https://www.facebook.com/NatureDude.in/"
+                  target="_blank"
+                >
+                  <i class="fa-brands fa-facebook"></i>
+                </a>
+                <a
+                  href="https://www.instagram.com/naturedude.india/"
+                  target="_blank"
+                >
+                  <i class="fa-brands fa-instagram"></i>
+                </a>
               </div>
             </div>
           </div>
@@ -183,9 +198,24 @@ const About = () => {
               <h3>JaspalSinh Gohil</h3>
               <p>Founding Partner</p>
               <div class="social-links">
-                <i class="fa-brands fa-linkedin"></i>
-                <i class="fa-brands fa-facebook"></i>
-                <i class="fa-brands fa-instagram"></i>
+                <a
+                  href="https://www.linkedin.com/in/jaspalsinh-gohil-89702322b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+                  target="_blank"
+                >
+                  <i class="fa-brands fa-linkedin"></i>
+                </a>
+                <a
+                  href="https://www.facebook.com/NatureDude.in/"
+                  target="_blank"
+                >
+                  <i class="fa-brands fa-facebook"></i>
+                </a>
+                <a
+                  href="https://www.instagram.com/naturedude.india/"
+                  target="_blank"
+                >
+                  <i class="fa-brands fa-instagram"></i>
+                </a>
               </div>
             </div>
           </div>

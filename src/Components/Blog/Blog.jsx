@@ -12,14 +12,14 @@ const Blog = () => {
       <div>
         <div className="w-full bg-[#FAEADD] h-[30vh] flex rounded-b justify-center align-items-center">
           <div className=" text-center flex flex-col justify-center align-items-center">
-            <h2 className="text-[#7DAF19]">Blog</h2>
+            <h2 className="text-[#7DAF19]">Blogs</h2>
             <div className=" text-[#4C180A] flex">
               <Link className="nav-link " to="/">
                 Home{" "}
               </Link>{" "}
               /{" "}
               <p className="nav-link " to="/Product">
-                Blog
+                Blogs
               </p>
             </div>
           </div>
@@ -29,7 +29,7 @@ const Blog = () => {
             BlogData.map((item, index) => (
               <div
                 key={item.id}
-                className="h-[500px] shadow-lg col-lg-5 col-md-6 col-sm-8 col-9  p-2"
+                className="h-[570px] border-[#4C180A] border-1 rounded-xl shadow-lg col-lg-5 col-md-6 col-sm-8 col-9  p-2"
               >
                 <img
                   src={item.image}
@@ -38,14 +38,14 @@ const Blog = () => {
                 ></img>
 
                 <Link
-                  to={`/blog/${item.id}`}
+                  to={`/blogs/${item.id}`}
                   className=" hover:text-[#566B30] text-[#4C180A] text-[16px] text-decoration-none"
                 >
                   <h3>{item.Title}</h3>
                 </Link>
                 <p className="textellipsis">{item.Description}</p>
                 <Link
-                  to={`/blog/${item.id}`}
+                  to={`/blogs/${item.id}`}
                   className=" hover:text-[#566B30]  text-decoration-none text-[16px] flex justify-end text-end text-[#4C180A]"
                 >
                   Read More{" "}

@@ -7,7 +7,6 @@ import { ProductSlider } from "../Functionality/Slider/Slider";
 import { CertificationsSlider } from "../Functionality/Slider/Slider";
 import { useMediaQuery } from "@mui/material";
 
-
 const Home = () => {
   const Service_data = Service;
   console.log(Service_data);
@@ -32,51 +31,53 @@ const Home = () => {
       <Slider></Slider>
       <div className=" poppins my-16 flex flex-col ">
         <h2 className="text-[#7DAF19] text-center mb-5">Service Capability</h2>
-        <div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 2xl:grid-cols-3 justify-center max-w-[70%] md:ml-48 md:h-[400px]">
-          {Service &&
-            Service.map((item, index) => (
-              <div
-                className={`hover:bg-[#FAEADD] d-flex  rounded flex-column justify-center gap-4 items-center w-[250px] h-[200px] xl:h-[200px] xl:w-[220px] lg:h-[200px] lg:w-[200px] md:h-[180px] md:w-[200px] border-[1px] border-[black]`}
-                key={index}
-                style={{
-                  position:
-                    index >= 3 &&
-                    (screenSize === "xl" ||
-                      screenSize === "2xl" ||
-                      screenSize === "lg")
-                      ? "relative"
-                      : "static",
-                  top:
-                    index >= 3 &&
-                    (screenSize === "xl" ||
-                      screenSize === "2xl" ||
-                      screenSize === "lg")
-                      ? "60%"
-                      : "auto",
-                  left:
-                    index >= 3 &&
-                    (screenSize === "xl" ||
-                      screenSize === "2xl" ||
-                      screenSize === "lg")
-                      ? "75%"
-                      : "auto",
-                  transform:
-                    index >= 3 &&
-                    (screenSize === "xl" ||
-                      screenSize === "2xl" ||
-                      screenSize === "lg")
-                      ? "translate(-30%, -50%)"
-                      : "none",
-                }}
-              >
-                <img
-                  src={item.icon}
-                  className="h-[15%] w-[13%]"
-                  alt={item.name}
-                />
-                <h4>{item.name}</h4>
-              </div>
-            ))}
+        <div >
+          <div className="grid justify-center  sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 2xl:grid-cols-3 max-w-[70%] md:ml-48 md:h-[400px]">
+            {Service &&
+              Service.map((item, index) => (
+                <div
+                  className={`hover:bg-[#FAEADD] d-flex  rounded flex-column justify-center gap-4 items-center w-[250px] h-[200px] xl:h-[200px] xl:w-[220px] lg:h-[200px] lg:w-[200px] md:h-[180px] md:w-[200px] border-[1px] border-[black]`}
+                  key={index}
+                  style={{
+                    position:
+                      index >= 3 &&
+                      (screenSize === "xl" ||
+                        screenSize === "2xl" ||
+                        screenSize === "lg")
+                        ? "relative"
+                        : "static",
+                    top:
+                      index >= 3 &&
+                      (screenSize === "xl" ||
+                        screenSize === "2xl" ||
+                        screenSize === "lg")
+                        ? "60%"
+                        : "auto",
+                    left:
+                      index >= 3 &&
+                      (screenSize === "xl" ||
+                        screenSize === "2xl" ||
+                        screenSize === "lg")
+                        ? "75%"
+                        : "auto",
+                    transform:
+                      index >= 3 &&
+                      (screenSize === "xl" ||
+                        screenSize === "2xl" ||
+                        screenSize === "lg")
+                        ? "translate(-30%, -50%)"
+                        : "none",
+                  }}
+                >
+                  <img
+                    src={item.icon}
+                    className="h-[15%] w-[13%]"
+                    alt={item.name}
+                  />
+                  <h4>{item.name}</h4>
+                </div>
+              ))}
+          </div>
         </div>
       </div>
       <ProductSlider></ProductSlider>

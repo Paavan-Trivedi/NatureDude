@@ -32,7 +32,7 @@ const Product = () => {
                 to={`/Product/${item.product_name}`}
                 className=" nav-link"
               >
-                <div className=" w-[290px] h-[400px] rounded bg-[white] mb-2 ">
+                <div className=" w-[290px] h-[350px] rounded bg-[white] mb-2 ">
                   <div className="image 80% rounded-t">
                     <img src={item.image} className="img "></img>
                   </div>

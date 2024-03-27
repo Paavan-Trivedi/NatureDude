@@ -30,7 +30,7 @@ export default () => {
     navigate("/ContactUs");
   };
   const handleClick2 = () => {
-    navigate("/Blog");
+    navigate("/Blogs");
   };
   const handleClick3 = () => {
     navigate("/AboutUs");
@@ -49,10 +49,7 @@ export default () => {
       //   shadowOffset: 20,
       //   shadowScale: 0.94,
       // }}
-      style={{
-        backgroundImage: "url(images/slider-bg.jpg)",
-        backgroundSize: "contain",
-      }}
+      // style={{ marginTop: "20px" }}
       modules={[Navigation, Pagination, Scrollbar, A11y, Autoplay, EffectCube]}
       spaceBetween={50}
       slidesPerView={1}
@@ -64,14 +61,14 @@ export default () => {
       A11y={true}
       // onSwiper={(swiper) => console.log(swiper)}
       loop={true}
-      className="h-[70vh] mb-5 bg-[]  "
+      className="xl:h-[80vh] 2xl:h-[80vh] md:h-[80vh] lg:h-[80vh] mb-5 bg-[]  "
       speed={1000}
       loopPreventsSliding={true}
     >
-      <SwiperSlide className=" h-full w-full">
+      <SwiperSlide className=" h-[30%] 2xl:h-full xl:h-full lg:h-full md:h-full ">
         <div
           style={{
-            backgroundImage: "url(images/Main-Products/WhyUS.jpg)",
+            backgroundImage: "url(images/Main-Products/WhyUs.jpg)",
             backgroundSize: "cover",
           }}
           className=" h-full w-[100%] m-0 p-0 row justify-content-center align-items-center"
@@ -94,18 +91,19 @@ export default () => {
           </div> */}
           <div
             onClick={handleClick4}
-            className="flex justify-start ml-28 items-center h-full py-5"
+            className="flex justify-start  xl:ml-28 2xl:ml-28 lg:ml-28 md:ml-28 items-center h-full py-5"
           >
             <ButtonComp Bname={"Why Us"} />
           </div>
         </div>
       </SwiperSlide>
 
-      <SwiperSlide className=" h-full w-full">
+      <SwiperSlide className="h-[100%] 2xl:h-full xl:h-full lg:h-full md:h-full">
         <div
           style={{
             backgroundImage: "url(images/Main-Products/AboutUs.jpg)",
             backgroundSize: "cover",
+            objectFit: "contain",
           }}
           className=" h-full w-[100%] m-0 p-0 row justify-content-center align-items-center"
         >
@@ -128,17 +126,17 @@ export default () => {
           </div> */}
           <div
             onClick={handleClick3}
-            className="flex justify-start ml-28 items-center h-full py-5"
+            className="flex justify-start  xl:ml-28 2xl:ml-28 lg:ml-28 md:ml-28 items-center h-full py-5"
           >
             <ButtonComp Bname={"About Us"} />
           </div>
         </div>
       </SwiperSlide>
 
-      <SwiperSlide className=" h-full w-full">
+      <SwiperSlide className="h-[30%] 2xl:h-full xl:h-full lg:h-full md:h-full">
         <div
           style={{
-            backgroundImage: "url(images/Main-Products/Blogs.jpg)",
+            backgroundImage: "url(images/Main-Products/Blog.jpg)",
             backgroundSize: "cover",
           }}
           className=" h-full w-[100%] m-0 p-0 row justify-content-center align-items-center"
@@ -159,17 +157,17 @@ export default () => {
           </div> */}
           <div
             onClick={handleClick2}
-            className="flex justify-center  items-center h-full py-5"
+            className="flex justify-start  xl:ml-28 2xl:ml-28 lg:ml-28 md:ml-28 items-center h-full py-5"
           >
             <ButtonComp Bname={"Blogs"} />
           </div>
         </div>
       </SwiperSlide>
 
-      <SwiperSlide className=" h-full w-full">
+      <SwiperSlide className="h-[40%] 2xl:h-full xl:h-full lg:h-full md:h-full">
         <div
           style={{
-            backgroundImage: "url(images/Main-Products/prod1.jpeg)",
+            backgroundImage: "url(images/Main-Products/prod1.jpg)",
             backgroundSize: "cover",
           }}
           className=" h-full w-[100%] m-0 p-0 row justify-content-center align-items-center"
@@ -190,7 +188,7 @@ export default () => {
           </div> */}
           <div
             onClick={handleClick}
-            className="flex justify-end mr-28 items-center h-full py-5"
+            className="flex justify-start  xl:ml-28 2xl:ml-28 lg:ml-28 md:ml-28 items-center h-full py-5"
           >
             <ButtonComp Bname={"Contact Us"} />
           </div>
@@ -362,8 +360,10 @@ export const TestimonialsSlider = () => {
                 className="h-[80%] w-[30%]  object-contain "
                 src="images/fssai.avif"
               ></img> */}
-                <p className=" ">{item.review}</p>
-                <h3 className=" absolute lg:right-[-8%] md:right-[-8%] right-[-2%] lg:bottom-[-40%] md:bottom-[-45%] bottom-[-45%] text-[#ddb88c]">
+                <p className="text-[12px]  xl:text-[17px] 2xl:text-[17px] md:text-[17px] lg:text-[17px]  ">
+                  {item.review}
+                </p>
+                <h3 className=" absolute lg:right-[-8%] md:right-[-8%] right-[-2%] lg:bottom-[-55%] md:bottom-[-45%] bottom-[-45%] text-[#ddb88c]">
                   {item.name}
                 </h3>
               </div>

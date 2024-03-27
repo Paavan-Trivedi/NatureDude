@@ -61,12 +61,12 @@ const WhyUS = () => {
         <div>
           <h2 className="text-[#7DAF19] mt-10">Supply Chain Optimization</h2>
         </div>
-        <div className="flex mt-5 flex-col justify-center border-r-[#7DAF19] border-b-[#7DAF19] border-l-[#4C180A] border-t-[#4C180A] border-4 rounded-lg xl:w-[90%] xl:h-[550px] lg:w-[90%] lg:h-[550px] md:w-[90%] md:h-[550px]  items-center">
-          <div className="w-[70%]">
+        <div className="flex mt-5 flex-col justify-center  rounded-lg xl:w-[90%] xl:h-[550px] lg:w-[90%] lg:h-[550px] md:w-[90%] md:h-[550px]  items-center">
+          <div className=" mt-3 w-[100%]">
             <img src="./images/WhyUs/FlowChart.png" alt="" />
           </div>
         </div>
-        <div className="w-[90%] text-[#4C180A] text-base py-4">
+        <div className="w-[90%] mt-20 text-[#4C180A] text-base py-4">
           Optimizing your supply chain in today's fast-paced global market is
           crucial for maintaining a competitive edge and maximizing efficiency.
           From procurement to delivery, at each step in the supply chain
