@@ -39,17 +39,19 @@ const Navbar = () => {
     <div className=" poppins bg-[#FAEADD] lg:h-[100vh] lg:w-[25%] md:h-[10vh] md:w-[100%] h-[10vh] w-[100%] lg:block md:flex flex justify-content-between align-items-center fixed lg:overflow-y-auto scroll-smooth overflow-visible z-[99]">
       <div>
         <div className=" lg:mt-4 md:mt-0 mt-0 flex flex-col  justify-center items-center w-full   lg:border-b-4 md:border-b-0 border-b-0 border-[#566B30]  pb-0  ">
-          <div className="flex lg:flex-col  justify-center items-center w-full lg:gap-4 md:gap-1 gap-1">
-            <img
-              src="/images/Footer/FooterLogo.png"
-              className=" mt-3 lg:h-[14vh] md:h-[8vh] h-[8vh] "
-              alt="logo"
-            ></img>
-            <div className="flex text-4xl">
-              <span className="poppinsBold text-[#674422]">NATURE</span>
-              <span className="poppinsBold text-[#7DAF19] ">DUDE</span>
+          <Link className="nav-link" to={"/"}>
+            <div className="flex lg:flex-col  justify-center items-center w-full lg:gap-4 md:gap-1 gap-1">
+              <img
+                src="/images/Footer/FooterLogo.png"
+                className=" xl:mt-3 2xl:mt-3 2xl:h-[14vh] xl:h-[14vh] lg:h-[14vh] md:h-[8vh] ml-3 h-[5vh] "
+                alt="logo"
+              ></img>
+              <div className="flex xl:text-4xl 2xl:text-4xl lg:text-4xl md:text-4xl text-2xl">
+                <span className="poppinsBold text-[#674422]">NATURE</span>
+                <span className="poppinsBold text-[#7DAF19] ">DUDE</span>
+              </div>
             </div>
-          </div>
+          </Link>
 
           <p className="text-[#674422] lg:block md:hidden hidden">
             FMCG Exportized
@@ -117,10 +119,10 @@ const Navbar = () => {
             )}
           </div>
           <Link
-            to="/Blog"
+            to="/Blogs"
             className=" text-[#4C180A] active:text-[brown] hover:text-[brown] text-decoration-none"
           >
-            Blog
+            Blogs
           </Link>
           <Link
             to="/AboutUs"
@@ -136,19 +138,35 @@ const Navbar = () => {
           </Link>
         </div>
         <div className="flex justify-center gap-4 text-[#4C180A] py-3 border-b-4 border-[#566B30] pb-10">
-         <a href="https://www.facebook.com/NatureDude.in/" className="text-[#7DAF19]" target="_blank">
-              <FontAwesomeIcon icon={faFacebookF}></FontAwesomeIcon>
-            </a>
-            <a href="https://www.instagram.com/naturedude.india/" className="text-[#7DAF19]" target="_blank">
-              {" "}
-              <FontAwesomeIcon icon={faInstagram}></FontAwesomeIcon>
-            </a>
-            <a href="https://twitter.com/NatureDude_in" className="text-[#7DAF19]"  target="_blank">
-              <FontAwesomeIcon icon={faTwitter}></FontAwesomeIcon>
-            </a>
-            <a href="https://in.linkedin.com/company/nature-dude-fmcg-exportised" className="text-[#7DAF19]" target="_blank">
-              <FontAwesomeIcon icon={faLinkedinIn}></FontAwesomeIcon>
-            </a>
+          <a
+            href="https://www.facebook.com/NatureDude.in/"
+            className="text-[#7DAF19]"
+            target="_blank"
+          >
+            <FontAwesomeIcon icon={faFacebookF}></FontAwesomeIcon>
+          </a>
+          <a
+            href="https://www.instagram.com/naturedude.india/"
+            className="text-[#7DAF19]"
+            target="_blank"
+          >
+            {" "}
+            <FontAwesomeIcon icon={faInstagram}></FontAwesomeIcon>
+          </a>
+          <a
+            href="https://twitter.com/NatureDude_in"
+            className="text-[#7DAF19]"
+            target="_blank"
+          >
+            <FontAwesomeIcon icon={faTwitter}></FontAwesomeIcon>
+          </a>
+          <a
+            href="https://in.linkedin.com/company/nature-dude-fmcg-exportised"
+            className="text-[#7DAF19]"
+            target="_blank"
+          >
+            <FontAwesomeIcon icon={faLinkedinIn}></FontAwesomeIcon>
+          </a>
         </div>
       </div>
       <div className=" md:hidden lg:block hidden">
@@ -198,10 +216,10 @@ const Navbar = () => {
             )}
           </div>
           <Link
-            to="/Blog"
+            to="/Blogs"
             className=" text-[#4C180A] active:text-[brown] hover:text-[brown] text-decoration-none"
           >
-            Blog
+            Blogs
           </Link>
           <Link
             to="/AboutUs"
@@ -217,19 +235,35 @@ const Navbar = () => {
           </Link>
         </div>
         <div className="flex justify-center gap-4 text-[#4C180A] py-3 border-b-4 border-[#566B30] pb-10">
-        <a href="https://www.facebook.com/NatureDude.in/" className="text-[#7DAF19]" target="_blank">
-              <FontAwesomeIcon icon={faFacebookF}></FontAwesomeIcon>
-            </a>
-            <a href="https://www.instagram.com/naturedude.india/" className="text-[#7DAF19]" target="_blank">
-              {" "}
-              <FontAwesomeIcon icon={faInstagram}></FontAwesomeIcon>
-            </a>
-            <a href="https://twitter.com/NatureDude_in" className="text-[#7DAF19]"  target="_blank">
-              <FontAwesomeIcon icon={faTwitter}></FontAwesomeIcon>
-            </a>
-            <a href="https://in.linkedin.com/company/nature-dude-fmcg-exportised" className="text-[#7DAF19]" target="_blank">
-              <FontAwesomeIcon icon={faLinkedinIn}></FontAwesomeIcon>
-            </a>
+          <a
+            href="https://www.facebook.com/NatureDude.in/"
+            className="text-[#7DAF19]"
+            target="_blank"
+          >
+            <FontAwesomeIcon icon={faFacebookF}></FontAwesomeIcon>
+          </a>
+          <a
+            href="https://www.instagram.com/naturedude.india/"
+            className="text-[#7DAF19]"
+            target="_blank"
+          >
+            {" "}
+            <FontAwesomeIcon icon={faInstagram}></FontAwesomeIcon>
+          </a>
+          <a
+            href="https://twitter.com/NatureDude_in"
+            className="text-[#7DAF19]"
+            target="_blank"
+          >
+            <FontAwesomeIcon icon={faTwitter}></FontAwesomeIcon>
+          </a>
+          <a
+            href="https://in.linkedin.com/company/nature-dude-fmcg-exportised"
+            className="text-[#7DAF19]"
+            target="_blank"
+          >
+            <FontAwesomeIcon icon={faLinkedinIn}></FontAwesomeIcon>
+          </a>
         </div>
       </div>
     </div>

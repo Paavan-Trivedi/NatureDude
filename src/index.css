@@ -140,8 +140,9 @@ body{
 .swiperslide:after {
 	width: 250px; height: 250px;
 	top: -100px; right: 27%;
-  background: url(images/quote.png)center center/cover,#7DAF19;
+  background: url(images/quote.png)top center/cover,#7DAF19;
   background-size: 50px ;
+  background-position-y: calc(20px + 0%);
   background-repeat: no-repeat;
   
 	border-radius: 200px;

@@ -149,11 +149,8 @@ const Footer = () => {
       </div>
       <div className=" bg-[#7DAF19] text-[white] h-[60px] py-3 text-center">
         <p>
-          Nature Dude @{CurrentYear} All Rights Reserved | Developed by{" "}
-          <a href="https://durvadrafting.com/" target="_blank">
-            {" "}
-            Durva DDS
-          </a>
+          Nature Dude @{CurrentYear} All Rights Reserved | Developed by Durva DDS
+         
         </p>
       </div>
     </>
